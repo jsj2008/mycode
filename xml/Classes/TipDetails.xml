@@ -1,0 +1,1060 @@
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Stuart Morris (private) -->
+<TipDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Country Name="US">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">12</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">12</DefaultValue>
+			</Tip>
+			<Tip Category="Room Service">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Bar Tender">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Fast Food Delivery">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hairdresser">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Golf Caddy">
+				<MinimumValue Type="PERCENT">50</MinimumValue>
+				<MaximumValue Type="PERCENT">50</MaximumValue>
+				<DefaultValue Type="PERCENT">50</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="UK">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">12</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">12</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Argentina">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Armenia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Australia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Bar">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Austria">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">5</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Azerbaijan">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Bahamas">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Bahrain">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Belgium">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Bolivia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Botswana">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Brazil">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Brunei">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Bulgaria">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Canada">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hairdresser">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Cayman Isles">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Chile">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="China">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">3</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Colombia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Costa Rica">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Czech Repl">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Denmark">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Ecuador">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Egypt">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Fiji">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Finland">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="France">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Germany">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Greece">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">13</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Guatemala">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Holland">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Hong Kong">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Hotel + Fine Restaurant">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Hungary">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Bars">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hotel Service">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hairdresser">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Iceland">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="India">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Tour Guide">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Indonesia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Israel">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">12</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">12</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">12</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">12</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Italy">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+			<Tip Category="Tour Guide">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Japan">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Kenya">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">5</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Luxembourg">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Macao">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Madagascar">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Malaysia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Mauritius">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hotels">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Mexico">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Fast Food Delivery">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Bar Tender">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Tour Guide">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Hairdresser">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+			<Tip Category="Fishing Captain">
+				<MinimumValue Type="PERCENT">15</MinimumValue>
+				<MaximumValue Type="PERCENT">20</MaximumValue>
+				<DefaultValue Type="PERCENT">15</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="New Zealand">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Nicaragua">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Norway">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">6</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">6</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">6</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">6</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Oman">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Paraquay">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Peru">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Philippines">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Poland">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Tour Guide">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Portugal">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Romania">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hairdresser">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Russia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Samoa">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Saudi Arabia">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Singapore">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="South Africa">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">15</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="South Korea">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Spain">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">7</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Hotel Cleaner">
+				<MinimumValue Type="PERCENT">5</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">5</DefaultValue>
+			</Tip>
+			<Tip Category="Hairdresser">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Sweden">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Switzerland">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Taiwan">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Tanzania">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Thailand">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Ukraine">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="United Arab Emirates">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Venezuela">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">10</MinimumValue>
+				<MaximumValue Type="PERCENT">10</MaximumValue>
+				<DefaultValue Type="PERCENT">10</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+	<Country Name="Vietnam">
+		<Tips>
+			<Tip Category="Restaurant">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+			<Tip Category="Taxi">
+				<MinimumValue Type="PERCENT">0</MinimumValue>
+				<MaximumValue Type="PERCENT">0</MaximumValue>
+				<DefaultValue Type="PERCENT">0</DefaultValue>
+			</Tip>
+		</Tips>
+	</Country>
+</TipDetails>

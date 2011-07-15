@@ -1,0 +1,50 @@
+//
+// Prefix header for all source files of the 'iShopShape' target in the 'iShopShape' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+#define LOGGER_CONFIG_FILE_NAME @"Config.plist"
+#define DEBUG_MESSAGE [NSString stringWithFormat:@"%s - [ %d ]", __FUNCTION__, __LINE__]
+
+enum APNS_NOTIFCATION_ID {
+	INSTRUCTIONS_MESSAGE = 1,
+	NOTIFICATION_MESSAGE ,
+	RATINGS_MESSAGE,
+	GUIDES_MESSAGE
+};
+
+
+enum CALENDAR_EVENT_TYPE {
+	FOCUS =0,
+	SEASONAL,
+	PROMOTIONAL
+};
+
+//Client IP 192.168.7.100
+
+#define NOTIFICATION_MESSAGE_BADGE @"NOTIFICATION_MESSAGE_BADGE"
+#define INSTRUCTIONS_MESSAGE_BADGE @"INSTRUCTIONS_MESSAGE_BADGE"
+#define RATINGS_MESSAGE_BADGE @"RATINGS_MESSAGE_BADGE"
+#define GUIDES_MESSAGE_BADGE @"GUIDES_MESSAGE_BADGE"
+
+#define GETMESSAGE @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/getmessages"
+#define REGISTER_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/register"
+#define STORELIST_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/getstorelist"
+#define POST_COMMENT_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/postnotification"
+#define UNREGISTER_USER_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/unregister"
+#define INSTRUCTION_DETAILS_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/getinstruction/"
+#define NOTIFICATION_DETAILS_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/getnotification"
+#define POST_EXECUTION_STATUS_URL @"http://rachanaka.cybage.com/iShopShapeServices/ShopShape.svc/done"
+
+//#define GETMESSAGE @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/getmessages"
+//#define REGISTER_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/register"
+//#define STORELIST_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/getstorelist"
+//#define POST_COMMENT_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/postnotification"
+//#define UNREGISTER_USER_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/unregister"
+//#define INSTRUCTION_DETAILS_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/getinstruction/"
+//#define NOTIFICATION_DETAILS_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/getnotification"
+//#define POST_EXECUTION_STATUS_URL @"http://santoshbo-win7.cybage.com/iShopShapeServices/ShopShape.svc/done"
+#endif

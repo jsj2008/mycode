@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SelImageAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 589}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 480}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SelImageAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1344}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{139, 1509}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SelImage */ = {
+		activeExec = 0;
+		executables = (
+			BF21F187138CF4FF00810AB4 /* SelImage */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SelImageViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 651}}";
+			sepNavSelRange = "{367, 0}";
+			sepNavVisRange = "{0, 496}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SelImageViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1520}}";
+			sepNavSelRange = "{1629, 0}";
+			sepNavVisRange = "{679, 1157}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BF21F187138CF4FF00810AB4 /* SelImage */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SelImage */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SelImage */,
+		);
+		codeSenseManager = BF21F192138CF50800810AB4 /* Code sense */;
+		executables = (
+			BF21F187138CF4FF00810AB4 /* SelImage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 330430012;
+			PBXWorkspaceStateSaveDate = 330430012;
+		};
+		perUserProjectItems = {
+			BF025238139FA8E800A149F1 /* PBXTextBookmark */ = BF025238139FA8E800A149F1 /* PBXTextBookmark */;
+			BF025239139FA8E800A149F1 /* PBXTextBookmark */ = BF025239139FA8E800A149F1 /* PBXTextBookmark */;
+			BF02523A139FA8E800A149F1 /* PBXTextBookmark */ = BF02523A139FA8E800A149F1 /* PBXTextBookmark */;
+			BF02523B139FA8E800A149F1 /* PBXTextBookmark */ = BF02523B139FA8E800A149F1 /* PBXTextBookmark */;
+			BF02523C139FA8E800A149F1 /* PBXTextBookmark */ = BF02523C139FA8E800A149F1 /* PBXTextBookmark */;
+			BF02523E139FA8E800A149F1 /* PBXTextBookmark */ = BF02523E139FA8E800A149F1 /* PBXTextBookmark */;
+			BF21F36A138D246B00810AB4 /* PBXBookmark */ = BF21F36A138D246B00810AB4 /* PBXBookmark */;
+			BF21F396138D27F400810AB4 /* PBXTextBookmark */ = BF21F396138D27F400810AB4 /* PBXTextBookmark */;
+			BFDB23EB13B1F64800660DCF /* PBXTextBookmark */ = BFDB23EB13B1F64800660DCF /* PBXTextBookmark */;
+		};
+		sourceControlManager = BF21F191138CF50800810AB4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BF025238139FA8E800A149F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SelImageAppDelegate.m */;
+		name = "SelImageAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 139;
+	};
+	BF025239139FA8E800A149F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF21F352138D228100810AB4 /* CustomImageView.h */;
+		name = "CustomImageView.h: 5";
+		rLen = 0;
+		rLoc = 57;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 0;
+	};
+	BF02523A139FA8E800A149F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF21F353138D228100810AB4 /* CustomImageView.m */;
+		name = "CustomImageView.m: 13";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 140;
+	};
+	BF02523B139FA8E800A149F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF21F354138D228100810AB4 /* CustomImageDelegate.h */;
+		name = "CustomImageDelegate.h: 16";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	BF02523C139FA8E800A149F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SelImageViewController.h */;
+		name = "SelImageViewController.h: 16";
+		rLen = 0;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 0;
+	};
+	BF02523E139FA8E800A149F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SelImageViewController.m */;
+		name = "SelImageViewController.m: 66";
+		rLen = 0;
+		rLoc = 1629;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 591;
+	};
+	BF21F187138CF4FF00810AB4 /* SelImage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SelImage;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	BF21F191138CF50800810AB4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BF21F192138CF50800810AB4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BF21F352138D228100810AB4 /* CustomImageView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 651}}";
+			sepNavSelRange = "{57, 0}";
+			sepNavVisRange = "{0, 427}";
+		};
+	};
+	BF21F353138D228100810AB4 /* CustomImageView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1696}}";
+			sepNavSelRange = "{203, 0}";
+			sepNavVisRange = "{140, 906}";
+			sepNavWindowFrame = "{{15, 76}, {750, 926}}";
+		};
+	};
+	BF21F354138D228100810AB4 /* CustomImageDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 651}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	BF21F36A138D246B00810AB4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BF21F1A2138CF90C00810AB4 /* 1.jpg */;
+	};
+	BF21F396138D27F400810AB4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SelImageAppDelegate.h */;
+		name = "SelImageAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	BFDB23EB13B1F64800660DCF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SelImageViewController.m */;
+		name = "SelImageViewController.m: 66";
+		rLen = 0;
+		rLoc = 1629;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 679;
+	};
+}

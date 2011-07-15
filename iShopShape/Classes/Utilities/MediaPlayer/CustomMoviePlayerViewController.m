@@ -1,0 +1,184 @@
+//
+//  CustomMoviePlayerViewController.m
+//  buy.com
+//
+//  Created by Cybage Team on 09/08/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "CustomMoviePlayerViewController.h"
+
+
+#pragma mark -
+#pragma mark Compiler Directives & Static Variables
+
+@implementation CustomMoviePlayerViewController
+
+- (id)initWithURL:(NSURL*)url {
+	// Initialize and create movie URL
+	if (self = [super init]) {
+		movieURL = url;    
+		[movieURL retain];
+	}
+	return self;
+}
+
+/*---------------------------------------------------------------------------
+* For 3.2 and 4.x devices
+* For 3.1.x devices see moviePreloadDidFinish:
+*--------------------------------------------------------------------------*/
+- (void) moviePlayerLoadStateChanged:(NSNotification*)notification {
+	// Unless state is unknown, start playback
+	if ([moviePlayer loadState] != MPMovieLoadStateUnknown) 
+	{
+		// Remove observer
+		[[NSNotificationCenter 	defaultCenter] removeObserver:self 
+														 name:MPMoviePlayerLoadStateDidChangeNotification  
+													   object:nil];
+
+		// When tapping movie, status bar will appear, it shows up
+		// in portrait mode by default. Set orientation to landscape
+		[[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeRight animated:NO];
+
+		// Rotate the view for landscape playback
+		[[self view] setBounds:/*[[self view] bounds]*/CGRectMake(0, 0, 480, 320)];
+		[[self view] setCenter:CGPointMake(160, 240)];
+		[[self view] setTransform:CGAffineTransformMakeRotation(M_PI / 2)];
+
+		// Set frame of movieplayer
+		[[moviePlayer view] setFrame:/*[[self view] bounds]*/CGRectMake(0, 0, 480, 320)];
+		
+		[moviePlayer setFullscreen:YES];
+		[moviePlayer setShouldAutoplay:YES];
+		
+		// Add movie player as subview
+		[[self view] addSubview:[moviePlayer view]];
+
+		[moviePlayer setControlStyle:MPMovieControlStyleFullscreen];
+
+		// Play the movie
+		[moviePlayer play];
+	}
+}
+
+/*---------------------------------------------------------------------------
+* For 3.1.x devices
+* For 3.2 and 4.x see moviePlayerLoadStateChanged: 
+*--------------------------------------------------------------------------*/
+- (void) moviePreloadDidFinish:(NSNotification*)notification {
+	// Remove observer
+	[[NSNotificationCenter 	defaultCenter] removeObserver:self 
+													 name:MPMoviePlayerContentPreloadDidFinishNotification 
+												   object:nil];
+
+	
+	// Play the movie
+ 	[moviePlayer play];
+	
+	
+}
+
+- (void) moviePlayBackDidFinish:(NSNotification*)notification {
+ 	// Remove observer
+	isError = NO;
+	NSNumber* reason;
+	if(isLatestVersion)
+	{
+		reason = [[notification userInfo] objectForKey:MPMoviePlayerPlaybackDidFinishReasonUserInfoKey];
+	}
+	else 
+	{
+		reason = [[notification userInfo] objectForKey:MPMoviePlayerPlaybackDidFinishNotification];
+	}
+	switch ([reason intValue]) 
+	{
+		case MPMovieFinishReasonPlaybackEnded:
+			NSLog(@"playbackFinished. Reason: Playback Ended");         
+			break;
+		case MPMovieFinishReasonPlaybackError:
+			NSLog(@"playbackFinished. Reason: Playback Error");
+			isError = YES;
+			break;
+		case MPMovieFinishReasonUserExited:
+			NSLog(@"playbackFinished. Reason: User Exited");
+			break;
+		default:
+			break;
+	}
+
+	[[NSNotificationCenter defaultCenter] removeObserver:self  
+													name:MPMoviePlayerPlaybackDidFinishNotification  
+												  object:moviePlayer];
+	
+	// If the moviePlayer.view was added to the view, it needs to be removed  
+	if ([moviePlayer respondsToSelector:@selector(setFullscreen:animated:)]) {  
+		[moviePlayer.view removeFromSuperview];  
+	}  
+	
+	// Release player
+	[moviePlayer release];  
+	moviePlayer = nil;
+	
+	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+	[[UIApplication sharedApplication] setStatusBarHidden:NO];
+	if(!isError)
+		[self dismissModalViewControllerAnimated:YES];
+	else {
+		[self performSelector:@selector(dismissSelf) withObject:nil afterDelay:1.0];
+	}
+
+}
+
+- (void) dismissSelf
+{
+	if(self)
+	{
+		isError = NO;
+		[self dismissModalViewControllerAnimated:YES];
+	}
+}
+- (void)readyPlayer {
+	moviePlayer =  [[MPMoviePlayerController alloc] initWithContentURL:movieURL];
+
+	if ([moviePlayer respondsToSelector:@selector(loadState)]) {
+		// Set movie player layout
+		
+		//[moviePlayer setControlStyle:MPMovieControlStyleFullscreen];
+		//[moviePlayer setFullscreen:YES];
+
+		// May help to reduce latency
+		[moviePlayer prepareToPlay];
+
+		// Register that the load state changed (movie is ready)
+		[[NSNotificationCenter defaultCenter] addObserver:self 
+												 selector:@selector(moviePlayerLoadStateChanged:) 
+													 name:MPMoviePlayerLoadStateDidChangeNotification 
+												   object:nil];
+		isLatestVersion = YES;
+
+	} else {
+		// Register to receive a notification when the movie is in memory and ready to play.
+		[[NSNotificationCenter defaultCenter] addObserver:self 
+												 selector:@selector(moviePreloadDidFinish:) 
+													 name:MPMoviePlayerContentPreloadDidFinishNotification 
+												   object:nil];
+	}
+
+	// Register to receive a notification when the movie has finished playing. 
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+										     selector:@selector(moviePlayBackDidFinish:) 
+												 name:MPMoviePlayerPlaybackDidFinishNotification 
+											   object:nil];
+}
+
+- (void)loadView {
+	[self setView:[[[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]] autorelease]];
+	[[self view] setBackgroundColor:[UIColor blackColor]];
+}
+
+- (void)dealloc {
+	[movieURL release];
+	[super dealloc];
+}
+
+@end

@@ -1,0 +1,643 @@
+TCoreDataNew
+v7
+r0
+t329723747.491154
+cCheck dependencies
+cProcessInfoPlistFile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/Info.plist CoreDataNew-Info.plist
+cCompileXIB /Users/dev1/Documents/CoreDataNew/MainWindow.xib
+cCompileXIB /Users/dev1/Documents/CoreDataNew/RootViewController.xib
+cCompileXIB /Users/dev1/Documents/CoreDataNew/DetailViewController.xib
+cCompileXIB /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.xib
+cProcessPCH /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch.gch CoreDataNew_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew.momd /Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld
+cCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/main.o /Users/dev1/Documents/CoreDataNew/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNewAppDelegate.o /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/RootViewController.o /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewController.o /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddViewController.o /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/Items.o /Users/dev1/Documents/CoreDataNew/Classes/../Items.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew normal i386
+cGenerateDSYMFile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app.dSYM /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew
+cTouch /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004CD918670000000000000132
+t1289295975
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/dev1/Documents/CoreDataNew/Classes/../DetailViewController.xib
+c000000004D9D8448000000000000753C
+t1302168648
+s30012
+
+N/Users/dev1/Documents/CoreDataNew/Classes/../Items.m
+c000000004DA821FB00000000000000E2
+t1302864379
+s226
+i"Items.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.h
+c000000004D9D564E00000000000000E9
+t1302156878
+s233
+i<UIKit/UIKit.h>
+
+N/Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.m
+c000000004D9D56AE0000000000000635
+t1302156974
+s1589
+i"AddItemViewController.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.h
+c000000004DA820140000000000000476
+t1302863892
+s1142
+i<UIKit/UIKit.h>
+i"RootViewController.h"
+i"Items.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m
+c000000004DA820550000000000000F8D
+t1302863957
+s3981
+i"AddViewController.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.xib
+c000000004D9EEE840000000000008C61
+t1302261380
+s35937
+
+N/Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.h
+c000000004DA8213200000000000003D9
+t1302864178
+s985
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m
+c000000004DA8219C0000000000001B93
+t1302864284
+s7059
+i"CoreDataNewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.h
+c000000004DA821E20000000000000239
+t1302864354
+s569
+i<UIKit/UIKit.h>
+i"Items.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m
+c000000004DA821E800000000000007B2
+t1302864360
+s1970
+i"DetailViewController.h"
+i"Items.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.xib
+c000000004D9D8448000000000000753C
+t1302168648
+s30012
+
+N/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.h
+c000000004D9C75050000000000000000
+t1302099205
+s0
+
+N/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m
+c000000004D9C4B1000000000000000FE
+t1302088464
+s254
+i"DetailViewCotroller.h"
+i"Items.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.h
+c000000004DA8206A0000000000000557
+t1302863978
+s1367
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"DetailViewController.h"
+i"AddViewController.h"
+
+N/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m
+c000000004DA827A70000000000003CE3
+t1302865831
+s15587
+i"RootViewController.h"
+i"CoreDataNewAppDelegate.h"
+i"Items.h"
+i"DetailViewCotroller.h"
+i"AddViewController.h"
+
+N/Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld
+c000000004DA6ED900000000000000088
+t1302785424
+s136
+
+N/Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld/DetailViewController.xib
+c000000004D9D8448000000000000753C
+t1302168648
+s30012
+
+N/Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld/Items.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld/Items.m
+c000000004D9EACDE0000000000000105
+t1302244574
+s261
+i"Items.h"
+
+N/Users/dev1/Documents/CoreDataNew/CoreDataNew_Prefix.pch
+c000000004D9BFBF2000000000000016B
+t1302068210
+s363
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/dev1/Documents/CoreDataNew/DetailViewController.xib
+c000000004D9D8448000000000000753C
+t1302168648
+s30012
+
+N/Users/dev1/Documents/CoreDataNew/Items.h
+c000000004DA821F500000000000001F8
+t1302864373
+s504
+i<CoreData/CoreData.h>
+
+N/Users/dev1/Documents/CoreDataNew/MainWindow.xib
+c000000004D9BFBF20000000000006004
+t1302068210
+s24580
+
+N/Users/dev1/Documents/CoreDataNew/RootViewController.xib
+c000000004DA52D6400000000000058CF
+t1302670692
+s22735
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddItemViewController.o
+t1302157106
+s35416
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddViewController.o
+t1305280353
+s58456
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNew.LinkFileList
+c000000004DA81D98000000000000032C
+t1302863256
+s812
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNewAppDelegate.o
+t1305280353
+s67356
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewController.o
+t1305280353
+s48488
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewCotroller.o
+t2
+s0
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/Items.o
+t1305280353
+s13888
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/RootViewController.o
+t1305280353
+s90076
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/main.o
+t1305280353
+s6292
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/AddViewController.plist
+t1302863602
+s276
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/CoreDataNewAppDelegate.plist
+t1302863602
+s276
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/DetailViewController.plist
+t1302863258
+s276
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/Items.plist
+t1302863258
+s276
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/RootViewController.plist
+t1302863602
+s276
+
+N/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/main.plist
+t1302863258
+s276
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app
+t1305280353
+s340
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app.dSYM
+t1305280353
+s102
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/AddViewController.nib
+t1302863257
+s2664
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew
+t1305280353
+s68172
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew.momd
+t1302863257
+s136
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/DetailViewController.nib
+t1302863257
+s2378
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/Info.plist
+t1302863256
+s607
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/MainWindow.nib
+t1302863256
+s1513
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/PkgInfo
+t1302863256
+s8
+
+N/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/RootViewController.nib
+t1302863256
+s1584
+
+N/Users/dev1/Documents/CoreDataNew/main.m
+c000000004D9BFBF20000000000000164
+t1302068210
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch.gch
+t1305280353
+s16097072
+
+N/var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch.pth
+t1302862808
+s2808964
+
+NCoreDataNew-Info.plist
+c000000004D9BFBF2000000000000038D
+t1302068210
+s909
+
+CAnalyze /Users/dev1/Documents/CoreDataNew/Classes/../Items.m
+s324556058.496565
+e324556058.565384
+r1
+xAnalyze
+x/Users/dev1/Documents/CoreDataNew/Classes/../Items.m
+lSLF07#2@60"Analyze /Users/dev1/Documents/CoreDataNew/Classes/../Items.m324556058#324556058#0(0"0(0#0#52"/Users/dev1/Documents/CoreDataNew/Classes/../Items.m8619570528#1948"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch --analyze /Users/dev1/Documents/CoreDataNew/Classes/../Items.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/Items.plist0#
+
+CAnalyze /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m
+s324556402.950374
+e324556403.000056
+r1
+xAnalyze
+x/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m
+lSLF07#2@69"Analyze /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m324556402#324556403#0(0"0(0#0#61"/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m8622933536#1969"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch --analyze /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/AddViewController.plist0#
+
+CAnalyze /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m
+s324556402.782541
+e324556402.874793
+r1
+xAnalyze
+x/Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m
+lSLF07#2@74"Analyze /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m324556402#324556402#0(0"0(0#0#66"/Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m8618644608#1979"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch --analyze /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/CoreDataNewAppDelegate.plist0#
+
+CAnalyze /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m
+s324556058.430520
+e324556058.471508
+r1
+xAnalyze
+x/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m
+lSLF07#2@72"Analyze /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m324556058#324556058#0(0"0(0#0#64"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m8623152224#1975"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch --analyze /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/DetailViewController.plist0#
+
+CAnalyze /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m
+s324556402.874881
+e324556402.950210
+r1
+xAnalyze
+x/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m
+lSLF07#2@70"Analyze /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m324556402#324556402#0(0"0(0#0#62"/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m8621639936#1971"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch --analyze /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/RootViewController.plist0#
+
+CAnalyze /Users/dev1/Documents/CoreDataNew/main.m
+s324556058.311655
+e324556058.362323
+r1
+xAnalyze
+x/Users/dev1/Documents/CoreDataNew/main.m
+lSLF07#2@48"Analyze /Users/dev1/Documents/CoreDataNew/main.m324556058#324556058#0(0"0(0#0#40"/Users/dev1/Documents/CoreDataNew/main.m8615912672#1935"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch --analyze /Users/dev1/Documents/CoreDataNew/main.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329723747#329723747#0(0"0(0#1#0"8636230944#0"0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddItemViewController.o /Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323849906.306643
+e323849906.379343
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddItemViewController.o
+x/Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.m323849906#323849906#0(0"0(0#0#65"/Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.m8600038816#1968"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/AddItemViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddItemViewController.o0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddViewController.o /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973153.534407
+e326973153.640572
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddViewController.o
+x/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m: In function '-[AddViewController keyboardDidShow:]':
+o/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m:64: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)
+o/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m: In function '-[AddViewController keyboardDidHide:]':
+o/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m:79: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)
+lSLF07#2@69"Compile /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m326973153#326973153#0(796"/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m: In function '-[AddViewController keyboardDidShow:]':/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m:64: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m: In function '-[AddViewController keyboardDidHide:]':/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m:79: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)2(22@206"'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)326973153#116#282#0(6@61"/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m324556757#64#0#64#0#33"'*' is deprecated (declared at *)0(22@206"'UIKeyboardBoundsUserInfoKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:118)326973153#514#282#0(6@61"/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m324556757#79#0#79#0#33"'*' is deprecated (declared at *)0(0#0#61"/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m8604846496#1960"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/AddViewController.o0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNewAppDelegate.o /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973153.323719
+e326973153.440185
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNewAppDelegate.o
+x/Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m326973153#326973153#0(0"0(0#0#66"/Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m8614843296#1970"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/CoreDataNewAppDelegate.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNewAppDelegate.o0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewController.o /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973153.440284
+e326973153.534303
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewController.o
+x/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m326973153#326973153#0(0"0(0#0#64"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m8609436224#1966"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewCotroller.o /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323780960.581966
+e323780960.637030
+r0
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewCotroller.o
+x/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m:9:
+o/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.h:9:24: error: Cocoa/Cocoa.h: No such file or directory
+lSLF07#2@71"Compile /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m323780960#323780960#0(207"In file included from /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m:9:/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.h:9:24: error: Cocoa/Cocoa.h: No such file or directory1(4@40"Cocoa/Cocoa.h: No such file or directory323780960#89#118#2(7@85"In file included from /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m323780960#18446744073709551615#0#0(6@63"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m323780743#9#0#9#0#0"0(13@107"Cocoa/Cocoa.h: No such file or directory in /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.h323780960#18446744073709551615#0#0(6@63"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.h323780743#9#0#9#0#0"0(6@63"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.h323780743#9#0#9#0#28"*: No such file or directory0(0#0#63"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m8615714880#1964"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/DetailViewCotroller.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/DetailViewCotroller.o1#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/Items.o /Users/dev1/Documents/CoreDataNew/Classes/../Items.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973153.614909
+e326973153.681467
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/Items.o
+x/Users/dev1/Documents/CoreDataNew/Classes/../Items.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/dev1/Documents/CoreDataNew/Classes/../Items.m326973153#326973153#0(0"0(0#0#52"/Users/dev1/Documents/CoreDataNew/Classes/../Items.m8624789632#1939"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/../Items.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/Items.o0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/Items.o /Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld/Items.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/RootViewController.o /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973153.404432
+e326973153.614818
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/RootViewController.o
+x/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m: In function '-[RootViewController insertNewObject]':
+o/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m:105: warning: class 'RootViewController' does not implement the 'AddViewControllerDelegate' protocol
+o/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m:236: warning: local declaration of 'tableView' hides instance variable
+o/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m: In function '-[RootViewController filterContentForSearchText:scope:]':
+o/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m:385: warning: incompatible Objective-C types assigning 'struct NSArray *', expected 'struct NSMutableArray *'
+lSLF07#2@70"Compile /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m326973153#326973153#0(859"/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m: In function '-[RootViewController insertNewObject]':/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m:105: warning: class 'RootViewController' does not implement the 'AddViewControllerDelegate' protocol/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m:236: warning: local declaration of 'tableView' hides instance variable/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m: In function '-[RootViewController filterContentForSearchText:scope:]':/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m:385: warning: incompatible Objective-C types assigning 'struct NSArray *', expected 'struct NSMutableArray *'3(22@86"Class 'RootViewController' does not implement the 'AddViewControllerDelegate' protocol326973153#117#164#0(6@62"/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m324558631#105#0#105#0#45"class '*' does not implement the '*' protocol0(22@56"Local declaration of 'tableView' hides instance variable326973153#417#134#0(6@62"/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m324558631#236#0#236#0#0"0(22@95"Incompatible Objective-C types assigning 'struct NSArray *', expected 'struct NSMutableArray *'326973153#686#173#0(6@62"/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m324558631#385#0#385#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#62"/Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m8612100192#1962"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/Classes/RootViewController.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/main.o /Users/dev1/Documents/CoreDataNew/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973153.322208
+e326973153.404331
+r1
+xCompileC
+xbuild/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/main.o
+x/Users/dev1/Documents/CoreDataNew/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/dev1/Documents/CoreDataNew/main.m326973153#326973153#0(0"0(0#0#40"/Users/dev1/Documents/CoreDataNew/main.m8615278400#1926"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -include /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch -c /Users/dev1/Documents/CoreDataNew/main.m -o /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/Classes/../DetailViewController.xib
+s324395682.054618
+e324395682.737929
+r1
+xCompileXIB
+x/Users/dev1/Documents/CoreDataNew/Classes/../DetailViewController.xib
+o2011-04-13 19:24:42.535 Interface Builder Cocoa Touch Tool[29646:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@46"CompileXIB Classes/../DetailViewController.xib324395682#324395682#0(239"2011-04-13 19:24:42.535 Interface Builder Cocoa Touch Tool[29646:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#69"/Users/dev1/Documents/CoreDataNew/Classes/../DetailViewController.xib8641911424#590"    cd /Users/dev1/Documents/CoreDataNew    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/DetailViewController.nib /Users/dev1/Documents/CoreDataNew/Classes/../DetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.xib
+s324556056.647378
+e324556057.174553
+r1
+xCompileXIB
+x/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.xib
+o2011-04-15 15:57:37.000 Interface Builder Cocoa Touch Tool[99434:1b03] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@40"CompileXIB Classes/AddViewController.xib324556056#324556057#0(239"2011-04-15 15:57:37.000 Interface Builder Cocoa Touch Tool[99434:1b03] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#63"/Users/dev1/Documents/CoreDataNew/Classes/AddViewController.xib8623297984#581"    cd /Users/dev1/Documents/CoreDataNew    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/AddViewController.nib /Users/dev1/Documents/CoreDataNew/Classes/AddViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.xib
+s323877573.639591
+e323877574.162203
+r1
+xCompileXIB
+x/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.xib
+o2011-04-07 19:29:33.952 Interface Builder Cocoa Touch Tool[55567:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@43"CompileXIB Classes/DetailViewController.xib323877573#323877574#0(239"2011-04-07 19:29:33.952 Interface Builder Cocoa Touch Tool[55567:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#66"/Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.xib8616303168#587"    cd /Users/dev1/Documents/CoreDataNew    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/DetailViewController.nib /Users/dev1/Documents/CoreDataNew/Classes/DetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld/DetailViewController.xib
+r0
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/DetailViewController.xib
+s324556056.629066
+e324556057.108798
+r1
+xCompileXIB
+x/Users/dev1/Documents/CoreDataNew/DetailViewController.xib
+o2011-04-15 15:57:36.964 Interface Builder Cocoa Touch Tool[99433:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@35"CompileXIB DetailViewController.xib324556056#324556057#0(239"2011-04-15 15:57:36.964 Interface Builder Cocoa Touch Tool[99433:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#58"/Users/dev1/Documents/CoreDataNew/DetailViewController.xib8623831904#579"    cd /Users/dev1/Documents/CoreDataNew    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/DetailViewController.nib /Users/dev1/Documents/CoreDataNew/DetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/MainWindow.xib
+s324556056.084229
+e324556056.628978
+r1
+xCompileXIB
+x/Users/dev1/Documents/CoreDataNew/MainWindow.xib
+o2011-04-15 15:57:36.491 Interface Builder Cocoa Touch Tool[99428:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib324556056#324556056#0(239"2011-04-15 15:57:36.491 Interface Builder Cocoa Touch Tool[99428:1903] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#48"/Users/dev1/Documents/CoreDataNew/MainWindow.xib8621247968#559"    cd /Users/dev1/Documents/CoreDataNew    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/MainWindow.nib /Users/dev1/Documents/CoreDataNew/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/dev1/Documents/CoreDataNew/RootViewController.xib
+s324556056.084908
+e324556056.647295
+r1
+xCompileXIB
+x/Users/dev1/Documents/CoreDataNew/RootViewController.xib
+o2011-04-15 15:57:36.508 Interface Builder Cocoa Touch Tool[99429:1b03] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@33"CompileXIB RootViewController.xib324556056#324556056#0(239"2011-04-15 15:57:36.508 Interface Builder Cocoa Touch Tool[99429:1b03] CFPreferences: user home directory at file://localhost/Users/dev1/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#56"/Users/dev1/Documents/CoreDataNew/RootViewController.xib8621094144#575"    cd /Users/dev1/Documents/CoreDataNew    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/RootViewController.nib /Users/dev1/Documents/CoreDataNew/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CDataModelVersionCompile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew.momd /Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld
+s324556057.921558
+e324556057.981067
+r1
+xDataModelVersionCompile
+x/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew.momd
+x/Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld
+lSLF07#2@109"DataModelVersionCompile build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew.momd CoreDataNew.xcdatamodeld324556057#324556057#0(0"0(0#0#58"/Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld8621118464#383"    cd /Users/dev1/Documents/CoreDataNew    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/dev1/Documents/CoreDataNew/CoreDataNew.xcdatamodeld /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew.momd0#
+
+CGenerateDSYMFile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app.dSYM /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew
+s326973153.719356
+e326973153.765806
+r1
+xGenerateDSYMFile
+x/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app.dSYM
+x/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/CoreDataNew.app.dSYM build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew326973153#326973153#0(0"0(0#0#89"/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew8606759168#380"    cd /Users/dev1/Documents/CoreDataNew    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew -o /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app.dSYM0#
+
+CLd /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew normal i386
+s326973153.681563
+e326973153.719261
+r1
+xLd
+x/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew
+xnormal
+xi386
+lSLF07#2@94"Link /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew326973153#326973153#0(0"0(0#0#0"8610339008#915"    cd /Users/dev1/Documents/CoreDataNew    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -filelist /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/Objects-normal/i386/CoreDataNew.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/CoreDataNew0#
+
+CProcessInfoPlistFile /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/Info.plist CoreDataNew-Info.plist
+s324556056.080709
+e324556056.084147
+r1
+xProcessInfoPlistFile
+x/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/Info.plist
+xCoreDataNew-Info.plist
+lSLF07#2@30"Process CoreDataNew-Info.plist324556056#324556056#0(0"0(0#0#56"/Users/dev1/Documents/CoreDataNew/CoreDataNew-Info.plist8621716864#476"    cd /Users/dev1/Documents/CoreDataNew    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CoreDataNew-Info.plist -genpkginfo /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app/Info.plist0#
+
+CProcessPCH /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch.gch CoreDataNew_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326973152.515280
+e326973153.322044
+r1
+xProcessPCH
+x/var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch.gch
+xCoreDataNew_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile CoreDataNew_Prefix.pch326973152#326973153#0(0"0(0#0#56"/Users/dev1/Documents/CoreDataNew/CoreDataNew_Prefix.pch8612092096#1819"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -c /Users/dev1/Documents/CoreDataNew/CoreDataNew_Prefix.pch -o /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bbmszsjssusvbdhjnjthjjhvaobj/CoreDataNew_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch.pth CoreDataNew_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s324555608.286322
+e324555608.802814
+r1
+xProcessPCH
+x/var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch.pth
+xCoreDataNew_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@33"Precompile CoreDataNew_Prefix.pch324555608#324555608#0(0"0(0#0#56"/Users/dev1/Documents/CoreDataNew/CoreDataNew_Prefix.pch8620835488#1810"    cd /Users/dev1/Documents/CoreDataNew    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-generated-files.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-own-target-headers.hmap -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-all-target-headers.hmap -iquote /Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/CoreDataNew-project-headers.hmap -F/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator -I/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/include -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources/i386 -I/Users/dev1/Documents/CoreDataNew/build/CoreDataNew.build/Debug-iphonesimulator/CoreDataNew.build/DerivedSources -c /Users/dev1/Documents/CoreDataNew/CoreDataNew_Prefix.pch -o /var/folders/wD/wDkup2I0GWquH18oFDbYD++++Tk/-Caches-/com.apple.Xcode.508/SharedPrecompiledHeaders/CoreDataNew_Prefix-bhqxmmvolokobrdhzdhjlhfalsdt/CoreDataNew_Prefix.pch.pth0#
+
+CTouch /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app
+s326973153.766045
+e326973153.768743
+r1
+xTouch
+x/Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app
+lSLF07#2@83"Touch /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app326973153#326973153#0(0"0(0#0#0"8626218528#272"    cd /Users/dev1/Documents/CoreDataNew    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dev1/Documents/CoreDataNew/build/Debug-iphonesimulator/CoreDataNew.app0#
+

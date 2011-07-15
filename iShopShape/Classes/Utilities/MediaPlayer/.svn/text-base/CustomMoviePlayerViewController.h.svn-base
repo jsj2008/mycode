@@ -1,0 +1,22 @@
+//
+//  CustomMoviePlayerViewController.h
+//  buy.com
+//
+//  Created by Cybage Team on 09/08/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+
+@interface CustomMoviePlayerViewController : UIViewController {
+  MPMoviePlayerController	*moviePlayer;
+  NSURL						*movieURL;
+	BOOL isError;
+	BOOL isLatestVersion;
+}
+
+- (id)initWithURL:(NSURL*)url;
+- (void)readyPlayer;
+
+@end

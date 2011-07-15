@@ -1,0 +1,157 @@
+// !$*UTF8*$!
+{
+	1400E15C12B62EC700CDF11C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CACD1192EF61005204FB /* MainViewController.m */;
+		name = "MainViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 32;
+	};
+	1400E15D12B62EC700CDF11C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PortraitGraphAppDelegate.m */;
+		name = "PortraitGraphAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	1400E15F12B62EC700CDF11C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CAC61192EF39005204FB /* GraphView.m */;
+		name = "GraphView.m: 98";
+		rLen = 0;
+		rLoc = 1827;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 538;
+	};
+	14C5952012A91C2200E81231 /* LandscapeGraph */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LandscapeGraph;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	14C5952E12A91C2E00E81231 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	14C5952F12A91C2E00E81231 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	14E2260D12B73EF9003D7780 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CAC61192EF39005204FB /* GraphView.m */;
+		name = "GraphView.m: 44";
+		rLen = 0;
+		rLoc = 882;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 5823;
+	};
+	1D3623250D0F684500981E51 /* PortraitGraphAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 722}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LandscapeGraph */ = {
+		activeExec = 0;
+		executables = (
+			14C5952012A91C2200E81231 /* LandscapeGraph */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 14C5952012A91C2200E81231 /* LandscapeGraph */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LandscapeGraph */;
+		codeSenseManager = 14C5952F12A91C2E00E81231 /* Code sense */;
+		executables = (
+			14C5952012A91C2200E81231 /* LandscapeGraph */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313999060;
+			PBXWorkspaceStateSaveDate = 313999060;
+		};
+		perUserProjectItems = {
+			1400E15C12B62EC700CDF11C /* PBXTextBookmark */ = 1400E15C12B62EC700CDF11C /* PBXTextBookmark */;
+			1400E15D12B62EC700CDF11C /* PBXTextBookmark */ = 1400E15D12B62EC700CDF11C /* PBXTextBookmark */;
+			1400E15F12B62EC700CDF11C /* PBXTextBookmark */ = 1400E15F12B62EC700CDF11C /* PBXTextBookmark */;
+			14E2260D12B73EF9003D7780 /* PBXTextBookmark */ = 14E2260D12B73EF9003D7780 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 14C5952E12A91C2E00E81231 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9647CAC61192EF39005204FB /* GraphView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 3718}}";
+			sepNavSelRange = "{882, 0}";
+			sepNavVisRange = "{5823, 748}";
+		};
+	};
+	9647CACD1192EF61005204FB /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1118}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{32, 837}";
+		};
+	};
+}

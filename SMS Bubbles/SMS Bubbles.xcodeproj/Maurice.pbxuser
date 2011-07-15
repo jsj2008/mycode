@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SMS_BubblesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 727}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 460}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SMS_BubblesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 704}}";
+			sepNavSelRange = "{324, 49}";
+			sepNavVisRange = "{0, 844}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SMS Bubbles */ = {
+		activeExec = 0;
+		executables = (
+			51690A4410E690EC007AC330 /* SMS Bubbles */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 704}}";
+			sepNavSelRange = "{336, 0}";
+			sepNavVisRange = "{0, 453}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 4056}}";
+			sepNavSelRange = "{1694, 330}";
+			sepNavVisRange = "{660, 1944}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 51690A4410E690EC007AC330 /* SMS Bubbles */;
+		activeSDKPreference = iphonesimulator3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SMS Bubbles */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SMS Bubbles */,
+		);
+		codeSenseManager = 51690A5410E690F8007AC330 /* Code sense */;
+		executables = (
+			51690A4410E690EC007AC330 /* SMS Bubbles */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					754,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 283633722;
+			PBXWorkspaceStateSaveDate = 283633722;
+		};
+		perUserProjectItems = {
+			5184EF7410E7DD8600386A57 = 5184EF7410E7DD8600386A57 /* PBXTextBookmark */;
+			5184EF7510E7DD8600386A57 = 5184EF7510E7DD8600386A57 /* PBXBookmark */;
+			5184EF7610E7DD8600386A57 = 5184EF7610E7DD8600386A57 /* PBXTextBookmark */;
+			5184EF7710E7DD8600386A57 = 5184EF7710E7DD8600386A57 /* PBXTextBookmark */;
+			5184EF7810E7DD8600386A57 = 5184EF7810E7DD8600386A57 /* PBXTextBookmark */;
+			519E0EE710E7C78100D8D99E = 519E0EE710E7C78100D8D99E /* PBXBookmark */;
+			519E0EE810E7C78100D8D99E = 519E0EE810E7C78100D8D99E /* PBXBookmark */;
+			519E0EE910E7C78100D8D99E = 519E0EE910E7C78100D8D99E /* PlistBookmark */;
+			519E0EEC10E7C78100D8D99E = 519E0EEC10E7C78100D8D99E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 51690A5310E690F8007AC330 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	51690A4410E690EC007AC330 /* SMS Bubbles */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "SMS Bubbles";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	51690A5310E690F8007AC330 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	51690A5410E690F8007AC330 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5184EF7410E7DD8600386A57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 16";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	5184EF7510E7DD8600386A57 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 51FDD73110E69235009C5B3A /* green.png */;
+	};
+	5184EF7610E7DD8600386A57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SMS_BubblesAppDelegate.m */;
+		name = "SMS_BubblesAppDelegate.m: 19";
+		rLen = 49;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 844;
+		vrLoc = 0;
+	};
+	5184EF7710E7DD8600386A57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 58";
+		rLen = 0;
+		rLoc = 2024;
+		rType = 0;
+		vrLen = 2012;
+		vrLoc = 660;
+	};
+	5184EF7810E7DD8600386A57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 57";
+		rLen = 330;
+		rLoc = 1694;
+		rType = 0;
+		vrLen = 1944;
+		vrLoc = 660;
+	};
+	519E0EE710E7C78100D8D99E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 51FDD85410E6A2B1009C5B3A /* grey.png */;
+	};
+	519E0EE810E7C78100D8D99E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 51DCA66810E74C5300125AD8 /* grey_2.png */;
+	};
+	519E0EE910E7C78100D8D99E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* SMS_Bubbles-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/Maurice/Desktop/iPhone Development/Resources/Own/SMS Bubbles/SMS_Bubbles-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	519E0EEC10E7C78100D8D99E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SMS_BubblesAppDelegate.h */;
+		name = "SMS_BubblesAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+}

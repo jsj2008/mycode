@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* GridViewAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 692}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 479}";
+		};
+	};
+	1D3623250D0F684500981E51 /* GridViewAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1053}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1724}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GridView */ = {
+		activeExec = 0;
+		executables = (
+			2AA9928A137AB9D500D835A4 /* GridView */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* GridViewViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 692}}";
+			sepNavSelRange = "{280, 0}";
+			sepNavVisRange = "{0, 919}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* GridViewViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 2834}}";
+			sepNavSelRange = "{2771, 0}";
+			sepNavVisRange = "{2616, 360}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2AA9928A137AB9D500D835A4 /* GridView */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GridView */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* GridView */,
+		);
+		codeSenseManager = 2AA992A6137AB9E300D835A4 /* Code sense */;
+		executables = (
+			2AA9928A137AB9D500D835A4 /* GridView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					742,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327824221;
+			PBXWorkspaceStateSaveDate = 327824221;
+		};
+		perUserProjectItems = {
+			2AA99849137BF34300D835A4 /* PBXTextBookmark */ = 2AA99849137BF34300D835A4 /* PBXTextBookmark */;
+			2AA9988E137BFE3800D835A4 /* PBXTextBookmark */ = 2AA9988E137BFE3800D835A4 /* PBXTextBookmark */;
+			2AC418E8138A6036004EF5DD /* PBXTextBookmark */ = 2AC418E8138A6036004EF5DD /* PBXTextBookmark */;
+			2AC418E9138A6036004EF5DD /* PBXTextBookmark */ = 2AC418E9138A6036004EF5DD /* PBXTextBookmark */;
+			2AC4190A138A6109004EF5DD /* PBXTextBookmark */ = 2AC4190A138A6109004EF5DD /* PBXTextBookmark */;
+			2AC4190B138A6109004EF5DD /* PBXTextBookmark */ = 2AC4190B138A6109004EF5DD /* PBXTextBookmark */;
+			2AC41911138A8634004EF5DD /* PBXTextBookmark */ = 2AC41911138A8634004EF5DD /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2AA992A5137AB9E300D835A4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2AA9928A137AB9D500D835A4 /* GridView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GridView;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	2AA992A5137AB9E300D835A4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2AA992A6137AB9E300D835A4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2AA9972E137BD1C900D835A4 /* constant.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 692}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{0, 274}";
+		};
+	};
+	2AA99849137BF34300D835A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2AA9984A137BF34300D835A4 /* UIView.h */;
+		name = "UIView.h: 241";
+		rLen = 168;
+		rLoc = 12572;
+		rType = 0;
+		vrLen = 3117;
+		vrLoc = 5513;
+	};
+	2AA9984A137BF34300D835A4 /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+	};
+	2AA9988E137BFE3800D835A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GridViewAppDelegate.m */;
+		name = "GridViewAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1724;
+		vrLoc = 0;
+	};
+	2AC418E8138A6036004EF5DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2AA9972E137BD1C900D835A4 /* constant.h */;
+		name = "constant.h: 20";
+		rLen = 0;
+		rLoc = 274;
+		rType = 0;
+		vrLen = 274;
+		vrLoc = 0;
+	};
+	2AC418E9138A6036004EF5DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* GridViewAppDelegate.h */;
+		name = "GridViewAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	2AC4190A138A6109004EF5DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* GridViewViewController.h */;
+		name = "GridViewViewController.h: 19";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 919;
+		vrLoc = 0;
+	};
+	2AC4190B138A6109004EF5DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* GridViewViewController.m */;
+		name = "GridViewViewController.m: 115";
+		rLen = 0;
+		rLoc = 2771;
+		rType = 0;
+		vrLen = 1321;
+		vrLoc = 2298;
+	};
+	2AC41911138A8634004EF5DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* GridViewViewController.m */;
+		name = "GridViewViewController.m: 114";
+		rLen = 0;
+		rLoc = 2771;
+		rType = 0;
+		vrLen = 1104;
+		vrLoc = 1505;
+	};
+}

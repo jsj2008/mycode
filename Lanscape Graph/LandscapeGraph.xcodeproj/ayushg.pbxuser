@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PortraitGraphAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 582}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 460}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PortraitGraphAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 582}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 722}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LandscapeGraph */ = {
+		activeExec = 0;
+		executables = (
+			2639CC4C12BB353800E305B4 /* LandscapeGraph */,
+		);
+	};
+	2639CC4C12BB353800E305B4 /* LandscapeGraph */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LandscapeGraph;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	2639CC6612BB355C00E305B4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2639CC6712BB355C00E305B4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2639CF3712BF19B300E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PortraitGraphAppDelegate.h */;
+		name = "PortraitGraphAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	2639CF3812BF19B300E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PortraitGraphAppDelegate.m */;
+		name = "PortraitGraphAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	2639CF3912BF19B300E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CACC1192EF61005204FB /* MainViewController.h */;
+		name = "MainViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	2639CF3A12BF19B300E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CACD1192EF61005204FB /* MainViewController.m */;
+		name = "MainViewController.m: 32";
+		rLen = 0;
+		rLoc = 585;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 716;
+	};
+	2639CF3B12BF19B300E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CAC51192EF39005204FB /* GraphView.h */;
+		name = "GraphView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	2639CF3D12BF19B300E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CAC61192EF39005204FB /* GraphView.m */;
+		name = "GraphView.m: 184";
+		rLen = 110;
+		rLoc = 4120;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 5839;
+	};
+	2639D44E12BF588500E305B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9647CAC61192EF39005204FB /* GraphView.m */;
+		name = "GraphView.m: 45";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 521;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2639CC4C12BB353800E305B4 /* LandscapeGraph */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LandscapeGraph */;
+		codeSenseManager = 2639CC6712BB355C00E305B4 /* Code sense */;
+		executables = (
+			2639CC4C12BB353800E305B4 /* LandscapeGraph */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314529245;
+			PBXWorkspaceStateSaveDate = 314529245;
+		};
+		perUserProjectItems = {
+			2639CF3712BF19B300E305B4 /* PBXTextBookmark */ = 2639CF3712BF19B300E305B4 /* PBXTextBookmark */;
+			2639CF3812BF19B300E305B4 /* PBXTextBookmark */ = 2639CF3812BF19B300E305B4 /* PBXTextBookmark */;
+			2639CF3912BF19B300E305B4 /* PBXTextBookmark */ = 2639CF3912BF19B300E305B4 /* PBXTextBookmark */;
+			2639CF3A12BF19B300E305B4 /* PBXTextBookmark */ = 2639CF3A12BF19B300E305B4 /* PBXTextBookmark */;
+			2639CF3B12BF19B300E305B4 /* PBXTextBookmark */ = 2639CF3B12BF19B300E305B4 /* PBXTextBookmark */;
+			2639CF3D12BF19B300E305B4 /* PBXTextBookmark */ = 2639CF3D12BF19B300E305B4 /* PBXTextBookmark */;
+			2639D44E12BF588500E305B4 /* PBXTextBookmark */ = 2639D44E12BF588500E305B4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2639CC6612BB355C00E305B4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9647CAC51192EF39005204FB /* GraphView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	9647CAC61192EF39005204FB /* GraphView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 3718}}";
+			sepNavSelRange = "{909, 0}";
+			sepNavVisRange = "{521, 768}";
+		};
+	};
+	9647CACC1192EF61005204FB /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 363}";
+		};
+	};
+	9647CACD1192EF61005204FB /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1118}}";
+			sepNavSelRange = "{585, 0}";
+			sepNavVisRange = "{716, 896}";
+		};
+	};
+}
