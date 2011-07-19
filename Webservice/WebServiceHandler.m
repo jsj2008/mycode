@@ -1,10 +1,3 @@
-//
-//  WebServiceHandler.m
-//  CyberDictionary
-//
-//  Created by sujeet on 23/03/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
 #import "WebServiceHandler.h"
 

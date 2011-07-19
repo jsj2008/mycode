@@ -85,7 +85,7 @@ float value=0;
     
     int count=[imageArray count]-1;
    
-    if( frameRect.size.width<210)
+    if( frameRect.size.width<220)
     {
         columns=3; 
         rows=count/columns;
@@ -93,7 +93,7 @@ float value=0;
         rows=rows+remainder;
     }
     
-    else if( (frameRect.size.width>=210)&&(frameRect.size.width<=320))
+    else if( (frameRect.size.width>=220)&&(frameRect.size.width<=310))
     {
         columns=2; 
         rows=count/2;
@@ -120,7 +120,7 @@ float value=0;
               frameRect.origin.y=(frameRect.size.height+50)*i+40;
               temp.frame = frameRect;
                CGPoint center = temp.center;
-               temp.center=CGPointMake(center.x+(3-columns)*70,center.y);
+               temp.center=CGPointMake(center.x+(3-columns)*75,center.y);
            }
        }
 }

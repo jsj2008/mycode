@@ -6,7 +6,7 @@
 #import <UIKit/UIKit.h>
 #import "CallOutView.h"
 
-@interface TestView : UIView {
+@interface Test111View : UIView {
 	
 	NSTimer *timer;
 	CGPoint touchPoint;
