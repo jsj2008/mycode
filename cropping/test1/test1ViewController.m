@@ -38,7 +38,7 @@
 - (void)viewDidLoad
 {
     
-    NSError *error = nil;
+   
     
     // Setup the video input
    /* AVCaptureDevice *videoDevice =[AVCaptureDevice defaultDeviceWithMediaType
@@ -76,7 +76,7 @@
     dispatch_release(queue);    
     NSLog(@"hiii");*/
     myView=[[CustomImageView alloc]initWithFrame:CGRectMake(50, 50,200, 200)];
-    myView.image=[UIImage imageNamed:@"try.jpeg"];
+    myView.image=[UIImage imageNamed:@"a2.jpeg"];
     [myView setUserInteractionEnabled:YES];
     [self.view addSubview:myView];
     [myView release];

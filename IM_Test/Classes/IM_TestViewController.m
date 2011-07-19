@@ -74,11 +74,11 @@ exit(-1); \
 	
 	// posterize the image, this filter uses a configuration file, that means that everything in IM should be working great
 	//status = MagickOrderedPosterizeImage(magick_wand,"h8x8o");
-    status=MagickAdaptiveResizeImage(magick_wand ,200,200);
+    //status=MagickAdaptiveResizeImage(magick_wand ,200,200);
   //  status=MagickAdaptiveSharpenImage(magick_wand ,200.0,200.0);
    // status=MagickAdaptiveBlurImage(magick_wand ,1.0,1.0);
 //status=MagickBrightnessContrastImage(magick_wand ,50.0,50.0);
-   // status=MagickFlipImage(magick_wand);
+    status=MagickFlipImage(magick_wand);
    	if (status == MagickFalse) {
 		ThrowWandException(magick_wand);
 	}

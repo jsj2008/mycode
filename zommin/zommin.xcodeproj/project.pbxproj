@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AEA81D513D42FA500D65191 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEA81D413D42FA500D65191 /* UIKit.framework */; };
+		2AEA81D713D42FA500D65191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEA81D613D42FA500D65191 /* Foundation.framework */; };
+		2AEA81D913D42FA500D65191 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEA81D813D42FA500D65191 /* CoreGraphics.framework */; };
+		2AEA81DF13D42FA500D65191 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA81DD13D42FA500D65191 /* InfoPlist.strings */; };
+		2AEA81E213D42FA500D65191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA81E113D42FA500D65191 /* main.m */; };
+		2AEA81E513D42FA500D65191 /* zomminAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA81E413D42FA500D65191 /* zomminAppDelegate.m */; };
+		2AEA81E813D42FA500D65191 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA81E613D42FA500D65191 /* MainWindow.xib */; };
+		2AEA81EB13D42FA500D65191 /* zomminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA81EA13D42FA500D65191 /* zomminViewController.m */; };
+		2AEA81EE13D42FA500D65191 /* zomminViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA81EC13D42FA500D65191 /* zomminViewController.xib */; };
+		2AEA81FC13D434C800D65191 /* a1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA81FB13D434C800D65191 /* a1.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AEA81D013D42FA500D65191 /* zommin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zommin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEA81D413D42FA500D65191 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AEA81D613D42FA500D65191 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AEA81D813D42FA500D65191 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AEA81DC13D42FA500D65191 /* zommin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zommin-Info.plist"; sourceTree = "<group>"; };
+		2AEA81DE13D42FA500D65191 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AEA81E013D42FA500D65191 /* zommin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zommin-Prefix.pch"; sourceTree = "<group>"; };
+		2AEA81E113D42FA500D65191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AEA81E313D42FA500D65191 /* zomminAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zomminAppDelegate.h; sourceTree = "<group>"; };
+		2AEA81E413D42FA500D65191 /* zomminAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zomminAppDelegate.m; sourceTree = "<group>"; };
+		2AEA81E713D42FA500D65191 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2AEA81E913D42FA500D65191 /* zomminViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zomminViewController.h; sourceTree = "<group>"; };
+		2AEA81EA13D42FA500D65191 /* zomminViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zomminViewController.m; sourceTree = "<group>"; };
+		2AEA81ED13D42FA500D65191 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zomminViewController.xib; sourceTree = "<group>"; };
+		2AEA81FB13D434C800D65191 /* a1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a1.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEA81CD13D42FA500D65191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEA81D513D42FA500D65191 /* UIKit.framework in Frameworks */,
+				2AEA81D713D42FA500D65191 /* Foundation.framework in Frameworks */,
+				2AEA81D913D42FA500D65191 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AEA81C513D42FA500D65191 = {
+			isa = PBXGroup;
+			children = (
+				2AEA81DA13D42FA500D65191 /* zommin */,
+				2AEA81D313D42FA500D65191 /* Frameworks */,
+				2AEA81D113D42FA500D65191 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AEA81D113D42FA500D65191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA81D013D42FA500D65191 /* zommin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AEA81D313D42FA500D65191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA81D413D42FA500D65191 /* UIKit.framework */,
+				2AEA81D613D42FA500D65191 /* Foundation.framework */,
+				2AEA81D813D42FA500D65191 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AEA81DA13D42FA500D65191 /* zommin */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA81E313D42FA500D65191 /* zomminAppDelegate.h */,
+				2AEA81E413D42FA500D65191 /* zomminAppDelegate.m */,
+				2AEA81E613D42FA500D65191 /* MainWindow.xib */,
+				2AEA81E913D42FA500D65191 /* zomminViewController.h */,
+				2AEA81EA13D42FA500D65191 /* zomminViewController.m */,
+				2AEA81FA13D4327E00D65191 /* Resources */,
+				2AEA81DB13D42FA500D65191 /* Supporting Files */,
+			);
+			path = zommin;
+			sourceTree = "<group>";
+		};
+		2AEA81DB13D42FA500D65191 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA81DC13D42FA500D65191 /* zommin-Info.plist */,
+				2AEA81DD13D42FA500D65191 /* InfoPlist.strings */,
+				2AEA81E013D42FA500D65191 /* zommin-Prefix.pch */,
+				2AEA81E113D42FA500D65191 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AEA81FA13D4327E00D65191 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA81FB13D434C800D65191 /* a1.jpeg */,
+				2AEA81EC13D42FA500D65191 /* zomminViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AEA81CF13D42FA500D65191 /* zommin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AEA81F113D42FA500D65191 /* Build configuration list for PBXNativeTarget "zommin" */;
+			buildPhases = (
+				2AEA81CC13D42FA500D65191 /* Sources */,
+				2AEA81CD13D42FA500D65191 /* Frameworks */,
+				2AEA81CE13D42FA500D65191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zommin;
+			productName = zommin;
+			productReference = 2AEA81D013D42FA500D65191 /* zommin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AEA81C713D42FA500D65191 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2AEA81CA13D42FA500D65191 /* Build configuration list for PBXProject "zommin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AEA81C513D42FA500D65191;
+			productRefGroup = 2AEA81D113D42FA500D65191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AEA81CF13D42FA500D65191 /* zommin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AEA81CE13D42FA500D65191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEA81DF13D42FA500D65191 /* InfoPlist.strings in Resources */,
+				2AEA81E813D42FA500D65191 /* MainWindow.xib in Resources */,
+				2AEA81EE13D42FA500D65191 /* zomminViewController.xib in Resources */,
+				2AEA81FC13D434C800D65191 /* a1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AEA81CC13D42FA500D65191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEA81E213D42FA500D65191 /* main.m in Sources */,
+				2AEA81E513D42FA500D65191 /* zomminAppDelegate.m in Sources */,
+				2AEA81EB13D42FA500D65191 /* zomminViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AEA81DD13D42FA500D65191 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEA81DE13D42FA500D65191 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AEA81E613D42FA500D65191 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEA81E713D42FA500D65191 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2AEA81EC13D42FA500D65191 /* zomminViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEA81ED13D42FA500D65191 /* en */,
+			);
+			name = zomminViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AEA81EF13D42FA500D65191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2AEA81F013D42FA500D65191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		2AEA81F213D42FA500D65191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zommin/zommin-Prefix.pch";
+				INFOPLIST_FILE = "zommin/zommin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AEA81F313D42FA500D65191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zommin/zommin-Prefix.pch";
+				INFOPLIST_FILE = "zommin/zommin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AEA81CA13D42FA500D65191 /* Build configuration list for PBXProject "zommin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEA81EF13D42FA500D65191 /* Debug */,
+				2AEA81F013D42FA500D65191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AEA81F113D42FA500D65191 /* Build configuration list for PBXNativeTarget "zommin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AEA81F213D42FA500D65191 /* Debug */,
+				2AEA81F313D42FA500D65191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AEA81C713D42FA500D65191 /* Project object */;
+}
