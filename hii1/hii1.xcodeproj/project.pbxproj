@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0641FF13D7FD8D00461689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0641FE13D7FD8D00461689 /* UIKit.framework */; };
+		2A06420113D7FD8D00461689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A06420013D7FD8D00461689 /* Foundation.framework */; };
+		2A06420313D7FD8D00461689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A06420213D7FD8D00461689 /* CoreGraphics.framework */; };
+		2A06420913D7FD8D00461689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A06420713D7FD8D00461689 /* InfoPlist.strings */; };
+		2A06420B13D7FD8D00461689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06420A13D7FD8D00461689 /* main.m */; };
+		2A06420F13D7FD8D00461689 /* hii1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06420E13D7FD8D00461689 /* hii1AppDelegate.m */; };
+		2A06421213D7FD8D00461689 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A06421013D7FD8D00461689 /* MainStoryboard.storyboard */; };
+		2A06421513D7FD8D00461689 /* hii1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06421413D7FD8D00461689 /* hii1ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A0641FA13D7FD8D00461689 /* hii1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hii1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0641FE13D7FD8D00461689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A06420013D7FD8D00461689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A06420213D7FD8D00461689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A06420613D7FD8D00461689 /* hii1-Info.plist */ = {isa = PBXFileReference; path = "hii1-Info.plist"; sourceTree = "<group>"; };
+		2A06420813D7FD8D00461689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A06420A13D7FD8D00461689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A06420C13D7FD8D00461689 /* hii1-Prefix.pch */ = {isa = PBXFileReference; path = "hii1-Prefix.pch"; sourceTree = "<group>"; };
+		2A06420D13D7FD8D00461689 /* hii1AppDelegate.h */ = {isa = PBXFileReference; path = hii1AppDelegate.h; sourceTree = "<group>"; };
+		2A06420E13D7FD8D00461689 /* hii1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hii1AppDelegate.m; sourceTree = "<group>"; };
+		2A06421113D7FD8D00461689 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2A06421313D7FD8D00461689 /* hii1ViewController.h */ = {isa = PBXFileReference; path = hii1ViewController.h; sourceTree = "<group>"; };
+		2A06421413D7FD8D00461689 /* hii1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hii1ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0641F713D7FD8D00461689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0641FF13D7FD8D00461689 /* UIKit.framework in Frameworks */,
+				2A06420113D7FD8D00461689 /* Foundation.framework in Frameworks */,
+				2A06420313D7FD8D00461689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0641EF13D7FD8D00461689 = {
+			isa = PBXGroup;
+			children = (
+				2A06420413D7FD8D00461689 /* hii1 */,
+				2A0641FD13D7FD8D00461689 /* Frameworks */,
+				2A0641FB13D7FD8D00461689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0641FB13D7FD8D00461689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0641FA13D7FD8D00461689 /* hii1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0641FD13D7FD8D00461689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A0641FE13D7FD8D00461689 /* UIKit.framework */,
+				2A06420013D7FD8D00461689 /* Foundation.framework */,
+				2A06420213D7FD8D00461689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A06420413D7FD8D00461689 /* hii1 */ = {
+			isa = PBXGroup;
+			children = (
+				2A06420D13D7FD8D00461689 /* hii1AppDelegate.h */,
+				2A06420E13D7FD8D00461689 /* hii1AppDelegate.m */,
+				2A06421013D7FD8D00461689 /* MainStoryboard.storyboard */,
+				2A06421313D7FD8D00461689 /* hii1ViewController.h */,
+				2A06421413D7FD8D00461689 /* hii1ViewController.m */,
+				2A06420513D7FD8D00461689 /* Supporting Files */,
+			);
+			path = hii1;
+			sourceTree = "<group>";
+		};
+		2A06420513D7FD8D00461689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A06420613D7FD8D00461689 /* hii1-Info.plist */,
+				2A06420713D7FD8D00461689 /* InfoPlist.strings */,
+				2A06420A13D7FD8D00461689 /* main.m */,
+				2A06420C13D7FD8D00461689 /* hii1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0641F913D7FD8D00461689 /* hii1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A06421813D7FD8D00461689 /* Build configuration list for PBXNativeTarget "hii1" */;
+			buildPhases = (
+				2A0641F613D7FD8D00461689 /* Sources */,
+				2A0641F713D7FD8D00461689 /* Frameworks */,
+				2A0641F813D7FD8D00461689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hii1;
+			productName = hii1;
+			productReference = 2A0641FA13D7FD8D00461689 /* hii1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0641F113D7FD8D00461689 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A0641F413D7FD8D00461689 /* Build configuration list for PBXProject "hii1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A0641EF13D7FD8D00461689;
+			productRefGroup = 2A0641FB13D7FD8D00461689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0641F913D7FD8D00461689 /* hii1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0641F813D7FD8D00461689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A06420913D7FD8D00461689 /* InfoPlist.strings in Resources */,
+				2A06421213D7FD8D00461689 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0641F613D7FD8D00461689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A06420B13D7FD8D00461689 /* main.m in Sources */,
+				2A06420F13D7FD8D00461689 /* hii1AppDelegate.m in Sources */,
+				2A06421513D7FD8D00461689 /* hii1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A06420713D7FD8D00461689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A06420813D7FD8D00461689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A06421013D7FD8D00461689 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A06421113D7FD8D00461689 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A06421613D7FD8D00461689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A06421713D7FD8D00461689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A06421913D7FD8D00461689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hii1/hii1-Prefix.pch";
+				INFOPLIST_FILE = "hii1/hii1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A06421A13D7FD8D00461689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hii1/hii1-Prefix.pch";
+				INFOPLIST_FILE = "hii1/hii1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0641F413D7FD8D00461689 /* Build configuration list for PBXProject "hii1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A06421613D7FD8D00461689 /* Debug */,
+				2A06421713D7FD8D00461689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A06421813D7FD8D00461689 /* Build configuration list for PBXNativeTarget "hii1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A06421913D7FD8D00461689 /* Debug */,
+				2A06421A13D7FD8D00461689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0641F113D7FD8D00461689 /* Project object */;
+}

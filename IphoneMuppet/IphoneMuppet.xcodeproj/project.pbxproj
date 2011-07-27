@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A70943F13DE83FA00E2B057 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70943E13DE83FA00E2B057 /* UIKit.framework */; };
+		2A70944113DE83FA00E2B057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70944013DE83FA00E2B057 /* Foundation.framework */; };
+		2A70944313DE83FA00E2B057 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A70944213DE83FA00E2B057 /* CoreGraphics.framework */; };
+		2A70944913DE83FA00E2B057 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A70944713DE83FA00E2B057 /* InfoPlist.strings */; };
+		2A70944B13DE83FA00E2B057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A70944A13DE83FA00E2B057 /* main.m */; };
+		2A70944F13DE83FA00E2B057 /* IphoneMuppetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A70944E13DE83FA00E2B057 /* IphoneMuppetAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A70943A13DE83FA00E2B057 /* IphoneMuppet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneMuppet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A70943E13DE83FA00E2B057 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A70944013DE83FA00E2B057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A70944213DE83FA00E2B057 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A70944613DE83FA00E2B057 /* IphoneMuppet-Info.plist */ = {isa = PBXFileReference; path = "IphoneMuppet-Info.plist"; sourceTree = "<group>"; };
+		2A70944813DE83FA00E2B057 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A70944A13DE83FA00E2B057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A70944C13DE83FA00E2B057 /* IphoneMuppet-Prefix.pch */ = {isa = PBXFileReference; path = "IphoneMuppet-Prefix.pch"; sourceTree = "<group>"; };
+		2A70944D13DE83FA00E2B057 /* IphoneMuppetAppDelegate.h */ = {isa = PBXFileReference; path = IphoneMuppetAppDelegate.h; sourceTree = "<group>"; };
+		2A70944E13DE83FA00E2B057 /* IphoneMuppetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneMuppetAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A70943713DE83FA00E2B057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A70943F13DE83FA00E2B057 /* UIKit.framework in Frameworks */,
+				2A70944113DE83FA00E2B057 /* Foundation.framework in Frameworks */,
+				2A70944313DE83FA00E2B057 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A70942F13DE83FA00E2B057 = {
+			isa = PBXGroup;
+			children = (
+				2A70944413DE83FA00E2B057 /* IphoneMuppet */,
+				2A70943D13DE83FA00E2B057 /* Frameworks */,
+				2A70943B13DE83FA00E2B057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A70943B13DE83FA00E2B057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A70943A13DE83FA00E2B057 /* IphoneMuppet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A70943D13DE83FA00E2B057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A70943E13DE83FA00E2B057 /* UIKit.framework */,
+				2A70944013DE83FA00E2B057 /* Foundation.framework */,
+				2A70944213DE83FA00E2B057 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A70944413DE83FA00E2B057 /* IphoneMuppet */ = {
+			isa = PBXGroup;
+			children = (
+				2A70944D13DE83FA00E2B057 /* IphoneMuppetAppDelegate.h */,
+				2A70944E13DE83FA00E2B057 /* IphoneMuppetAppDelegate.m */,
+				2A70944513DE83FA00E2B057 /* Supporting Files */,
+			);
+			path = IphoneMuppet;
+			sourceTree = "<group>";
+		};
+		2A70944513DE83FA00E2B057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A70944613DE83FA00E2B057 /* IphoneMuppet-Info.plist */,
+				2A70944713DE83FA00E2B057 /* InfoPlist.strings */,
+				2A70944A13DE83FA00E2B057 /* main.m */,
+				2A70944C13DE83FA00E2B057 /* IphoneMuppet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A70943913DE83FA00E2B057 /* IphoneMuppet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A70945213DE83FA00E2B057 /* Build configuration list for PBXNativeTarget "IphoneMuppet" */;
+			buildPhases = (
+				2A70943613DE83FA00E2B057 /* Sources */,
+				2A70943713DE83FA00E2B057 /* Frameworks */,
+				2A70943813DE83FA00E2B057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IphoneMuppet;
+			productName = IphoneMuppet;
+			productReference = 2A70943A13DE83FA00E2B057 /* IphoneMuppet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A70943113DE83FA00E2B057 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A70943413DE83FA00E2B057 /* Build configuration list for PBXProject "IphoneMuppet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A70942F13DE83FA00E2B057;
+			productRefGroup = 2A70943B13DE83FA00E2B057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A70943913DE83FA00E2B057 /* IphoneMuppet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A70943813DE83FA00E2B057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A70944913DE83FA00E2B057 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A70943613DE83FA00E2B057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A70944B13DE83FA00E2B057 /* main.m in Sources */,
+				2A70944F13DE83FA00E2B057 /* IphoneMuppetAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A70944713DE83FA00E2B057 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A70944813DE83FA00E2B057 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A70945013DE83FA00E2B057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A70945113DE83FA00E2B057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A70945313DE83FA00E2B057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IphoneMuppet/IphoneMuppet-Prefix.pch";
+				INFOPLIST_FILE = "IphoneMuppet/IphoneMuppet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A70945413DE83FA00E2B057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IphoneMuppet/IphoneMuppet-Prefix.pch";
+				INFOPLIST_FILE = "IphoneMuppet/IphoneMuppet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A70943413DE83FA00E2B057 /* Build configuration list for PBXProject "IphoneMuppet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A70945013DE83FA00E2B057 /* Debug */,
+				2A70945113DE83FA00E2B057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A70945213DE83FA00E2B057 /* Build configuration list for PBXNativeTarget "IphoneMuppet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A70945313DE83FA00E2B057 /* Debug */,
+				2A70945413DE83FA00E2B057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A70943113DE83FA00E2B057 /* Project object */;
+}
