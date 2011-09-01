@@ -27,6 +27,11 @@
 - (void)loadView {
 }
 */
+-(IBAction) myfunc:(id)sender
+{
+    NSLog(@"hii");
+    
+}
 -(IBAction) onNext:(id)sender
 {
 	newView = [[UIView alloc]initWithFrame:CGRectMake(0,0,320,480)];
@@ -49,8 +54,14 @@
 	
 	
 	//[btn release];
-	
 	[newView release];
+    
+    NSString *hi="hiii";
+    NSString *hii=[NSString alloc];
+    hii="hii";
+    [hii release];
+    
+   
 }
 
 -(void) onBack

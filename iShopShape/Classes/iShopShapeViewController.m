@@ -56,7 +56,7 @@
 	//set title to the screen
 	[self setTitle:@"Home"];
 	
-	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"tableViewBackground.png"]]];
+	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@""]]];
 	
 	[homeMenuTable setBackgroundColor:[UIColor clearColor]];
 	

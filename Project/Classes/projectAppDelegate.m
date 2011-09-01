@@ -8,7 +8,6 @@
 
 #import "projectAppDelegate.h"
 #import "RootViewController.h"
-#import "GANTracker.h"
 
 @implementation projectAppDelegate
 
@@ -27,9 +26,7 @@
 	
     // Add the navigation controller's view to the window and display.
 	
-	[[GANTracker sharedTracker] startTrackerWithAccountID:@"UA-12345678-2"
-										   dispatchPeriod:20
-												 delegate:nil]; 
+
 
 	loginview* login = [[loginview alloc]initWithNibName:@"loginview" bundle:nil];
 	navigationController=[[UINavigationController alloc] initWithRootViewController:login];

@@ -259,7 +259,7 @@
         [searchPopover dismissPopoverAnimated:YES];
     }
 
-    if([searchText isEqualToString:@"g"])
+    if(([searchText isEqualToString:@"g"])||([searchText isEqualToString:@"G"]))
     {
         myClick = [[SearchTable alloc] initWithStyle:UITableViewStyleGrouped]  ;
         myClick.delegate = self;
@@ -1526,6 +1526,7 @@
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
 
+    
     if(scrollView == labelScroll)
     {        
         
@@ -1547,6 +1548,7 @@
    
     if(scrollView == sideScroll)
     {
+        NSLog(@"hre");
         rootScroll.contentOffset=CGPointMake(rootScroll.contentOffset.x+800,rootScroll.contentOffset.y);
         
     }
@@ -1571,7 +1573,7 @@
     if(scrollView == rootScroll)
     {  
         endX=rootScroll.contentOffset.x;
-        //NSLog(@"startx == %f endx== %f",startX,endX);
+        NSLog(@"startx == %f endx== %f",startX,endX);
         if(abs(endX-startX)>50)
         {
             if(endX-startX>0)

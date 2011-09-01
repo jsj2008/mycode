@@ -32,7 +32,7 @@
     
  
 	name.text=@"";
- pass.text=@"";
+    pass.text=@"";
 		
 	[super viewDidLoad];
 	
@@ -73,7 +73,8 @@
 	[pass resignFirstResponder];
 	 NSUserDefaults *s = [NSUserDefaults standardUserDefaults];
 	 NSMutableArray *array = [s objectForKey:@"ROOT"];
-	NSString *nameString,*	passString ;
+    NSLog(@"array ==  %@",array);
+	NSString *nameString=@"",*	passString=@"" ;
 	 for(int iLoop = 0; iLoop<[array count] ; iLoop++)
 	 {	
 	 NSDictionary *dict = [array objectAtIndex:iLoop];

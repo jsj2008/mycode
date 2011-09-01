@@ -1,0 +1,17 @@
+//
+//  CanvasObjectCharacter.m
+//  Muppets
+//
+//  Created by Achal Aggarwal on 04/07/11.
+//  Copyright 2011 NA. All rights reserved.
+//
+
+#import "CanvasObjectCharacter.h"
+
+@implementation CanvasObjectCharacter
+
+-(void) setup {
+    [super autoresize];
+}
+
+@end

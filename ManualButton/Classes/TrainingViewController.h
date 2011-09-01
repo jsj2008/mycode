@@ -12,8 +12,10 @@
 
 	IBOutlet UILabel *label;
 	IBOutlet UIButton *button;
+    IBOutlet UIButton *mynewbutton;
 	UIView *newView;
 }
 -(IBAction) onNext:(id)sender;
+-(IBAction)myfunc:(id)sender;
 @end
 

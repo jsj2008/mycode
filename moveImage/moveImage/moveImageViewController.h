@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface moveImageViewController : UIViewController {
-    
+#import "CustomImageView.h"
+@interface moveImageViewController : UIViewController 
+{
+    CustomImageView *myView;
 }
 
 @end

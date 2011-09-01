@@ -52,7 +52,7 @@ didReceiveResponse:(NSURLResponse *) response {
                         encoding:NSUTF8StringEncoding];
    
   result = [theData JSONValue];
-   // NSLog(@"recieved data== %@",result);
+    NSLog(@"recieved data== %@",result);
 	
     [[NSNotificationCenter defaultCenter] postNotificationName:@"unique" object:nil userInfo:nil];
    

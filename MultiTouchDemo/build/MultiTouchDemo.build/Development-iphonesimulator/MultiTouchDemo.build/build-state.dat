@@ -1,0 +1,1346 @@
+TMultiTouchDemo
+v7
+r0
+t333891571.952864
+cCheck dependencies
+cProcessInfoPlistFile /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist Info.plist
+cCompileXIB /Users/vinsol/Desktop/projects/MultiTouchDemo/MainWindow.xib
+cCompileXIB /Users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemoViewController.xib
+cCpResource "build/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png" "Resources/Clown Fish.png"
+cCpResource "build/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png" "Resources/Flowing Rock.png"
+cCpResource build/Development-iphonesimulator/MultiTouchDemo.app/Stones.png Resources/Stones.png
+cCpResource build/Development-iphonesimulator/MultiTouchDemo.app/1.png 1.png
+cCpResource build/Development-iphonesimulator/MultiTouchDemo.app/2.png 2.png
+cCpResource build/Development-iphonesimulator/MultiTouchDemo.app/3.png 3.png
+cProcessPCH /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch.gch MultiTouchDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o /Users/vinsol/Desktop/projects/MultiTouchDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo normal i386
+cGenerateDSYMFile /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+cTouch /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/1.png
+c000000004E368F3800000000000156A5
+t1312198456
+s87717
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/2.png
+c000000004E368F51000000000000F9E8
+t1312198481
+s63976
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/3.png
+c000000004E364A17000000000000A78E
+t1312180759
+s42894
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.h
+c000000004A2BE09C00000000000001FC
+t1244389532
+s508
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+c000000004A2BE09C0000000000000235
+t1244389532
+s565
+i"MultiTouchDemoAppDelegate.h"
+i"MultiTouchDemoViewController.h"
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.h
+c000000004E368F570000000000000135
+t1312198487
+s309
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+c000000004E3690BB00000000000008CD
+t1312198843
+s2253
+i"MultiTouchDemoViewController.h"
+i"TouchImageView.h"
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.h
+c000000004E312696000000000000020E
+t1311843990
+s526
+i<UIKit/UIKit.h>
+i"MultiTouchDemoViewController.h"
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m
+c000000004E368F570000000000000A54
+t1312198487
+s2644
+i"TouchImageView.h"
+i"TouchImageView_Private.h"
+i<execinfo.h>
+i<stdio.h>
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.h
+c000000004A2BE09C00000000000001A1
+t1244389532
+s417
+i<UIKit/UIKit.h>
+i"TouchImageView.h"
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m
+c000000004E32832D0000000000001725
+t1311933229
+s5925
+i"TouchImageView_Private.h"
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/MainWindow.xib
+c000000004A2BE09C0000000000002385
+t1244389532
+s9093
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemoViewController.xib
+c000000004E310EEE00000000000025D7
+t1311837934
+s9687
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemo_Prefix.pch
+c000000004A2BE09C00000000000000BD
+t1244389532
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Resources/Clown Fish.png
+c000000004A2BE09C000000000004BD59
+t1244389532
+s310617
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Resources/Flowing Rock.png
+c000000004A2BE09C0000000000051E20
+t1244389532
+s335392
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/Resources/Stones.png
+c000000004A2BE09C000000000004AA0F
+t1244389532
+s305679
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/__animal.png
+c000000004E368F3800000000000156A5
+t1312198456
+s87717
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/__kermit.png
+c000000004E368F51000000000000F9E8
+t1312198481
+s63976
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/__misspiggy.png
+c000000004E364A17000000000000A78E
+t1312180759
+s42894
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+t1312198771
+s544
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+t1312198771
+s102
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/1.png
+t1312198771
+s87717
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/2.png
+t1312198771
+s63976
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/3.png
+t1312198771
+s42894
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png
+t1311836298
+s310617
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png
+t1311836298
+s335392
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist
+t1311836298
+s614
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MainWindow.nib
+t1311836298
+s1664
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+t1312198771
+s34568
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemoViewController.nib
+t1311837938
+s2421
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/PkgInfo
+t1311836298
+s8
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Stones.png
+t1311836298
+s305679
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/__animal.png
+t1312198487
+s87717
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/__kermit.png
+t1312198487
+s63976
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/__misspiggy.png
+t1312198154
+s42894
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList
+c000000004E368E0A0000000000000332
+t1312198154
+s818
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+t1312198487
+s49108
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+t1312198771
+s46680
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+t1312198487
+s50560
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+t1312198487
+s52556
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+t1312175015
+s6312
+
+N/Users/vinsol/Desktop/projects/MultiTouchDemo/main.m
+c000000004A2BE09C000000000000015A
+t1244389532
+s346
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.h
+c000000004A2BE09C00000000000001FC
+t1244389532
+s508
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+c000000004A2BE09C0000000000000235
+t1244389532
+s565
+i"MultiTouchDemoAppDelegate.h"
+i"MultiTouchDemoViewController.h"
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.h
+c000000004E310C18000000000000011E
+t1311837208
+s286
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+c000000004E310F1B0000000000000702
+t1311837979
+s1794
+i"MultiTouchDemoViewController.h"
+i"TouchImageView.h"
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.h
+c000000004E310E67000000000000014B
+t1311837799
+s331
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m
+c000000004E3110640000000000000862
+t1311838308
+s2146
+i"TouchImageView.h"
+i"TouchImageView_Private.h"
+i<execinfo.h>
+i<stdio.h>
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.h
+c000000004A2BE09C00000000000001A1
+t1244389532
+s417
+i<UIKit/UIKit.h>
+i"TouchImageView.h"
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m
+c000000004A2BE09C0000000000000E98
+t1244389532
+s3736
+i"TouchImageView_Private.h"
+
+N/Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+c000000004A2BE09C0000000000002385
+t1244389532
+s9093
+
+N/Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+c000000004E310EEE00000000000025D7
+t1311837934
+s9687
+
+N/Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemo_Prefix.pch
+c000000004A2BE09C00000000000000BD
+t1244389532
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Resources/Clown Fish.png
+c000000004A2BE09C000000000004BD59
+t1244389532
+s310617
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Resources/Flowing Rock.png
+c000000004A2BE09C0000000000051E20
+t1244389532
+s335392
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Resources/Stones.png
+c000000004A2BE09C000000000004AA0F
+t1244389532
+s305679
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+t1311838311
+s340
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+t1311838311
+s102
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png
+t1311836298
+s310617
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png
+t1311836298
+s335392
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist
+t1311836298
+s614
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MainWindow.nib
+t1311836298
+s1664
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+t1311838311
+s29276
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemoViewController.nib
+t1311837938
+s2421
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/PkgInfo
+t1311836298
+s8
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Stones.png
+t1311836298
+s305679
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList
+c000000004E31088A000000000000030F
+t1311836298
+s783
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+t1311837514
+s49092
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+t1311838311
+s43852
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+t1311838311
+s47296
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+t1311837800
+s48992
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+t1311836299
+s6300
+
+N/Users/vinsol/Downloads/MultiTouchDemo/main.m
+c000000004A2BE09C000000000000015A
+t1244389532
+s346
+i<UIKit/UIKit.h>
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/execinfo.h
+c000000004D4F6E990000000000000571
+t1297051289
+s1393
+
+N/XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.h
+c000000004A2BE09C00000000000001FC
+t1244389532
+s508
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+c000000004A2BE09C0000000000000235
+t1244389532
+s565
+i"MultiTouchDemoAppDelegate.h"
+i"MultiTouchDemoViewController.h"
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.h
+c000000004E31245A000000000000013F
+t1311843418
+s319
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+c000000004E31251C00000000000008A7
+t1311843612
+s2215
+i"MultiTouchDemoViewController.h"
+i"TouchImageView.h"
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.h
+c000000004E312696000000000000020E
+t1311843990
+s526
+i<UIKit/UIKit.h>
+i"MultiTouchDemoViewController.h"
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m
+c000000004E3633ED0000000000000A55
+t1312175085
+s2645
+i"TouchImageView.h"
+i"TouchImageView_Private.h"
+i<execinfo.h>
+i<stdio.h>
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.h
+c000000004A2BE09C00000000000001A1
+t1244389532
+s417
+i<UIKit/UIKit.h>
+i"TouchImageView.h"
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m
+c000000004E32832D0000000000001725
+t1311933229
+s5925
+i"TouchImageView_Private.h"
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/MainWindow.xib
+c000000004A2BE09C0000000000002385
+t1244389532
+s9093
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemoViewController.xib
+c000000004E310EEE00000000000025D7
+t1311837934
+s9687
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemo_Prefix.pch
+c000000004A2BE09C00000000000000BD
+t1244389532
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Resources/Clown Fish.png
+c000000004A2BE09C000000000004BD59
+t1244389532
+s310617
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Resources/Flowing Rock.png
+c000000004A2BE09C0000000000051E20
+t1244389532
+s335392
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/Resources/Stones.png
+c000000004A2BE09C000000000004AA0F
+t1244389532
+s305679
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+t1312175015
+s340
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+t1312175015
+s102
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png
+t1311836298
+s310617
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png
+t1311836298
+s335392
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist
+t1311836298
+s614
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MainWindow.nib
+t1311836298
+s1664
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+t1312175015
+s34524
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemoViewController.nib
+t1311837938
+s2421
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/PkgInfo
+t1311836298
+s8
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Stones.png
+t1311836298
+s305679
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList
+c000000004E3633A60000000000000332
+t1312175014
+s818
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+t1312175015
+s49108
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+t1312175015
+s46456
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+t1312175015
+s50560
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+t1312175015
+s52556
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+t1312175015
+s6312
+
+N/users/vinsol/Desktop/projects/MultiTouchDemo/main.m
+c000000004A2BE09C000000000000015A
+t1244389532
+s346
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.h
+c000000004A2BE09C00000000000001FC
+t1244389532
+s508
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+c000000004A2BE09C0000000000000235
+t1244389532
+s565
+i"MultiTouchDemoAppDelegate.h"
+i"MultiTouchDemoViewController.h"
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.h
+c000000004E31245A000000000000013F
+t1311843418
+s319
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+c000000004E31251C00000000000008A7
+t1311843612
+s2215
+i"MultiTouchDemoViewController.h"
+i"TouchImageView.h"
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.h
+c000000004E312696000000000000020E
+t1311843990
+s526
+i<UIKit/UIKit.h>
+i"MultiTouchDemoViewController.h"
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m
+c000000004E312DE80000000000000A5D
+t1311845864
+s2653
+i"TouchImageView.h"
+i"TouchImageView_Private.h"
+i<execinfo.h>
+i<stdio.h>
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.h
+c000000004A2BE09C00000000000001A1
+t1244389532
+s417
+i<UIKit/UIKit.h>
+i"TouchImageView.h"
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m
+c000000004A2BE09C0000000000000E98
+t1244389532
+s3736
+i"TouchImageView_Private.h"
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchTextView.h
+c000000004E31323600000000000000D6
+t1311846966
+s214
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchTextView.m
+c000000004E3132360000000000000259
+t1311846966
+s601
+i"TouchTextView.h"
+
+N/users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+c000000004A2BE09C0000000000002385
+t1244389532
+s9093
+
+N/users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+c000000004E310EEE00000000000025D7
+t1311837934
+s9687
+
+N/users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemo_Prefix.pch
+c000000004A2BE09C00000000000000BD
+t1244389532
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/users/vinsol/Downloads/MultiTouchDemo/Resources/Clown Fish.png
+c000000004A2BE09C000000000004BD59
+t1244389532
+s310617
+
+N/users/vinsol/Downloads/MultiTouchDemo/Resources/Flowing Rock.png
+c000000004A2BE09C0000000000051E20
+t1244389532
+s335392
+
+N/users/vinsol/Downloads/MultiTouchDemo/Resources/Stones.png
+c000000004A2BE09C000000000004AA0F
+t1244389532
+s305679
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+t1311844214
+s340
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+t1311844214
+s102
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png
+t1311836298
+s310617
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png
+t1311836298
+s335392
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist
+t1311836298
+s614
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MainWindow.nib
+t1311836298
+s1664
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+t1311844214
+s30200
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemoViewController.nib
+t1311837938
+s2421
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/PkgInfo
+t1311836298
+s8
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Stones.png
+t1311836298
+s305679
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList
+c000000004E311CF7000000000000030F
+t1311841527
+s783
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+t1311843642
+s49092
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+t1311844043
+s46448
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+t1311844214
+s51420
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+t1311844043
+s49136
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchTextView.o
+t2
+s0
+
+N/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+t1311841529
+s6300
+
+N/users/vinsol/Downloads/MultiTouchDemo/main.m
+c000000004A2BE09C000000000000015A
+t1244389532
+s346
+i<UIKit/UIKit.h>
+
+N/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch.gch
+t1311931943
+s15814064
+
+N/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch.gch
+t1311836299
+s15814064
+
+N/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch.gch
+t1311841528
+s15814064
+
+N/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch.gch
+t1312175015
+s15814064
+
+NInfo.plist
+c000000004A2BE09C0000000000000381
+t1244389532
+s897
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333891571#333891571#0(0"0(0#1#0"8624771232#0"0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333891287.791434
+e333891287.881199
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m333891287#333891287#0(0"0(0#0#81"/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m8624533632#2223"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o /Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333530314.047524
+e333530314.118063
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+x/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m333530314#333530314#0(0"0(0#0#74"/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m8616582304#2146"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m -o /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333867815.153889
+e333867815.266197
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+x/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m333867815#333867815#0(0"0(0#0#81"/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m8598698592#2223"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch -c /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o /users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333536442.658349
+e333536442.752132
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o
+x/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m333536442#333536442#0(0"0(0#0#74"/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m8614433824#2146"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch -c /users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoAppDelegate.m -o /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoAppDelegate.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333891571.850806
+e333891571.912694
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m333891571#333891571#0(0"0(0#0#84"/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m8627758272#2229"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o /Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333531111.551166
+e333531111.623964
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+x/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m333531111#333531111#0(0"0(0#0#77"/Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m8623486496#2152"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m -o /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333867815.154935
+e333867815.292755
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+x/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m333867815#333867815#0(0"0(0#0#84"/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m8605938656#2229"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch -c /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/MultiTouchDemoViewController.m -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o /users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333536842.921519
+e333536843.016578
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o
+x/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m333536842#333536843#0(0"0(0#0#77"/users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m8614873152#2152"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch -c /users/vinsol/Downloads/MultiTouchDemo/Classes/MultiTouchDemoViewController.m -o /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemoViewController.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333891287.793651
+e333891287.918985
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m333891287#333891287#0(0"0(0#0#70"/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m8626709856#2201"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o /Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333531111.552062
+e333531111.627724
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+x/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m333531111#333531111#0(0"0(0#0#63"/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m8623311040#2124"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m -o /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333867815.156196
+e333867815.293054
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+x/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m333867815#333867815#0(0"0(0#0#70"/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m8614223040#2201"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch -c /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView.m -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333537014.810871
+e333537014.885523
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o
+x/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m333537014#333537014#0(0"0(0#0#63"/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m8614138272#2124"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch -c /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView.m -o /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333891287.794703
+e333891287.968407
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m333891287#333891287#0(0"0(0#0#78"/Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m8626747008#2217"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o /Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333530600.584009
+e333530600.688700
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+x/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m333530600#333530600#0(0"0(0#0#71"/Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m8622002016#2140"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m -o /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333867815.236661
+e333867815.321490
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+x/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m333867815#333867815#0(0"0(0#0#78"/users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m8609045024#2217"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch -c /users/vinsol/Desktop/projects/MultiTouchDemo/Classes/TouchImageView_Private.m -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333536842.923641
+e333536843.032013
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o
+x/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m333536842#333536843#0(0"0(0#0#71"/users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m8615576672#2140"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch -c /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchImageView_Private.m -o /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchImageView_Private.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/TouchTextView.o /users/vinsol/Downloads/MultiTouchDemo/Classes/TouchTextView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o /Users/vinsol/Desktop/projects/MultiTouchDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333624743.333639
+e333624743.392848
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/vinsol/Desktop/projects/MultiTouchDemo/main.m333624743#333624743#0(0"0(0#0#52"/Users/vinsol/Desktop/projects/MultiTouchDemo/main.m8614210624#2173"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Desktop/projects/MultiTouchDemo/main.m -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o /Users/vinsol/Downloads/MultiTouchDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333529099.502861
+e333529099.565752
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+x/Users/vinsol/Downloads/MultiTouchDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/vinsol/Downloads/MultiTouchDemo/main.m333529099#333529099#0(0"0(0#0#45"/Users/vinsol/Downloads/MultiTouchDemo/main.m8612566528#2096"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch -c /Users/vinsol/Downloads/MultiTouchDemo/main.m -o /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o /users/vinsol/Desktop/projects/MultiTouchDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333867815.152635
+e333867815.236523
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+x/users/vinsol/Desktop/projects/MultiTouchDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /users/vinsol/Desktop/projects/MultiTouchDemo/main.m333867815#333867815#0(0"0(0#0#52"/users/vinsol/Desktop/projects/MultiTouchDemo/main.m8604123776#2173"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch -c /users/vinsol/Desktop/projects/MultiTouchDemo/main.m -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o /users/vinsol/Downloads/MultiTouchDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333534328.920703
+e333534329.094126
+r1
+xCompileC
+xbuild/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o
+x/users/vinsol/Downloads/MultiTouchDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /users/vinsol/Downloads/MultiTouchDemo/main.m333534328#333534329#0(0"0(0#0#45"/users/vinsol/Downloads/MultiTouchDemo/main.m8594794720#2096"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -include /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch -c /users/vinsol/Downloads/MultiTouchDemo/main.m -o /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/vinsol/Desktop/projects/MultiTouchDemo/MainWindow.xib
+r0
+
+CCompileXIB /Users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemoViewController.xib
+r0
+
+CCompileXIB /Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+s333529098.410322
+e333529098.761489
+r1
+xCompileXIB
+x/Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333529098#333529098#0(0"0(0#0#53"/Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib8617873344#571"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MainWindow.nib /Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib --sdk /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+s333530737.996678
+e333530738.345951
+r1
+xCompileXIB
+x/Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+lSLF07#2@43"CompileXIB MultiTouchDemoViewController.xib333530737#333530738#0(0"0(0#0#71"/Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib8617630240#607"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemoViewController.nib /Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib --sdk /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /users/vinsol/Desktop/projects/MultiTouchDemo/MainWindow.xib
+r0
+
+CCompileXIB /users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemoViewController.xib
+r0
+
+CCompileXIB /users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+r0
+
+CCompileXIB /users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+r0
+
+CCpResource "build/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png" "Resources/Clown Fish.png"
+s333529098.411564
+e333529098.450489
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/Clown Fish.png
+xResources/Clown Fish.png
+lSLF07#2@29"Copy Resources/Clown Fish.png333529098#333529098#0(0"0(0#0#63"/Users/vinsol/Downloads/MultiTouchDemo/Resources/Clown Fish.png30399585250639984#488"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vinsol/Downloads/MultiTouchDemo/Resources/Clown Fish.png" /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource "build/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png" "Resources/Flowing Rock.png"
+s333529098.413259
+e333529098.451832
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/Flowing Rock.png
+xResources/Flowing Rock.png
+lSLF07#2@31"Copy Resources/Flowing Rock.png333529098#333529098#0(0"0(0#0#65"/Users/vinsol/Downloads/MultiTouchDemo/Resources/Flowing Rock.png8614623648#490"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vinsol/Downloads/MultiTouchDemo/Resources/Flowing Rock.png" /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/1.png 1.png
+s333891571.843651
+e333891571.849632
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/1.png
+x1.png
+lSLF07#2@10"Copy 1.png333891571#333891571#0(0"0(0#0#51"/Users/vinsol/Desktop/projects/MultiTouchDemo/1.png8628469664#488"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Desktop/projects/MultiTouchDemo/1.png /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/2.png 2.png
+s333891571.844763
+e333891571.849794
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/2.png
+x2.png
+lSLF07#2@10"Copy 2.png333891571#333891571#0(0"0(0#0#51"/Users/vinsol/Desktop/projects/MultiTouchDemo/2.png8628379072#488"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Desktop/projects/MultiTouchDemo/2.png /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/3.png 3.png
+s333891571.845256
+e333891571.850340
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/3.png
+x3.png
+lSLF07#2@10"Copy 3.png333891571#333891571#0(0"0(0#0#51"/Users/vinsol/Desktop/projects/MultiTouchDemo/3.png8627993440#488"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Desktop/projects/MultiTouchDemo/3.png /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/Stones.png Resources/Stones.png
+s333529098.414094
+e333529098.450222
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/Stones.png
+xResources/Stones.png
+lSLF07#2@25"Copy Resources/Stones.png333529098#333529098#0(0"0(0#0#59"/Users/vinsol/Downloads/MultiTouchDemo/Resources/Stones.png8615409152#482"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Downloads/MultiTouchDemo/Resources/Stones.png /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/__animal.png __animal.png
+s333891287.778909
+e333891287.791049
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/__animal.png
+x__animal.png
+lSLF07#2@17"Copy __animal.png333891287#333891287#0(0"0(0#0#58"/Users/vinsol/Desktop/projects/MultiTouchDemo/__animal.png31244190572937284#495"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Desktop/projects/MultiTouchDemo/__animal.png /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/__kermit.png __kermit.png
+s333891287.779766
+e333891287.785204
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/__kermit.png
+x__kermit.png
+lSLF07#2@17"Copy __kermit.png333891287#333891287#0(0"0(0#0#58"/Users/vinsol/Desktop/projects/MultiTouchDemo/__kermit.png8625257632#495"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Desktop/projects/MultiTouchDemo/__kermit.png /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CCpResource build/Development-iphonesimulator/MultiTouchDemo.app/__misspiggy.png __misspiggy.png
+s333890954.366584
+e333890954.371171
+r1
+xCpResource
+xbuild/Development-iphonesimulator/MultiTouchDemo.app/__misspiggy.png
+x__misspiggy.png
+lSLF07#2@20"Copy __misspiggy.png333890954#333890954#0(0"0(0#0#61"/Users/vinsol/Desktop/projects/MultiTouchDemo/__misspiggy.png8611143040#498"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vinsol/Desktop/projects/MultiTouchDemo/__misspiggy.png /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CGenerateDSYMFile /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+s333891571.932786
+e333891571.950636
+r1
+xGenerateDSYMFile
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+lSLF07#2@142"GenerateDSYMFile build/Development-iphonesimulator/MultiTouchDemo.app.dSYM build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333891571#333891571#0(0"0(0#0#113"/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo8626372128#428"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/usr/bin/dsymutil /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM0#
+
+CGenerateDSYMFile /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+s333531111.647663
+e333531111.663379
+r1
+xGenerateDSYMFile
+x/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+x/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+lSLF07#2@142"GenerateDSYMFile build/Development-iphonesimulator/MultiTouchDemo.app.dSYM build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333531111#333531111#0(0"0(0#0#106"/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo8623132064#407"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/usr/bin/dsymutil /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo -o /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM0#
+
+CGenerateDSYMFile /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+s333867815.341519
+e333867815.357048
+r1
+xGenerateDSYMFile
+x/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+x/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+lSLF07#2@142"GenerateDSYMFile build/Development-iphonesimulator/MultiTouchDemo.app.dSYM build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333867815#333867815#0(0"0(0#0#113"/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo8612822784#428"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/usr/bin/dsymutil /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM0#
+
+CGenerateDSYMFile /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+s333537014.905178
+e333537014.922403
+r1
+xGenerateDSYMFile
+x/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM
+x/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+lSLF07#2@142"GenerateDSYMFile build/Development-iphonesimulator/MultiTouchDemo.app.dSYM build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333537014#333537014#0(0"0(0#0#106"/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo8620097344#407"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/usr/bin/dsymutil /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo -o /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app.dSYM0#
+
+CLd /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo normal i386
+s333891571.912781
+e333891571.932675
+r1
+xLd
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+xnormal
+xi386
+lSLF07#2@118"Link /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333891571#333891571#0(0"0(0#0#0"8627136640#982"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -filelist /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo0#
+
+CLd /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo normal i386
+s333531111.627829
+e333531111.647574
+r1
+xLd
+x/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+xnormal
+xi386
+lSLF07#2@111"Link /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333531111#333531111#0(0"0(0#0#0"8623852480#947"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -filelist /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo0#
+
+CLd /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo normal i386
+s333867815.321583
+e333867815.341428
+r1
+xLd
+x/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+xnormal
+xi386
+lSLF07#2@118"Link /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333867815#333867815#0(0"0(0#0#0"8615216768#982"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -filelist /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo0#
+
+CLd /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo normal i386
+s333537014.885611
+e333537014.905081
+r1
+xLd
+x/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo
+xnormal
+xi386
+lSLF07#2@111"Link /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo333537014#333537014#0(0"0(0#0#0"8620173728#947"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -filelist /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/Objects-normal/i386/MultiTouchDemo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/MultiTouchDemo0#
+
+CProcessInfoPlistFile /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist Info.plist
+r0
+
+CProcessInfoPlistFile /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist Info.plist
+s333529098.407008
+e333529098.410263
+r1
+xProcessInfoPlistFile
+x/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist333529098#333529098#0(0"0(0#0#49"/Users/vinsol/Downloads/MultiTouchDemo/Info.plist8615484576#491"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist0#
+
+CProcessInfoPlistFile /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist Info.plist
+r0
+
+CProcessInfoPlistFile /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch.gch MultiTouchDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333624742.593509
+e333624743.333507
+r1
+xProcessPCH
+x/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch.gch
+xMultiTouchDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MultiTouchDemo_Prefix.pch333624742#333624743#0(0"0(0#0#71"/Users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemo_Prefix.pch7885084288590833664#2045"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -c /Users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemo_Prefix.pch -o /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-brmmsrzleslxpwffjuhxfojqqsup/MultiTouchDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch.gch MultiTouchDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333529098.761566
+e333529099.502661
+r1
+xProcessPCH
+x/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch.gch
+xMultiTouchDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MultiTouchDemo_Prefix.pch333529098#333529099#0(0"0(0#0#64"/Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemo_Prefix.pch8613767168#1975"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/Users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -c /Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemo_Prefix.pch -o /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-bujccwvbygeceugthcslhsnlpkkk/MultiTouchDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch.gch MultiTouchDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333534327.890425
+e333534328.920556
+r1
+xProcessPCH
+x/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch.gch
+xMultiTouchDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MultiTouchDemo_Prefix.pch333534327#333534328#0(0"0(0#0#64"/users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemo_Prefix.pch8820426744301905920#1975"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Downloads/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -c /users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemo_Prefix.pch -o /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-dshzgnzxvxgznxauapbgzrasdltc/MultiTouchDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch.gch MultiTouchDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333867814.459473
+e333867815.152519
+r1
+xProcessPCH
+x/var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch.gch
+xMultiTouchDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile MultiTouchDemo_Prefix.pch333867814#333867815#0(0"0(0#0#71"/users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemo_Prefix.pch8602456704#2045"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv LANG en_US.US-ASCII    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /XCode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-generated-files.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-own-target-headers.hmap -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-all-target-headers.hmap -iquote /users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/MultiTouchDemo-project-headers.hmap -F/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/include -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources/i386 -I/users/vinsol/Desktop/projects/MultiTouchDemo/build/MultiTouchDemo.build/Development-iphonesimulator/MultiTouchDemo.build/DerivedSources -c /users/vinsol/Desktop/projects/MultiTouchDemo/MultiTouchDemo_Prefix.pch -o /var/folders/MC/MCZVljP4E24zIFOEtTxkGU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MultiTouchDemo_Prefix-fafdrltykmcnzcbnzqwqmxjujceb/MultiTouchDemo_Prefix.pch.gch0#
+
+CTouch /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+s333891571.950715
+e333891571.952840
+r1
+xTouch
+x/Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+lSLF07#2@104"Touch /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app333891571#333891571#0(0"0(0#0#0"8626778368#299"    cd /Users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CTouch /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+s333531111.663464
+e333531111.665509
+r1
+xTouch
+x/Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+lSLF07#2@97"Touch /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app333531111#333531111#0(0"0(0#0#0"8623006528#285"    cd /Users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CTouch /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+s333867815.357331
+e333867815.359287
+r1
+xTouch
+x/users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+lSLF07#2@104"Touch /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app333867815#333867815#0(0"0(0#0#0"8611049120#299"    cd /users/vinsol/Desktop/projects/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /users/vinsol/Desktop/projects/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+
+CTouch /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+s333537014.922483
+e333537014.924438
+r1
+xTouch
+x/users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app
+lSLF07#2@97"Touch /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app333537014#333537014#0(0"0(0#0#0"8620000352#285"    cd /users/vinsol/Downloads/MultiTouchDemo    setenv PATH "/XCode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/XCode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /users/vinsol/Downloads/MultiTouchDemo/build/Development-iphonesimulator/MultiTouchDemo.app0#
+

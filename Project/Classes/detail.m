@@ -129,7 +129,7 @@
 -(void) readFromDatabase {
 	
 	sqlite3 *database;
-	const char *str;
+	const char *str=@"";
 	projectAppDelegate *del=[UIApplication sharedApplication].delegate;
 	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		NSLog(@"in detail %d",del.idno);

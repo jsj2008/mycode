@@ -50,7 +50,7 @@
       [myarray addObject:@"Reality TV"];
       [myarray addObject:@"Sci-Fi & Fantasy"];
       [myarray addObject:@"Sports"];
-    
+    NSLog(@"viewDidLoad");
 }
 
 

@@ -1,0 +1,67 @@
+8
+
+dir
+153
+svn+ssh://pmarcos@cs193p.dyndns.org/svn/CS193P/trunk/Lectures/Lecture14-MultiTouch/MultiTouchDemo/Resources
+svn+ssh://pmarcos@cs193p.dyndns.org/svn/CS193P
+
+
+
+2009-03-24T04:54:30.648550Z
+2
+pmarcos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f9e53c42-d698-4390-a87f-1a53175b09d0
+
+Clown Fish.png
+file
+
+
+
+
+2009-06-07T15:45:32.000000Z
+e31aed6b10941ffd814bf4207ffb2064
+2009-03-24T04:54:30.648550Z
+2
+pmarcos
+has-props
+
+Flowing Rock.png
+file
+
+
+
+
+2009-06-07T15:45:32.000000Z
+2018d0fbabdc6f343047aaba1bf2754b
+2009-03-24T04:54:30.648550Z
+2
+pmarcos
+has-props
+
+Stones.png
+file
+
+
+
+
+2009-06-07T15:45:32.000000Z
+f146525f767a13c8986a45b03a77e1d5
+2009-03-24T04:54:30.648550Z
+2
+pmarcos
+has-props
+

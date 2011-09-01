@@ -100,7 +100,7 @@
 	nameArray = [[NSMutableArray alloc] init];
 	desgArray = [[NSMutableArray alloc] init];
 	idArray = [[NSMutableArray alloc] init];
-	const char *sqlStatement;
+	const char *sqlStatement=nil;
 	projectAppDelegate *del=[UIApplication sharedApplication].delegate;
 	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		switch(del.idno)
@@ -128,7 +128,7 @@
 				sqlStatement = "select fname,desg,id from symbian";
 				break;
 			}
-				
+        
 				
 		}
 		

@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'MuppetsIphone' target in the 'MuppetsIphone' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "constants.h"
+#import "macros.h"
+#import "UIView+extensions.h"
+#import "UNavigationController+extensions.h"
+#import "NSObject+extensions.h"
+#import "UIImageView+WebCache.h"
+#import "NSURL+SSToolkitAdditions.h"
+#import "UIImage+Resize.h"
+#import "UIImage+Alpha.h"
+#import "UIImage+RoundedCorner.h"
+#import "UIImageView+Path.h"
+#import "UIButton+styles.h"
+#endif

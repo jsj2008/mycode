@@ -1,0 +1,87 @@
+TMultiTouchDemo
+v7
+r1
+
+N/Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+c000000004A2BE09C0000000000002385
+t1244389532
+s9093
+
+N/Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+c000000004A2BE09C0000000000001633
+t1244389532
+s5683
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Resources/Clown Fish.png
+c000000004A2BE09C000000000004BD59
+t1244389532
+s310617
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Resources/Flowing Rock.png
+c000000004A2BE09C0000000000051E20
+t1244389532
+s335392
+
+N/Users/vinsol/Downloads/MultiTouchDemo/Resources/Stones.png
+c000000004A2BE09C000000000004AA0F
+t1244389532
+s305679
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Info.plist
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Resources/Clown Fish.png
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Resources/Flowing Rock.png
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Resources/MultiTouchDemoViewController.nib
+t2
+s0
+
+N/Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Resources/Stones.png
+t2
+s0
+
+NInfo.plist
+c000000004A2BE09C0000000000000381
+t1244389532
+s897
+
+CCompileXIB /Users/vinsol/Downloads/MultiTouchDemo/MainWindow.xib
+r0
+
+CCompileXIB /Users/vinsol/Downloads/MultiTouchDemo/MultiTouchDemoViewController.xib
+r0
+
+CCpResource "build/Development/MultiTouchDemo.app/Contents/Resources/Clown Fish.png" "Resources/Clown Fish.png"
+r0
+
+CCpResource "build/Development/MultiTouchDemo.app/Contents/Resources/Flowing Rock.png" "Resources/Flowing Rock.png"
+r0
+
+CCpResource build/Development/MultiTouchDemo.app/Contents/Resources/Stones.png Resources/Stones.png
+r0
+
+CProcessInfoPlistFile /Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app/Contents/Info.plist Info.plist
+r0
+
+CTouch /Users/vinsol/Downloads/MultiTouchDemo/build/Development/MultiTouchDemo.app
+r0
+

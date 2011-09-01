@@ -48,6 +48,7 @@
 }
 - (void ) create
 {
+    //[[NSUserDefaults standardUserDefaults] ]
 	[name resignFirstResponder];
 	[pass resignFirstResponder];	
 
@@ -59,6 +60,7 @@
 	else 
 	{
 		NSUserDefaults *s = [NSUserDefaults standardUserDefaults];
+        [ [s dictionaryRepresentation] allKeys];
 		NSMutableArray *array = [s objectForKey:@"ROOT"];
 		NSString *nameString; 
 		NSInteger i=-1;
@@ -81,6 +83,7 @@
 			pass.text=@"";
 			[array1 addObject:dict];
 		[s setValue:array1 forKey:@"ROOT"];
+            [s synchronize];
 		[dict release]; 
 		[array1 release];
 	    lbl.text=@"";

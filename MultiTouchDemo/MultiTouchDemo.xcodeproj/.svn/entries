@@ -1,0 +1,41 @@
+8
+
+dir
+153
+svn+ssh://pmarcos@cs193p.dyndns.org/svn/CS193P/trunk/Lectures/Lecture14-MultiTouch/MultiTouchDemo/MultiTouchDemo.xcodeproj
+svn+ssh://pmarcos@cs193p.dyndns.org/svn/CS193P
+
+
+
+2009-03-24T04:54:30.648550Z
+2
+pmarcos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f9e53c42-d698-4390-a87f-1a53175b09d0
+
+project.pbxproj
+file
+
+
+
+
+2009-06-07T15:45:32.000000Z
+92cb9c52aad6e24dfc83681988529ac2
+2009-03-24T04:54:30.648550Z
+2
+pmarcos
+has-props
+

@@ -7,7 +7,7 @@
 //
 
 #import "moveImageViewController.h"
-
+#import "CustomImageView.h"
 @implementation moveImageViewController
 
 - (void)dealloc
@@ -25,13 +25,18 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    myView=[[CustomImageView alloc]initWithFrame:CGRectMake(50, 50,200, 200)];
+    myView.image=[UIImage imageNamed:@"a2.jpeg"];
+    [myView setUserInteractionEnabled:YES];
+    [self.view addSubview:myView];
+    [myView release];
+
     [super viewDidLoad];
 }
-*/
 
 - (void)viewDidUnload
 {

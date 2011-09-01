@@ -83,7 +83,7 @@ return self;
 {
      NSString *str = [[NSString alloc] initWithData:appData encoding:NSASCIIStringEncoding];
     //NSDictionary *result = [str JSONValue];
-  //  NSLog(@"POST Response my arraay ===  %@",str);
+    NSLog(@"POST Response my arraay ===  %@",str);
 }
 
 // -------------------------------------------------------------------------------

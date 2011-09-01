@@ -16,6 +16,8 @@
 		2A44F27F13D5A11A00CAEAF5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A44F27D13D5A11A00CAEAF5 /* MainWindow.xib */; };
 		2A44F28213D5A11A00CAEAF5 /* moveImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44F28113D5A11A00CAEAF5 /* moveImageViewController.m */; };
 		2A44F28513D5A11A00CAEAF5 /* moveImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A44F28313D5A11A00CAEAF5 /* moveImageViewController.xib */; };
+		2A44F2A913D5A15900CAEAF5 /* a2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2A44F28E13D5A15900CAEAF5 /* a2.jpeg */; };
+		2A44F2AA13D5A15900CAEAF5 /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44F29013D5A15900CAEAF5 /* CustomImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,19 @@
 		2A44F26B13D5A11A00CAEAF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A44F26D13D5A11A00CAEAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2A44F26F13D5A11A00CAEAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2A44F27313D5A11A00CAEAF5 /* moveImage-Info.plist */ = {isa = PBXFileReference; path = "moveImage-Info.plist"; sourceTree = "<group>"; };
+		2A44F27313D5A11A00CAEAF5 /* moveImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moveImage-Info.plist"; sourceTree = "<group>"; };
 		2A44F27513D5A11A00CAEAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2A44F27713D5A11A00CAEAF5 /* moveImage-Prefix.pch */ = {isa = PBXFileReference; path = "moveImage-Prefix.pch"; sourceTree = "<group>"; };
+		2A44F27713D5A11A00CAEAF5 /* moveImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moveImage-Prefix.pch"; sourceTree = "<group>"; };
 		2A44F27813D5A11A00CAEAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A44F27A13D5A11A00CAEAF5 /* moveImageAppDelegate.h */ = {isa = PBXFileReference; path = moveImageAppDelegate.h; sourceTree = "<group>"; };
+		2A44F27A13D5A11A00CAEAF5 /* moveImageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveImageAppDelegate.h; sourceTree = "<group>"; };
 		2A44F27B13D5A11A00CAEAF5 /* moveImageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moveImageAppDelegate.m; sourceTree = "<group>"; };
 		2A44F27E13D5A11A00CAEAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2A44F28013D5A11A00CAEAF5 /* moveImageViewController.h */ = {isa = PBXFileReference; path = moveImageViewController.h; sourceTree = "<group>"; };
+		2A44F28013D5A11A00CAEAF5 /* moveImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveImageViewController.h; sourceTree = "<group>"; };
 		2A44F28113D5A11A00CAEAF5 /* moveImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moveImageViewController.m; sourceTree = "<group>"; };
 		2A44F28413D5A11A00CAEAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/moveImageViewController.xib; sourceTree = "<group>"; };
+		2A44F28E13D5A15900CAEAF5 /* a2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a2.jpeg; sourceTree = "<group>"; };
+		2A44F28F13D5A15900CAEAF5 /* CustomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
+		2A44F29013D5A15900CAEAF5 /* CustomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		2A44F27113D5A11A00CAEAF5 /* moveImage */ = {
 			isa = PBXGroup;
 			children = (
+				2A44F28B13D5A15900CAEAF5 /* cropping */,
 				2A44F27A13D5A11A00CAEAF5 /* moveImageAppDelegate.h */,
 				2A44F27B13D5A11A00CAEAF5 /* moveImageAppDelegate.m */,
 				2A44F27D13D5A11A00CAEAF5 /* MainWindow.xib */,
@@ -99,6 +105,24 @@
 				2A44F27813D5A11A00CAEAF5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A44F28B13D5A15900CAEAF5 /* cropping */ = {
+			isa = PBXGroup;
+			children = (
+				2A44F28D13D5A15900CAEAF5 /* test1 */,
+			);
+			path = cropping;
+			sourceTree = "<group>";
+		};
+		2A44F28D13D5A15900CAEAF5 /* test1 */ = {
+			isa = PBXGroup;
+			children = (
+				2A44F28E13D5A15900CAEAF5 /* a2.jpeg */,
+				2A44F28F13D5A15900CAEAF5 /* CustomImageView.h */,
+				2A44F29013D5A15900CAEAF5 /* CustomImageView.m */,
+			);
+			path = test1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +175,7 @@
 				2A44F27613D5A11A00CAEAF5 /* InfoPlist.strings in Resources */,
 				2A44F27F13D5A11A00CAEAF5 /* MainWindow.xib in Resources */,
 				2A44F28513D5A11A00CAEAF5 /* moveImageViewController.xib in Resources */,
+				2A44F2A913D5A15900CAEAF5 /* a2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +189,7 @@
 				2A44F27913D5A11A00CAEAF5 /* main.m in Sources */,
 				2A44F27C13D5A11A00CAEAF5 /* moveImageAppDelegate.m in Sources */,
 				2A44F28213D5A11A00CAEAF5 /* moveImageViewController.m in Sources */,
+				2A44F2AA13D5A15900CAEAF5 /* CustomImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +261,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/moveImage/cropping\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "moveImage/moveImage-Prefix.pch";
@@ -250,6 +280,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/moveImage/cropping\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "moveImage/moveImage-Prefix.pch";
 				INFOPLIST_FILE = "moveImage/moveImage-Info.plist";
