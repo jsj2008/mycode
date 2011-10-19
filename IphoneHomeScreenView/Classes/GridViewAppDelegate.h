@@ -2,7 +2,7 @@
 //  GridViewAppDelegate.h
 //  GridView
 //
-//  Created by Ayush on 11/05/11.
+//  Created by Cyabge.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

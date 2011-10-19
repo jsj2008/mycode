@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0"?>
+<PPMDResults s="C-WF17" lst="8/26/2011 12:05:31 AM">
+  <Results>
+    <cstemplatelist>
+      <cstemplate id="cst2" code="AGA-O" name="OFFICE VISIT SUPERBI">
+        <csitemlist>
+          <csitem code="dcode47154" name="INTST INFS CLOSTRIDIUM" type="DIAG" sequence="0"/>
+          <csitem code="dcode47169" name="GASTROENTERITIS" type="DIAG" sequence="1"/>
+          <csitem code="dcode47171" name="DIARRHEA PRESUMED INF" type="DIAG" sequence="2"/>
+          <csitem code="dcode47837" name="HELICOBACTER PYLORI" type="DIAG" sequence="3"/>
+          <csitem code="dcode47954" name="CHR HEP C" type="DIAG" sequence="4"/>
+          <csitem code="dcode47987" name="CANCER, ESOPHAGEAL " type="DIAG" sequence="5"/>
+          <csitem code="dcode47572" name="CANCER, COLON" type="DIAG" sequence="6"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="7"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="8"/>
+          <csitem code="dcode51794" name="LACTOSE INTOLERANCE" type="DIAG" sequence="9"/>
+          <csitem code="dcode47891" name="ANEMIA, IRON DEFICIENCY" type="DIAG" sequence="10"/>
+          <csitem code="dcode284432" name="ANEMIA DUE TO ACUTE BLOOD LOSS" type="DIAG" sequence="11"/>
+          <csitem code="dcode285839" name="ANEMIA OF OTHER CHRONIC DISEASE" type="DIAG" sequence="12"/>
+          <csitem code="dcode47983" name="ANEMIA UNSPECIFIED" type="DIAG" sequence="13"/>
+          <csitem code="dcode47839" name="INTRL HEMORRHOIDS" type="DIAG" sequence="14"/>
+          <csitem code="dcode47841" name="INT HEMORRHOIDS W BLEED" type="DIAG" sequence="15"/>
+          <csitem code="dcode47956" name="ESOPHAGEAL VARICES" type="DIAG" sequence="16"/>
+          <csitem code="dcode47957" name="ESOPH VARICES W/BLEED DZ CLASS ELSW" type="DIAG" sequence="17"/>
+          <csitem code="dcode47958" name="ESOPH VARIC W/O BLEED DZ CLASS ELSW" type="DIAG" sequence="18"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="19"/>
+          <csitem code="dcode47930" name="STRICTURE ESOPHAGUS" type="DIAG" sequence="20"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="21"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="22"/>
+          <csitem code="dcode48025" name="ACUTE GASTRIC ULCER W/ HEMORRAGE" type="DIAG" sequence="23"/>
+          <csitem code="dcode47822" name="GU ACUTE" type="DIAG" sequence="24"/>
+          <csitem code="dcode47830" name="GU CHRONIC" type="DIAG" sequence="25"/>
+          <csitem code="dcode48052" name="ACUT DUOD ULCR W/HEM W/O OBST" type="DIAG" sequence="26"/>
+          <csitem code="dcode47981" name="DU" type="DIAG" sequence="27"/>
+          <csitem code="dcode47955" name="CHRN DUOD ULCR " type="DIAG" sequence="28"/>
+          <csitem code="dcode47773" name="GASTRITIS CHRONIC" type="DIAG" sequence="29"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="30"/>
+          <csitem code="dcode47807" name="GASTROPARESIS" type="DIAG" sequence="31"/>
+          <csitem code="dcode47619" name="DYSPEPSIA" type="DIAG" sequence="32"/>
+          <csitem code="dcode48023" name="AVM STOMACH WITH HEMMORAGE" type="DIAG" sequence="33"/>
+          <csitem code="dcode47978" name="HIATAL HERNIA" type="DIAG" sequence="34"/>
+          <csitem code="dcode47612" name="CROHNS ILEOCOLITIS" type="DIAG" sequence="35"/>
+          <csitem code="dcode47613" name="CROHNS DISEASE" type="DIAG" sequence="36"/>
+          <csitem code="dcode47936" name="ULCERATIVE PROCTITIS" type="DIAG" sequence="37"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="38"/>
+          <csitem code="dcode48036" name="ISCHEMIC COLITIS" type="DIAG" sequence="39"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="40"/>
+          <csitem code="dcode47817" name="MICROSCOPIC COLITIS" type="DIAG" sequence="41"/>
+          <csitem code="dcode48024" name="ILEUS; PARALYTIC" type="DIAG" sequence="42"/>
+          <csitem code="dcode47991" name="COLON STRICTURE" type="DIAG" sequence="43"/>
+          <csitem code="dcode47582" name="DIVERTICULOSIS OF COLON" type="DIAG" sequence="44"/>
+          <csitem code="dcode47583" name="DIVERTICULITIS OF COLON" type="DIAG" sequence="45"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="46"/>
+          <csitem code="dcode47858" name="IRRITABLE BOWEL SYNDROME" type="DIAG" sequence="47"/>
+          <csitem code="dcode47603" name="DIARRHEA FUNCTIONAL " type="DIAG" sequence="48"/>
+          <csitem code="dcode47909" name="BLEEDING, RECTAL" type="DIAG" sequence="49"/>
+          <csitem code="dcode47615" name="ANGIODYSPLASIA OF INTES" type="DIAG" sequence="50"/>
+          <csitem code="dcode47562" name="ALCOHOLIC HEPATITIS" type="DIAG" sequence="51"/>
+          <csitem code="dcode47654" name="ALCOHOLIC CIRRHOSIS OF LIVER" type="DIAG" sequence="52"/>
+          <csitem code="dcode47655" name="ALCOHOLIC LIVER DAMAGE" type="DIAG" sequence="53"/>
+          <csitem code="dcode47656" name="CIRRHOSIS LIVER W/O MENTION ALCOHOL" type="DIAG" sequence="54"/>
+          <csitem code="dcode47964" name="FATTY LIVER WO ALCOHOL" type="DIAG" sequence="55"/>
+          <csitem code="dcode48162" name="HEPATIC COMA" type="DIAG" sequence="56"/>
+          <csitem code="dcode47969" name="CHOLELITHIASIS/ GALLS" type="DIAG" sequence="57"/>
+          <csitem code="dcode48006" name="CALCU BD W/O MENTION CHOLECYST/OBST" type="DIAG" sequence="58"/>
+          <csitem code="dcode48035" name="OBSTRUCTION OF BILE DUCT" type="DIAG" sequence="59"/>
+          <csitem code="dcode47992" name="PANCREATITIS, ACUTE " type="DIAG" sequence="60"/>
+          <csitem code="dcode47986" name="PANCREATITIS, CHRONIC" type="DIAG" sequence="61"/>
+          <csitem code="dcode47849" name="HEMATEMESIS" type="DIAG" sequence="62"/>
+          <csitem code="dcode47850" name="BLEEDING, STOOL/MELENA" type="DIAG" sequence="63"/>
+          <csitem code="dcode47851" name="BLEEDING,GI" type="DIAG" sequence="64"/>
+          <csitem code="dcode285104" name="PRURITUS ANI" type="DIAG" sequence="65"/>
+          <csitem code="dcode47892" name="JAUNDICE" type="DIAG" sequence="66"/>
+          <csitem code="dcode48104" name="ANOREXIA" type="DIAG" sequence="67"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="68"/>
+          <csitem code="dcode47944" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT" type="DIAG" sequence="69"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="70"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="71"/>
+          <csitem code="dcode47831" name="HEARTBURN" type="DIAG" sequence="72"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="73"/>
+          <csitem code="dcode57821" name="DYSPHAGIA, OROPHARYNGEAL" type="DIAG" sequence="74"/>
+          <csitem code="dcode47770" name="ABDOMINAL GAS, DISTENTION" type="DIAG" sequence="75"/>
+          <csitem code="dcode47604" name="DIARRHEA" type="DIAG" sequence="76"/>
+          <csitem code="dcode47953" name="CHANGE IN BOWEL HABITS" type="DIAG" sequence="77"/>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN, UNSPECIFIED SITE" type="DIAG" sequence="78"/>
+          <csitem code="dcode47527" name="ABDOMINAL PAIN RUQ" type="DIAG" sequence="79"/>
+          <csitem code="dcode47528" name="ABDOMINAL PAIN LUQ" type="DIAG" sequence="80"/>
+          <csitem code="dcode47529" name="ABDOMINAL PAIN RLQ" type="DIAG" sequence="81"/>
+          <csitem code="dcode47530" name="ABDOMINAL PAIN LLQ" type="DIAG" sequence="82"/>
+          <csitem code="dcode47532" name="ABDOMINAL PAIN EPIGASTRIC" type="DIAG" sequence="83"/>
+          <csitem code="dcode47534" name="ABDOMINAL PAIN, OTHER" type="DIAG" sequence="84"/>
+          <csitem code="dcode47994" name="ASCITES OTHER" type="DIAG" sequence="85"/>
+          <csitem code="dcode47899" name="LFTS ABNORMAL" type="DIAG" sequence="86"/>
+          <csitem code="dcode47852" name="BLEEDING, OCCULT" type="DIAG" sequence="87"/>
+          <csitem code="dcode47966" name="COLON CANCER HISTORY" type="DIAG" sequence="88"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="89"/>
+          <csitem code="dcode47967" name="HISTORY COLON POLYPS" type="DIAG" sequence="90"/>
+          <csitem code="dcode47984" name="FAMILY HX COLON CA" type="DIAG" sequence="91"/>
+          <csitem code="dcode284725" name="STATUS POST G TUBE" type="DIAG" sequence="92"/>
+          <csitem code="dcode48124" name="PRE-OPERATIVE EXAMINATION" type="DIAG" sequence="93"/>
+          <csitem code="dcode47968" name="SCREENING COLON" type="DIAG" sequence="94"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="95"/>
+          <csitem code="" collapsed="0" name="COLONOSCOPY" type="DIAG" sequence="96"/>
+          <csitem code="" collapsed="0" name="EGD" type="DIAG" sequence="97"/>
+          <csitem code="" collapsed="0" name="EGD W/DILATION" type="DIAG" sequence="98"/>
+          <csitem code="" collapsed="0" name="EGD W/C-ARM" type="DIAG" sequence="99"/>
+          <csitem code="" collapsed="0" name="FLEX SIG" type="DIAG" sequence="100"/>
+          <csitem code="" collapsed="0" name="ERCP" type="DIAG" sequence="101"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="102"/>
+          <csitem code="" collapsed="0" name="MIRALAX" type="DIAG" sequence="103"/>
+          <csitem code="" collapsed="0" name="MAC" type="DIAG" sequence="104"/>
+          <csitem code="" collapsed="0" name="NULYTE" type="DIAG" sequence="105"/>
+          <csitem code="" collapsed="0" name="PHOSPHO" type="DIAG" sequence="106"/>
+          <csitem code="" collapsed="0" name="TRILYTE" type="DIAG" sequence="107"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="108"/>
+          <csitem code="" collapsed="0" name="AMB" type="DIAG" sequence="109"/>
+          <csitem code="" collapsed="0" name="CSC" type="DIAG" sequence="110"/>
+          <csitem code="" collapsed="0" name="NPSC" type="DIAG" sequence="111"/>
+          <csitem code="" collapsed="0" name="MCH    -      MDH       -      HE " type="DIAG" sequence="112"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="113"/>
+          <csitem code="" collapsed="0" name="BPSEC" type="DIAG" sequence="114"/>
+          <csitem code="" collapsed="0" name="BPH - IP" type="DIAG" sequence="115"/>
+          <csitem code="" collapsed="0" name="BPH - OP" type="DIAG" sequence="116"/>
+          <csitem code="" collapsed="0" name="HERNANDO ENDOSCOPY CENTER" type="DIAG" sequence="117"/>
+          <csitem code="" collapsed="0" name="CONSULT - MEDICARE" type="PROC" sequence="0"/>
+          <csitem code="pcode34051" units="1" name="DETAILED CONSULT" type="PROC" sequence="1"/>
+          <csitem code="pcode34052" units="1" name="COMPREHENSIVE CONSULT" type="PROC" sequence="2"/>
+          <csitem code="pcode34053" units="1" name="HIGH COMPLEX CONSULT" type="PROC" sequence="3"/>
+          <csitem code="" collapsed="0" name="OFFICE CONSULT-NON MDCR" type="PROC" sequence="4"/>
+          <csitem code="pcode34073" units="1" name="OFFICE CONSULT NEW/ESTAB MINOR 15 MIN" type="PROC" sequence="5"/>
+          <csitem code="pcode34074" units="1" name="OFFICE CONSULT NEW/ESTAB LOW SEVER 30 MIN" type="PROC" sequence="6"/>
+          <csitem code="pcode34075" units="1" name="OFFICE CONSULT NEW/ESTAB MOD 40 MIN" type="PROC" sequence="7"/>
+          <csitem code="pcode34076" units="1" name="OFFICE CONSULT NEW/ESTAB MOD-HI 60 MIN" type="PROC" sequence="8"/>
+          <csitem code="pcode34077" units="1" name="OFFICE CONSULT NEW/ESTAB MOD-HI 80 MIN" type="PROC" sequence="9"/>
+          <csitem code="" collapsed="0" name="EVAL &amp; MGMT" type="PROC" sequence="10"/>
+          <csitem code="pcode34055" units="1" name="OV LEV 2 (EST)" type="PROC" sequence="11"/>
+          <csitem code="pcode34056" units="1" name="OV LEV 3 (EST)" type="PROC" sequence="12"/>
+          <csitem code="pcode34057" units="1" name="OV LEV 4 (EST)" type="PROC" sequence="13"/>
+          <csitem code="pcode34058" units="1" name="OV LEV 5 (EST)" type="PROC" sequence="14"/>
+          <csitem code="" collapsed="0" name="SURGERY" type="PROC" sequence="15"/>
+          <csitem code="pcode33476" units="1" name="ESOPH, W/BALLN DILATION" type="PROC" sequence="16"/>
+          <csitem code="pcode33483" units="1" name="EGD WBRUSH OR WASH" type="PROC" sequence="17"/>
+          <csitem code="pcode33487" units="1" name="EGD W/BX" type="PROC" sequence="18"/>
+          <csitem code="pcode33492" units="1" name="EGD W/BAND LIGATION" type="PROC" sequence="19"/>
+          <csitem code="pcode33496" units="1" name="EGD W/GW &amp; DIL" type="PROC" sequence="20"/>
+          <csitem code="pcode33497" units="1" name="EGD W/BALLOON DIL &lt;30MM" type="PROC" sequence="21"/>
+          <csitem code="pcode33498" units="1" name="EGD W/HOT BX OR CAUT" type="PROC" sequence="22"/>
+          <csitem code="pcode33499" units="1" name="EGD FOR POLYPEC W/SNARE" type="PROC" sequence="23"/>
+          <csitem code="pcode33500" units="1" name="EGD FOR CNTL OF BLEED" type="PROC" sequence="24"/>
+          <csitem code="pcode33504" units="1" name="ERCP W/WO BRUSH/WASH" type="PROC" sequence="25"/>
+          <csitem code="pcode33506" units="1" name="ERCP W/SPIN/PAPI" type="PROC" sequence="26"/>
+          <csitem code="pcode33508" units="1" name="ERCP W/STONES REMOVAL" type="PROC" sequence="27"/>
+          <csitem code="pcode33577" units="1" name="G TUBE CHANGE" type="PROC" sequence="28"/>
+          <csitem code="pcode33749" units="1" name="FS W/WO BRUSH/WASH" type="PROC" sequence="29"/>
+          <csitem code="pcode33750" units="1" name="FLEX SIG W BX" type="PROC" sequence="30"/>
+          <csitem code="pcode33752" units="1" name="FS W/HOT BX OR CAUT" type="PROC" sequence="31"/>
+          <csitem code="pcode33754" units="1" name="FS W/SUBMUCOSAL INJ" type="PROC" sequence="32"/>
+          <csitem code="pcode33756" units="1" name="FS W/SNARE" type="PROC" sequence="33"/>
+          <csitem code="pcode33763" units="1" name="COLONOSCOPY W/BRUSH" type="PROC" sequence="34"/>
+          <csitem code="pcode33765" units="1" name="COLONOSCOPY/BIOPSY" type="PROC" sequence="35"/>
+          <csitem code="pcode33766" units="1" name="COLON W/SUBMUCOSAL INJ" type="PROC" sequence="36"/>
+          <csitem code="pcode33767" units="1" name="COLONOSCOPY W/HEM CTRL" type="PROC" sequence="37"/>
+          <csitem code="pcode33769" units="1" name="COLONOSOCPY W/HOT BX" type="PROC" sequence="38"/>
+          <csitem code="pcode33770" units="1" name="COLON W/SNARE" type="PROC" sequence="39"/>
+          <csitem code="pcode56554" units="1" name="DESTRUC HEMORRHOIDS" type="PROC" sequence="40"/>
+          <csitem code="pcode33820" units="1" name="ANOSCOPY" type="PROC" sequence="41"/>
+          <csitem code="pcode33864" units="1" name="BIOPSY OF LIVER" type="PROC" sequence="42"/>
+          <csitem code="pcode34086" units="1" name="FLOURO" type="PROC" sequence="43"/>
+          <csitem code="pcode42744" units="1" name="IV SEDATION" type="PROC" sequence="44"/>
+          <csitem code="pcode34088" units="1" name="ESOPHAGEAL MOTILITY " type="PROC" sequence="45"/>
+          <csitem code="pcode34692" units="1" name="BRAVO PH MONITORING SYSTEM" type="PROC" sequence="46"/>
+          <csitem code="pcode34118" units="1" name="BREATH HYDROGEN TEST" type="PROC" sequence="47"/>
+          <csitem code="pcode34691" units="1" name="CAPSULE ENDOSCOPY" type="PROC" sequence="48"/>
+          <csitem code="pcode34693" units="1" name="CAPSULE ENDOSCO -IN OFFICE" type="PROC" sequence="49"/>
+          <csitem code="pcode34138" units="1" name="SCREENING COLON HIGH RISK" type="PROC" sequence="50"/>
+          <csitem code="pcode34674" units="1" name="SCREENING COLON AVG RISK" type="PROC" sequence="51"/>
+          <csitem code="pcode34090" units="1" name="FECAL OCCULT BLOOD" type="PROC" sequence="52"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="53"/>
+          <csitem code="" collapsed="0" name="EPRESCRIPTION" type="PROC" sequence="54"/>
+          <csitem code="pcode106336" units="1" name="AT LEAST 1 RX TRANSMIT ERX SYS" type="PROC" sequence="55"/>
+          <csitem code="" collapsed="0" name="PQRI" type="PROC" sequence="56"/>
+          <csitem code="pcode105306" units="1" name="NOT DONE-MEDICAL REASONS" type="PROC" sequence="57"/>
+          <csitem code="pcode105307" units="1" name="NOT DONE-NO REASON NOTED" type="PROC" sequence="58"/>
+          <csitem code="pcode105300" units="1" name="BMI &lt;30 AND &gt; 22" type="PROC" sequence="59"/>
+          <csitem code="pcode105301" units="1" name="BMI &gt; 30 W/FU PLAN DOCUMENTED" type="PROC" sequence="60"/>
+          <csitem code="pcode105302" units="1" name="BMI &lt; 22 W/FU PLAN DOCUMENTED" type="PROC" sequence="61"/>
+          <csitem code="pcode105303" units="1" name="PT NOT ELIGLE FOR BMI CALCULATION" type="PROC" sequence="62"/>
+        </csitemlist>
+      </cstemplate>
+      <cstemplate id="cst36" code="H-BAY" name="BAY CARE ALLIANT HOS">
+        <csitemlist>
+          <csitem code="dcode47154" name="INTST INFS CLOSTRIDIUM DIFFICILE" type="DIAG" sequence="0"/>
+          <csitem code="dcode47169" name="GASTROENTERITIS" type="DIAG" sequence="1"/>
+          <csitem code="dcode47171" name="DIARRHEA PRESUMED INFECTIOUS ORIGIN" type="DIAG" sequence="2"/>
+          <csitem code="dcode47837" name="HELICOBACTER PYLORI INFECTION" type="DIAG" sequence="3"/>
+          <csitem code="dcode47954" name="CHR HEP C" type="DIAG" sequence="4"/>
+          <csitem code="dcode47987" name="CANCER, ESOPHAGEAL" type="DIAG" sequence="5"/>
+          <csitem code="dcode47572" name="CANCER, COLON" type="DIAG" sequence="6"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="7"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="8"/>
+          <csitem code="dcode51794" name="LACTOSE INTOLERANCE" type="DIAG" sequence="9"/>
+          <csitem code="dcode47891" name="ANEMIA, IRON DEFICIENCY" type="DIAG" sequence="10"/>
+          <csitem code="dcode284432" name="ANEMIA DUE TO ACUTE BLOOD LOSS" type="DIAG" sequence="11"/>
+          <csitem code="dcode285839" name="ANEMIA OF OTHER CHRONIC DISEASE" type="DIAG" sequence="12"/>
+          <csitem code="dcode47983" name="ANEMIA UNSPECIFIED" type="DIAG" sequence="13"/>
+          <csitem code="dcode47839" name="INTRL HEMORRHOIDS W/O MENTION COMP" type="DIAG" sequence="14"/>
+          <csitem code="dcode47841" name="INTERNAL HEMORRHOIDS W/OTH COMP" type="DIAG" sequence="15"/>
+          <csitem code="dcode47842" name="HEMORRHOIDS EXT" type="DIAG" sequence="16"/>
+          <csitem code="dcode47956" name="ESOPH VARICES WITHOUT MENTION BLEED" type="DIAG" sequence="17"/>
+          <csitem code="dcode47957" name="ESOPH VARICES W/BLEED DZ CLASS ELSW" type="DIAG" sequence="18"/>
+          <csitem code="dcode47958" name="ESOPH VARIC W/O BLEED DZ CLASS ELSW" type="DIAG" sequence="19"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="20"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="21"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="22"/>
+          <csitem code="dcode48025" name="ACUTE GASTRIC ULCER W/ HEMORRAGE" type="DIAG" sequence="23"/>
+          <csitem code="dcode47822" name="ACUT GASTR ULCR W/O HEMOR PERF/OBST" type="DIAG" sequence="24"/>
+          <csitem code="dcode47830" name="GU CHRONIC" type="DIAG" sequence="25"/>
+          <csitem code="dcode48052" name="ACUT DUOD ULCR W/HEM W/O OBST" type="DIAG" sequence="26"/>
+          <csitem code="dcode47981" name="DU" type="DIAG" sequence="27"/>
+          <csitem code="dcode47955" name="CHRN DUOD ULCR" type="DIAG" sequence="28"/>
+          <csitem code="dcode47773" name="GASTRITIS CHRONIC" type="DIAG" sequence="29"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="30"/>
+          <csitem code="dcode47807" name="GASTROPARESIS" type="DIAG" sequence="31"/>
+          <csitem code="dcode47619" name="DYSPEPSIA" type="DIAG" sequence="32"/>
+          <csitem code="dcode48023" name="AVM STOMACH WITH HEMMORAGE" type="DIAG" sequence="33"/>
+          <csitem code="dcode47978" name="HIATAL HERNIA" type="DIAG" sequence="34"/>
+          <csitem code="dcode47612" name="CROHNS ILEOCOLITIS" type="DIAG" sequence="35"/>
+          <csitem code="dcode47613" name="CROHNS DISEASE" type="DIAG" sequence="36"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="37"/>
+          <csitem code="dcode48036" name="ISCHEMIC COLITIS" type="DIAG" sequence="38"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="39"/>
+          <csitem code="dcode47817" name="MICROSCOPIC COLITIS" type="DIAG" sequence="40"/>
+          <csitem code="dcode48024" name="ILEUS; PARALYTIC" type="DIAG" sequence="41"/>
+          <csitem code="dcode47991" name="COLON STRICTURE" type="DIAG" sequence="42"/>
+          <csitem code="dcode47583" name="DIVERTICULITIS OF COLON" type="DIAG" sequence="43"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="44"/>
+          <csitem code="dcode47858" name="IRRITABLE BOWEL SYNDR" type="DIAG" sequence="45"/>
+          <csitem code="dcode47909" name="BLEEDING, RECTAL" type="DIAG" sequence="46"/>
+          <csitem code="dcode47615" name="ANGIODYSPLASIA OF INTE" type="DIAG" sequence="47"/>
+          <csitem code="dcode47562" name="ALCOHOLIC HEPATITIS" type="DIAG" sequence="48"/>
+          <csitem code="dcode47654" name="ALCOHOLIC CIRRHOSIS OF LIVER" type="DIAG" sequence="49"/>
+          <csitem code="dcode47655" name="ALCOHOLIC LIVER DAMAGE" type="DIAG" sequence="50"/>
+          <csitem code="dcode47656" name="CIRRHOSIS LIVER W/O MENTION ALCOHOL" type="DIAG" sequence="51"/>
+          <csitem code="dcode47964" name="FATTY LIVER WO ALCOHOL" type="DIAG" sequence="52"/>
+          <csitem code="dcode48162" name="HEPATIC COMA" type="DIAG" sequence="53"/>
+          <csitem code="dcode47969" name="CHOLELITHIASIS/ GALLS" type="DIAG" sequence="54"/>
+          <csitem code="dcode48006" name="CALCU BD W/O MENTION CHOLECYST/OBST" type="DIAG" sequence="55"/>
+          <csitem code="dcode48035" name="OBSTRUCTION OF BILE DUCT" type="DIAG" sequence="56"/>
+          <csitem code="dcode47992" name="PANCREATITIS,ACUTE" type="DIAG" sequence="57"/>
+          <csitem code="dcode47986" name="PANCREATITIS, CHRONIC" type="DIAG" sequence="58"/>
+          <csitem code="dcode47849" name="HEMATEMESIS" type="DIAG" sequence="59"/>
+          <csitem code="dcode47850" name="BLEEDING, STOOL/MELENA" type="DIAG" sequence="60"/>
+          <csitem code="dcode47851" name="BLEED,GI" type="DIAG" sequence="61"/>
+          <csitem code="dcode285104" name="PRURITUS ANI" type="DIAG" sequence="62"/>
+          <csitem code="dcode51069" name="CONGEN ESOPH ATRESIA&amp;STENOSIS" type="DIAG" sequence="63"/>
+          <csitem code="dcode47892" name="JAUNDICE " type="DIAG" sequence="64"/>
+          <csitem code="dcode48104" name="ANOREXIA" type="DIAG" sequence="65"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="66"/>
+          <csitem code="dcode47944" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT" type="DIAG" sequence="67"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="68"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="69"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="70"/>
+          <csitem code="dcode47770" name="ABDOMINAL GAS, DISTENT" type="DIAG" sequence="71"/>
+          <csitem code="dcode47604" name="DIARRHEA" type="DIAG" sequence="72"/>
+          <csitem code="dcode47953" name="CHANGE IN BOWEL HABITS" type="DIAG" sequence="73"/>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN, UNSPECIFIED SITE" type="DIAG" sequence="74"/>
+          <csitem code="dcode47527" name="ABDOMINAL PAIN RUQ" type="DIAG" sequence="75"/>
+          <csitem code="dcode47528" name="ABDOMINAL PAIN, LUQ" type="DIAG" sequence="76"/>
+          <csitem code="dcode47529" name="ABDOMINAL PAIN RLQ" type="DIAG" sequence="77"/>
+          <csitem code="dcode47530" name="ABDOMINAL PAIN, LLQ" type="DIAG" sequence="78"/>
+          <csitem code="dcode47532" name="ABDOMINAL PAIN, EPIGASTRIC" type="DIAG" sequence="79"/>
+          <csitem code="dcode47534" name="ABDOMINAL PAIN OTHER SPECIFIED SITE" type="DIAG" sequence="80"/>
+          <csitem code="dcode47994" name="ASCITES OTHER" type="DIAG" sequence="81"/>
+          <csitem code="dcode47899" name="LFT'S ABNORMAL" type="DIAG" sequence="82"/>
+          <csitem code="dcode47852" name="BLEEDING, OCCULT" type="DIAG" sequence="83"/>
+          <csitem code="dcode284600" name="RESPIRATORY COMPLICATION" type="DIAG" sequence="84"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="85"/>
+          <csitem code="dcode284725" name="STATUS POST G TUBE" type="DIAG" sequence="86"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - NON MDCR" type="PROC" sequence="0"/>
+          <csitem code="pcode34080" units="1" name="INITIAL INPT CPNSULT MOD 55 MIN" type="PROC" sequence="1"/>
+          <csitem code="pcode34081" units="1" name="INITIAL INPT CONSULT MOD-HI 80 MIN" type="PROC" sequence="2"/>
+          <csitem code="pcode34082" units="1" name="INITIAL INPT CONSULT MOD-HI 110 MIN" type="PROC" sequence="3"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - MEDICARE" type="PROC" sequence="4"/>
+          <csitem code="pcode34065" units="1" name="CONSULT (99251)" type="PROC" sequence="5"/>
+          <csitem code="pcode34066" units="1" name="CONSULT (99252)" type="PROC" sequence="6"/>
+          <csitem code="pcode34062" units="1" name="CONSULT LEVEL 3 (99253)" type="PROC" sequence="7"/>
+          <csitem code="pcode34063" units="1" name="CONSULT (99254)" type="PROC" sequence="8"/>
+          <csitem code="pcode34064" units="1" name="CONSULT (99255)" type="PROC" sequence="9"/>
+          <csitem code="" collapsed="0" name="OBSERVATION CARE" type="PROC" sequence="10"/>
+          <csitem code="pcode107663" units="1" name="SB OBSERVATION CARE-15 MIN" type="PROC" sequence="11"/>
+          <csitem code="pcode107664" units="1" name="SB OBSERVATION CARE -25 MIN" type="PROC" sequence="12"/>
+          <csitem code="pcode107665" units="1" name="SB OBSERVATION CARE- 35 MIN" type="PROC" sequence="13"/>
+          <csitem code="" collapsed="0" name="FOLLOW UP" type="PROC" sequence="14"/>
+          <csitem code="pcode34065" units="1" name="15 MIN SUBSQNT HOSPITAL" type="PROC" sequence="15"/>
+          <csitem code="pcode34066" units="1" name="25 MIN SUBSQNT HOSPITAL" type="PROC" sequence="16"/>
+          <csitem code="pcode34067" units="1" name="35 MIN SUBSQNT HOSPITAL" type="PROC" sequence="17"/>
+          <csitem code="" collapsed="0" name="ICU" type="PROC" sequence="18"/>
+          <csitem code="pcode33474" units="1" name="CRITICAL CARE E&amp;M; 1ST 30-74 MIN" type="PROC" sequence="19"/>
+          <csitem code="pcode33475" units="1" name="CRITICAL CARE E&amp;M; EA ADD 30 MIN" type="PROC" sequence="20"/>
+          <csitem code="" collapsed="0" name="SURGERY" type="PROC" sequence="21"/>
+          <csitem code="pcode33483" units="1" name="EGD W BRUSH" type="PROC" sequence="22"/>
+          <csitem code="pcode33487" units="1" name="EGD W BX" type="PROC" sequence="23"/>
+          <csitem code="pcode33492" units="1" name="EGD W BAND LIG" type="PROC" sequence="24"/>
+          <csitem code="pcode33493" units="1" name="EGD W PYL DIL" type="PROC" sequence="25"/>
+          <csitem code="pcode33494" units="1" name="EGD W PEG" type="PROC" sequence="26"/>
+          <csitem code="pcode33495" units="1" name="EGD W FB" type="PROC" sequence="27"/>
+          <csitem code="pcode33496" units="1" name="EGD W GW &amp; DIL" type="PROC" sequence="28"/>
+          <csitem code="pcode33497" units="1" name="EGD W BAL DIL" type="PROC" sequence="29"/>
+          <csitem code="pcode33498" units="1" name="EGD W HOT BX" type="PROC" sequence="30"/>
+          <csitem code="pcode33499" units="1" name="EGD POLYP W SNARE" type="PROC" sequence="31"/>
+          <csitem code="pcode33500" units="1" name="EGD FOR BLD" type="PROC" sequence="32"/>
+          <csitem code="pcode33504" units="1" name="ERCP W B/W/C" type="PROC" sequence="33"/>
+          <csitem code="pcode33506" units="1" name="ERCP W ES" type="PROC" sequence="34"/>
+          <csitem code="pcode33508" units="1" name="ERCP W STONES RE" type="PROC" sequence="35"/>
+          <csitem code="pcode33511" units="1" name="ERCP W STENT" type="PROC" sequence="36"/>
+          <csitem code="pcode33512" units="1" name="ERCP FOR RE/CHG OF STENT" type="PROC" sequence="37"/>
+          <csitem code="pcode33576" units="1" name="NGT PLACE BY MD" type="PROC" sequence="38"/>
+          <csitem code="pcode33577" units="1" name="G TUBE CHANGE" type="PROC" sequence="39"/>
+          <csitem code="pcode33660" units="1" name="SBE W B/WASH/C" type="PROC" sequence="40"/>
+          <csitem code="pcode33661" units="1" name="SBE W BX" type="PROC" sequence="41"/>
+          <csitem code="pcode33749" units="1" name="FS W B/W/C" type="PROC" sequence="42"/>
+          <csitem code="pcode33750" units="1" name="FS FOR BX" type="PROC" sequence="43"/>
+          <csitem code="pcode33752" units="1" name="FS W HOT BX" type="PROC" sequence="44"/>
+          <csitem code="pcode33754" units="1" name="FS W SUBMU INJ." type="PROC" sequence="45"/>
+          <csitem code="pcode33755" units="1" name="FS W DECOMP OF VOL" type="PROC" sequence="46"/>
+          <csitem code="pcode33756" units="1" name="FS W SNARE" type="PROC" sequence="47"/>
+          <csitem code="pcode33763" units="1" name="COLON" type="PROC" sequence="48"/>
+          <csitem code="pcode33765" units="1" name="COLON/BIOPSY" type="PROC" sequence="49"/>
+          <csitem code="pcode33766" units="1" name="COLON W SUBMU INJ" type="PROC" sequence="50"/>
+          <csitem code="pcode33767" units="1" name="COLNSCPY W CNTRL BLEED" type="PROC" sequence="51"/>
+          <csitem code="pcode33769" units="1" name="COLON W HOT BX" type="PROC" sequence="52"/>
+          <csitem code="pcode33770" units="1" name="COLON W SNARE" type="PROC" sequence="53"/>
+          <csitem code="pcode56554" units="1" name="DESTRUC HEMORRHOIDS" type="PROC" sequence="54"/>
+          <csitem code="pcode33864" units="1" name="LIVER BX" type="PROC" sequence="55"/>
+          <csitem code="pcode34088" units="1" name="ESOPHAGEAL MOTILITY" type="PROC" sequence="56"/>
+          <csitem code="pcode34089" units="1" name="PH MONITORING 24 HR" type="PROC" sequence="57"/>
+          <csitem code="pcode34119" units="1" name="NG GASTRIC INTUBAT." type="PROC" sequence="58"/>
+          <csitem code="pcode34059" units="1" name="OBSERVATION CARE D/C DAY MANAGEMENT" type="PROC" sequence="59"/>
+          <csitem code="pcode34060" units="1" name="INIT OBSRV CARE-DAY E&amp;M LOW SEVRITY" type="PROC" sequence="60"/>
+          <csitem code="pcode34061" units="1" name="INIT OBSRV CARE-DAY E&amp;M MOD SEVRITY" type="PROC" sequence="61"/>
+          <csitem code="pcode33473" units="1" name="INIT OBSRV CARE-DAY E&amp;M HI SEVERITY" type="PROC" sequence="62"/>
+          <csitem code="pcode34068" units="1" name="OBSRV/INPT HOSP CARE E&amp;M LOW SEVER" type="PROC" sequence="63"/>
+          <csitem code="pcode34069" units="1" name="OBSRV/INPT HOSP CARE E&amp;M MOD SEVER" type="PROC" sequence="64"/>
+          <csitem code="pcode34070" units="1" name="OBSRV/INPT HOSP CARE E&amp;M HIGH SEVER" type="PROC" sequence="65"/>
+          <csitem code="pcode34071" units="1" name="HOSPITAL D/C DAY MGMT; 30 MIN/LESS" type="PROC" sequence="66"/>
+          <csitem code="pcode34072" units="1" name="HOSPITAL D/C DAY MGMT; &gt; 30 MINUTES" type="PROC" sequence="67"/>
+          <csitem code="pcode34083" units="1" name="F/U INPT CNSLT EST STABLE 10 MIN" type="PROC" sequence="68"/>
+          <csitem code="pcode34084" units="1" name="F/U INPT CNSLT EST MINR CMPL 20 MIN" type="PROC" sequence="69"/>
+          <csitem code="pcode34085" units="1" name="F/U INPT CNSLT EST SIG CMPL 30 MIN" type="PROC" sequence="70"/>
+          <csitem code="pcode34665" units="1" name="EMERG DEPT VISIT E&amp;M MODERATE SEVER" type="PROC" sequence="71"/>
+          <csitem code="pcode34666" units="1" name="ER VISIT E&amp;M HIGH SEVER URGENT EVAL" type="PROC" sequence="72"/>
+          <csitem code="pcode34667" units="1" name="ER VISIT E&amp;M HIGH-SEVER SIG THREAT" type="PROC" sequence="73"/>
+        </csitemlist>
+      </cstemplate>
+      <cstemplate id="cst4" code="H-HE" name="HELEN ELLIS HOSPITAL">
+        <csitemlist>
+          <csitem code="dcode47154" name="COLITIS PSM" type="DIAG" sequence="0"/>
+          <csitem code="dcode47169" name="GASTRONTRIT" type="DIAG" sequence="1"/>
+          <csitem code="dcode47171" name="DIA PRESUMED INF" type="DIAG" sequence="2"/>
+          <csitem code="dcode47837" name="HELICOB PYLORI" type="DIAG" sequence="3"/>
+          <csitem code="dcode47954" name="CHR HEP C" type="DIAG" sequence="4"/>
+          <csitem code="dcode48031" name="CANDIDAL ESOPHAGITIS" type="DIAG" sequence="5"/>
+          <csitem code="dcode47987" name="ESOPHAGEAL CANCER" type="DIAG" sequence="6"/>
+          <csitem code="dcode48166" name="ESOPH CA" type="DIAG" sequence="7"/>
+          <csitem code="dcode47572" name="COLON CA" type="DIAG" sequence="8"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="9"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="10"/>
+          <csitem code="dcode47891" name="IRON DEF" type="DIAG" sequence="11"/>
+          <csitem code="dcode284432" name="ANEMIA DUE TO ACUTE BLOOD LOSS" type="DIAG" sequence="12"/>
+          <csitem code="dcode285839" name="ANEMIA OF OTHER CHRONIC DISEASE" type="DIAG" sequence="13"/>
+          <csitem code="dcode47983" name="ANEMIA UNSPECIFIED" type="DIAG" sequence="14"/>
+          <csitem code="dcode47839" name="INTRL HEMORRHOIDS" type="DIAG" sequence="15"/>
+          <csitem code="dcode47841" name="HEM INT W BLEE" type="DIAG" sequence="16"/>
+          <csitem code="dcode47842" name="EXT HEMORRHOIDS" type="DIAG" sequence="17"/>
+          <csitem code="dcode47623" name="ESOP VARICES W BLE" type="DIAG" sequence="18"/>
+          <csitem code="dcode47956" name="ESOP VARICES" type="DIAG" sequence="19"/>
+          <csitem code="dcode47957" name="ESOPH VARICES W/BLEED DZ CLASS ELSW" type="DIAG" sequence="20"/>
+          <csitem code="dcode47958" name="ESOPH VARIC W/O BLEED DZ CLASS ELSW" type="DIAG" sequence="21"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="22"/>
+          <csitem code="dcode47932" name="ESOPHAGOSPASM" type="DIAG" sequence="23"/>
+          <csitem code="dcode47794" name="ESOPH M-W TEAR" type="DIAG" sequence="24"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="25"/>
+          <csitem code="dcode47625" name="ESOPHAGEAL HEMORRHAGE" type="DIAG" sequence="26"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="27"/>
+          <csitem code="dcode48025" name="ACUTE GASTRIC ULCER W/ HEMORRAGE" type="DIAG" sequence="28"/>
+          <csitem code="dcode47822" name="GU ACUTE" type="DIAG" sequence="29"/>
+          <csitem code="dcode47824" name="GU CHR W BLE" type="DIAG" sequence="30"/>
+          <csitem code="dcode47830" name="GU CHR NON BLE" type="DIAG" sequence="31"/>
+          <csitem code="dcode48052" name="ACUT DUOD ULCR W/HEM W/O OBST" type="DIAG" sequence="32"/>
+          <csitem code="dcode47981" name="DU" type="DIAG" sequence="33"/>
+          <csitem code="dcode48087" name="DU CHR W BLE" type="DIAG" sequence="34"/>
+          <csitem code="dcode47773" name="GASTRITIS CHR" type="DIAG" sequence="35"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="36"/>
+          <csitem code="dcode47807" name="GASTROPARESIS" type="DIAG" sequence="37"/>
+          <csitem code="dcode47809" name="G TUBE INF" type="DIAG" sequence="38"/>
+          <csitem code="dcode47810" name="G TUBE MEC" type="DIAG" sequence="39"/>
+          <csitem code="dcode47619" name="DYSPEPSIA" type="DIAG" sequence="40"/>
+          <csitem code="dcode48023" name="DU W HEM AVM" type="DIAG" sequence="41"/>
+          <csitem code="dcode47978" name="HIATAL HERNIA" type="DIAG" sequence="42"/>
+          <csitem code="dcode47612" name="CHR ILLEOCOLITIS" type="DIAG" sequence="43"/>
+          <csitem code="dcode47613" name="CROHNS DISEASE" type="DIAG" sequence="44"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="45"/>
+          <csitem code="dcode48036" name="ISCHEMIC COLITIS" type="DIAG" sequence="46"/>
+          <csitem code="dcode47970" name="COLITIS ISCHEMIC" type="DIAG" sequence="47"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="48"/>
+          <csitem code="dcode47817" name="DIA NONSPECIFIC" type="DIAG" sequence="49"/>
+          <csitem code="dcode48024" name="ILEUS; PARALYTIC" type="DIAG" sequence="50"/>
+          <csitem code="dcode48069" name="FECAL IMPACTION" type="DIAG" sequence="51"/>
+          <csitem code="dcode50457" name="ADHESION W OBS" type="DIAG" sequence="52"/>
+          <csitem code="dcode47991" name="UNSPECIFIED INTESTINAL OBSTRUCTION" type="DIAG" sequence="53"/>
+          <csitem code="dcode47583" name="DIVERTICULITIS OF COLON" type="DIAG" sequence="54"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="55"/>
+          <csitem code="dcode47858" name="IBS" type="DIAG" sequence="56"/>
+          <csitem code="dcode48027" name="ANAL FISSURE" type="DIAG" sequence="57"/>
+          <csitem code="dcode47909" name="RECTAL BLEEDING" type="DIAG" sequence="58"/>
+          <csitem code="dcode47615" name="COLON AVM" type="DIAG" sequence="59"/>
+          <csitem code="dcode47616" name="CO AVM W HEM" type="DIAG" sequence="60"/>
+          <csitem code="dcode47562" name="ALCOHOLIC HEP" type="DIAG" sequence="61"/>
+          <csitem code="dcode47654" name="ALCOHOLIC CIRRHOSIS OF LIVER" type="DIAG" sequence="62"/>
+          <csitem code="dcode47655" name="ALCO LIVER DAM" type="DIAG" sequence="63"/>
+          <csitem code="dcode47964" name="FATTY LIVER NASH" type="DIAG" sequence="64"/>
+          <csitem code="dcode48162" name="HEPATIC COMA" type="DIAG" sequence="65"/>
+          <csitem code="dcode47969" name="CHOLELITHIASIS/ GALLS" type="DIAG" sequence="66"/>
+          <csitem code="dcode48006" name="CHOLEDOCHOLITIS" type="DIAG" sequence="67"/>
+          <csitem code="dcode48035" name="CBD STRICTURE" type="DIAG" sequence="68"/>
+          <csitem code="dcode47992" name="PANCREATITIS ACUTE" type="DIAG" sequence="69"/>
+          <csitem code="dcode47986" name="PANCREATITIS, CHRONIC" type="DIAG" sequence="70"/>
+          <csitem code="dcode47849" name="HEMATEMESIS" type="DIAG" sequence="71"/>
+          <csitem code="dcode47850" name="HEMATOCHEZIA" type="DIAG" sequence="72"/>
+          <csitem code="dcode47851" name="GI HEM" type="DIAG" sequence="73"/>
+          <csitem code="dcode51069" name="CONGEN ESOPH ATRESIA&amp;STENOSIS" type="DIAG" sequence="74"/>
+          <csitem code="dcode47892" name="JAUNDICE" type="DIAG" sequence="75"/>
+          <csitem code="dcode48104" name="ANOREXIA" type="DIAG" sequence="76"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="77"/>
+          <csitem code="dcode47944" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT" type="DIAG" sequence="78"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="79"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="80"/>
+          <csitem code="dcode47831" name="HEARTBURN" type="DIAG" sequence="81"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="82"/>
+          <csitem code="dcode57821" name="DYSPHAGIA, OROPHARYNGEAL" type="DIAG" sequence="83"/>
+          <csitem code="dcode47770" name="FLATULENCE" type="DIAG" sequence="84"/>
+          <csitem code="dcode47604" name="DIARRHEA" type="DIAG" sequence="85"/>
+          <csitem code="dcode47953" name="CHANGE IN B HAB" type="DIAG" sequence="86"/>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN" type="DIAG" sequence="87"/>
+          <csitem code="dcode47527" name="ABD PAIN RUQ" type="DIAG" sequence="88"/>
+          <csitem code="dcode47528" name="ABD PAIN LUQ" type="DIAG" sequence="89"/>
+          <csitem code="dcode47529" name="ABD PAI RLQ" type="DIAG" sequence="90"/>
+          <csitem code="dcode47530" name="ABD PAIN LLQ" type="DIAG" sequence="91"/>
+          <csitem code="dcode47532" name="ABD PAIN EPIGASTRIC" type="DIAG" sequence="92"/>
+          <csitem code="dcode57822" name="ASCITES, MALIGNANT" type="DIAG" sequence="93"/>
+          <csitem code="dcode48067" name="ABD TENDERNESS" type="DIAG" sequence="94"/>
+          <csitem code="dcode47994" name="ASCITES" type="DIAG" sequence="95"/>
+          <csitem code="dcode47899" name="LFTS ABNORMAL" type="DIAG" sequence="96"/>
+          <csitem code="dcode47852" name="HEME POSITIVE STOOL" type="DIAG" sequence="97"/>
+          <csitem code="dcode48032" name="FB ESOPHAGUS" type="DIAG" sequence="98"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="99"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - NON MDCR" type="PROC" sequence="0"/>
+          <csitem code="pcode34080" units="1" name="INITIAL INPT CPNSULT MOD 55 MIN" type="PROC" sequence="1"/>
+          <csitem code="pcode34081" units="1" name="INITIAL INPT CONSULT MOD-HI 80 MIN" type="PROC" sequence="2"/>
+          <csitem code="pcode34082" units="1" name="INITIAL INPT CONSULT MOD-HI 110 MIN" type="PROC" sequence="3"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - MEDICARE" type="PROC" sequence="4"/>
+          <csitem code="pcode34065" units="1" name="CONSULT (99251)" type="PROC" sequence="5"/>
+          <csitem code="pcode34066" units="1" name="CONSULT (99252)" type="PROC" sequence="6"/>
+          <csitem code="pcode34062" units="1" name="CONSULT LEVEL 3 (99253)" type="PROC" sequence="7"/>
+          <csitem code="pcode34063" units="1" name="CONSULT (99254)" type="PROC" sequence="8"/>
+          <csitem code="pcode34064" units="1" name="CONSULT (99255)" type="PROC" sequence="9"/>
+          <csitem code="" collapsed="0" name="OBSERVATION CARE" type="PROC" sequence="10"/>
+          <csitem code="pcode107663" units="1" name="SB OBSERVATION CARE-15 MIN" type="PROC" sequence="11"/>
+          <csitem code="pcode107664" units="1" name="SB OBSERVATION CARE -25 MIN" type="PROC" sequence="12"/>
+          <csitem code="pcode107665" units="1" name="SB OBSERVATION CARE- 35 MIN" type="PROC" sequence="13"/>
+          <csitem code="" collapsed="0" name="FOLLOW UP" type="PROC" sequence="14"/>
+          <csitem code="pcode34065" units="1" name="15 MIN SUBSQNT HOSPITAL" type="PROC" sequence="15"/>
+          <csitem code="pcode34066" units="1" name="25 MIN SUBSQNT HOSPITAL" type="PROC" sequence="16"/>
+          <csitem code="pcode34067" units="1" name="35 MIN SUBSQNT HOSPITAL" type="PROC" sequence="17"/>
+          <csitem code="" collapsed="0" name="ICU" type="PROC" sequence="18"/>
+          <csitem code="pcode33474" units="1" name="CRITICAL CARE E&amp;M; 1ST 30-74 MIN" type="PROC" sequence="19"/>
+          <csitem code="pcode33475" units="1" name="CRITICAL CARE E&amp;M; EA ADD 30 MIN" type="PROC" sequence="20"/>
+          <csitem code="" collapsed="0" name="SURGERY" type="PROC" sequence="21"/>
+          <csitem code="pcode33483" units="1" name="EGD W BRUSH" type="PROC" sequence="22"/>
+          <csitem code="pcode33487" units="1" name="EGD W BX" type="PROC" sequence="23"/>
+          <csitem code="pcode33492" units="1" name="EGD W BAND LIG" type="PROC" sequence="24"/>
+          <csitem code="pcode33493" units="1" name="EGD W PYL DIL" type="PROC" sequence="25"/>
+          <csitem code="pcode33494" units="1" name="EGD W PEG" type="PROC" sequence="26"/>
+          <csitem code="pcode33495" units="1" name="EGD W FB" type="PROC" sequence="27"/>
+          <csitem code="pcode33496" units="1" name="EGD W GW &amp; DIL" type="PROC" sequence="28"/>
+          <csitem code="pcode33497" units="1" name="EGD W BAL DIL" type="PROC" sequence="29"/>
+          <csitem code="pcode33498" units="1" name="EGD W HOT BX" type="PROC" sequence="30"/>
+          <csitem code="pcode33499" units="1" name="EGD POLYP W SNARE" type="PROC" sequence="31"/>
+          <csitem code="pcode33500" units="1" name="EGD FOR BLD" type="PROC" sequence="32"/>
+          <csitem code="pcode33504" units="1" name="ERCP W B/W/C" type="PROC" sequence="33"/>
+          <csitem code="pcode33506" units="1" name="ERCP W ES" type="PROC" sequence="34"/>
+          <csitem code="pcode33508" units="1" name="ERCP W STONES RE" type="PROC" sequence="35"/>
+          <csitem code="pcode33511" units="1" name="ERCP W STENT" type="PROC" sequence="36"/>
+          <csitem code="pcode33512" units="1" name="ERCP FOR RE/CHG OF STENT" type="PROC" sequence="37"/>
+          <csitem code="pcode33576" units="1" name="NGT PLACE BY MD" type="PROC" sequence="38"/>
+          <csitem code="pcode33577" units="1" name="G TUBE CHANGE" type="PROC" sequence="39"/>
+          <csitem code="pcode33660" units="1" name="SBE W B/WASH/C" type="PROC" sequence="40"/>
+          <csitem code="pcode33661" units="1" name="SBE W BX" type="PROC" sequence="41"/>
+          <csitem code="pcode33749" units="1" name="FS W B/W/C" type="PROC" sequence="42"/>
+          <csitem code="pcode33750" units="1" name="FS FOR BX" type="PROC" sequence="43"/>
+          <csitem code="pcode33752" units="1" name="FS W HOT BX" type="PROC" sequence="44"/>
+          <csitem code="pcode33754" units="1" name="FS W SUBMU INJ." type="PROC" sequence="45"/>
+          <csitem code="pcode33755" units="1" name="FS W DECOMP OF VOL" type="PROC" sequence="46"/>
+          <csitem code="pcode33756" units="1" name="FS W SNARE" type="PROC" sequence="47"/>
+          <csitem code="pcode33763" units="1" name="COLON" type="PROC" sequence="48"/>
+          <csitem code="pcode33765" units="1" name="COLON/BIOPSY" type="PROC" sequence="49"/>
+          <csitem code="pcode33766" units="1" name="COLON W SUBMU INJ" type="PROC" sequence="50"/>
+          <csitem code="pcode33767" units="1" name="COLNSCPY W CNTRL BLEED" type="PROC" sequence="51"/>
+          <csitem code="pcode33769" units="1" name="COLON W HOT BX" type="PROC" sequence="52"/>
+          <csitem code="pcode33770" units="1" name="COLON W SNARE" type="PROC" sequence="53"/>
+          <csitem code="pcode56554" units="1" name="DESTRUC HEMORRHOIDS" type="PROC" sequence="54"/>
+          <csitem code="pcode33864" units="1" name="LIVER BX" type="PROC" sequence="55"/>
+          <csitem code="pcode34088" units="1" name="ESOPHAGEAL MOTILITY" type="PROC" sequence="56"/>
+          <csitem code="pcode34089" units="1" name="PH MONITORING 24 HR" type="PROC" sequence="57"/>
+          <csitem code="pcode34119" units="1" name="NG GASTRIC INTUBAT." type="PROC" sequence="58"/>
+          <csitem code="pcode34059" units="1" name="OBSERVATION CARE D/C DAY MANAGEMENT" type="PROC" sequence="59"/>
+          <csitem code="pcode34060" units="1" name="INIT OBSRV CARE-DAY E&amp;M LOW SEVRITY" type="PROC" sequence="60"/>
+          <csitem code="pcode34061" units="1" name="INIT OBSRV CARE-DAY E&amp;M MOD SEVRITY" type="PROC" sequence="61"/>
+          <csitem code="pcode33473" units="1" name="INIT OBSRV CARE-DAY E&amp;M HI SEVERITY" type="PROC" sequence="62"/>
+          <csitem code="pcode34068" units="1" name="OBSRV/INPT HOSP CARE E&amp;M LOW SEVER" type="PROC" sequence="63"/>
+          <csitem code="pcode34069" units="1" name="OBSRV/INPT HOSP CARE E&amp;M MOD SEVER" type="PROC" sequence="64"/>
+          <csitem code="pcode34070" units="1" name="OBSRV/INPT HOSP CARE E&amp;M HIGH SEVER" type="PROC" sequence="65"/>
+          <csitem code="pcode34071" units="1" name="HOSPITAL D/C DAY MGMT; 30 MIN/LESS" type="PROC" sequence="66"/>
+          <csitem code="pcode34072" units="1" name="HOSPITAL D/C DAY MGMT; &gt; 30 MINUTES" type="PROC" sequence="67"/>
+          <csitem code="pcode34083" units="1" name="F/U INPT CNSLT EST STABLE 10 MIN" type="PROC" sequence="68"/>
+          <csitem code="pcode34084" units="1" name="F/U INPT CNSLT EST MINR CMPL 20 MIN" type="PROC" sequence="69"/>
+          <csitem code="pcode34085" units="1" name="F/U INPT CNSLT EST SIG CMPL 30 MIN" type="PROC" sequence="70"/>
+          <csitem code="pcode34665" units="1" name="EMERG DEPT VISIT E&amp;M MODERATE SEVER" type="PROC" sequence="71"/>
+          <csitem code="pcode34666" units="1" name="ER VISIT E&amp;M HIGH SEVER URGENT EVAL" type="PROC" sequence="72"/>
+          <csitem code="pcode34667" units="1" name="ER VISIT E&amp;M HIGH-SEVER SIG THREAT" type="PROC" sequence="73"/>
+        </csitemlist>
+      </cstemplate>
+      <cstemplate id="cst10" code="H-MCH" name="MEASE COUNTRYSIDE HO">
+        <csitemlist>
+          <csitem code="dcode47154" name="INTST INFS CLOSTRIDIUM DIFFICILE" type="DIAG" sequence="0"/>
+          <csitem code="dcode47169" name="GASTRONTRIT" type="DIAG" sequence="1"/>
+          <csitem code="dcode47171" name="DIA PRESUMED INF" type="DIAG" sequence="2"/>
+          <csitem code="dcode47837" name="HELICOBACTER PYLORI INFECTION" type="DIAG" sequence="3"/>
+          <csitem code="dcode47954" name="CHR HEP C" type="DIAG" sequence="4"/>
+          <csitem code="dcode48031" name="CANDIDAL ESOPHAGITIS" type="DIAG" sequence="5"/>
+          <csitem code="dcode47987" name="ESOPHAGEAL CANCER" type="DIAG" sequence="6"/>
+          <csitem code="dcode48166" name="GASTROESOPHAGEAL JUNCTION CARCINOMA" type="DIAG" sequence="7"/>
+          <csitem code="dcode47572" name="COLON CA" type="DIAG" sequence="8"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="9"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="10"/>
+          <csitem code="dcode47891" name="IRON DEF" type="DIAG" sequence="11"/>
+          <csitem code="dcode284432" name="ANEMIA DUE TO ACUTE BLOOD LOSS" type="DIAG" sequence="12"/>
+          <csitem code="dcode285839" name="ANEMIA OF OTHER CHRONIC DISEASE" type="DIAG" sequence="13"/>
+          <csitem code="dcode47983" name="ANEMIA UNSPECIFIED" type="DIAG" sequence="14"/>
+          <csitem code="dcode47839" name="INTRL HEMORRHOIDS W/O MENTION COMP" type="DIAG" sequence="15"/>
+          <csitem code="dcode47841" name="INTERNAL HEMORRHOIDS W/OTH COMP" type="DIAG" sequence="16"/>
+          <csitem code="dcode47842" name="EXT HEMORRHOIDS W/O MENTION COMP" type="DIAG" sequence="17"/>
+          <csitem code="dcode47623" name="ESOPHAGEAL VARICES WITH BLEEDING" type="DIAG" sequence="18"/>
+          <csitem code="dcode47956" name="ESOPH VARICES WITHOUT MENTION BLEED" type="DIAG" sequence="19"/>
+          <csitem code="dcode47957" name="ESOPH VARICES W/BLEED DZ CLASS ELSW" type="DIAG" sequence="20"/>
+          <csitem code="dcode47958" name="ESOPH VARIC W/O BLEED DZ CLASS ELSW" type="DIAG" sequence="21"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="22"/>
+          <csitem code="dcode47932" name="ESOPHAGOSPASM" type="DIAG" sequence="23"/>
+          <csitem code="dcode47794" name="ESOPH M-W TEAR" type="DIAG" sequence="24"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="25"/>
+          <csitem code="dcode47625" name="ESOPHAGEAL HEMORRHAGE" type="DIAG" sequence="26"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="27"/>
+          <csitem code="dcode48025" name="ACUTE GASTRIC ULCER W/ HEMORRAGE" type="DIAG" sequence="28"/>
+          <csitem code="dcode47822" name="GU ACUTE" type="DIAG" sequence="29"/>
+          <csitem code="dcode47824" name="GU CHR W BLE" type="DIAG" sequence="30"/>
+          <csitem code="dcode47830" name="GU CHR NON BLE" type="DIAG" sequence="31"/>
+          <csitem code="dcode48052" name="ACUT DUOD ULCR W/HEM W/O OBST" type="DIAG" sequence="32"/>
+          <csitem code="dcode47981" name="DU" type="DIAG" sequence="33"/>
+          <csitem code="dcode48087" name="DU CHR W BLE" type="DIAG" sequence="34"/>
+          <csitem code="dcode47773" name="GASTRITIS CHR" type="DIAG" sequence="35"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="36"/>
+          <csitem code="dcode47807" name="GASTROPARESIS" type="DIAG" sequence="37"/>
+          <csitem code="dcode47809" name="G TUBE INF" type="DIAG" sequence="38"/>
+          <csitem code="dcode47810" name="G TUBE MEC" type="DIAG" sequence="39"/>
+          <csitem code="dcode47619" name="DYSPEPSIA&amp;OTH D/O FUNCT STOMACH" type="DIAG" sequence="40"/>
+          <csitem code="dcode48023" name="DU W HEM AVM" type="DIAG" sequence="41"/>
+          <csitem code="dcode47978" name="HIATAL HERNIA" type="DIAG" sequence="42"/>
+          <csitem code="dcode47612" name="CHR ILLEOCOLITIS" type="DIAG" sequence="43"/>
+          <csitem code="dcode47613" name="CROHNS DISEASE" type="DIAG" sequence="44"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="45"/>
+          <csitem code="dcode48036" name="ISCHEMIC COLITIS" type="DIAG" sequence="46"/>
+          <csitem code="dcode47970" name="COLITIS ISCHEMIC" type="DIAG" sequence="47"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="48"/>
+          <csitem code="dcode47817" name="DIA NONSPECIFIC" type="DIAG" sequence="49"/>
+          <csitem code="dcode48024" name="ILEUS; PARALYTIC" type="DIAG" sequence="50"/>
+          <csitem code="dcode48069" name="FECAL IMPACTION" type="DIAG" sequence="51"/>
+          <csitem code="dcode50457" name="ADHESION W OBS" type="DIAG" sequence="52"/>
+          <csitem code="dcode47991" name="UNSPECIFIED INTESTINAL OBSTRUCTION" type="DIAG" sequence="53"/>
+          <csitem code="dcode47583" name="DIVERTICULITIS OF COLON" type="DIAG" sequence="54"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="55"/>
+          <csitem code="dcode47858" name="IBS" type="DIAG" sequence="56"/>
+          <csitem code="dcode48027" name="ANAL FISSURE" type="DIAG" sequence="57"/>
+          <csitem code="dcode47909" name="RECTAL BLEEDING" type="DIAG" sequence="58"/>
+          <csitem code="dcode47615" name="COLON AVM" type="DIAG" sequence="59"/>
+          <csitem code="dcode47616" name="CO AVM W HEM" type="DIAG" sequence="60"/>
+          <csitem code="dcode47562" name="ALCOHOLIC HEPATITIS" type="DIAG" sequence="61"/>
+          <csitem code="dcode47654" name="ALCOHOLIC CIRRHOSIS OF LIVER" type="DIAG" sequence="62"/>
+          <csitem code="dcode47655" name="ALCOHOLIC LIVER DAMAGE" type="DIAG" sequence="63"/>
+          <csitem code="dcode47964" name="FATTY LIVER NASH" type="DIAG" sequence="64"/>
+          <csitem code="dcode48162" name="HEPATIC COMA" type="DIAG" sequence="65"/>
+          <csitem code="dcode47969" name="CHOLELITHIASIS/ GALLS" type="DIAG" sequence="66"/>
+          <csitem code="dcode48006" name="CHOLEDOCHOLITIS" type="DIAG" sequence="67"/>
+          <csitem code="dcode48035" name="CBD STRICTURE" type="DIAG" sequence="68"/>
+          <csitem code="dcode47992" name="PANCREATITIS ACUTE " type="DIAG" sequence="69"/>
+          <csitem code="dcode47986" name="PANCREATITIS, CHRONIC" type="DIAG" sequence="70"/>
+          <csitem code="dcode47849" name="HEMATEMESIS" type="DIAG" sequence="71"/>
+          <csitem code="dcode47850" name="HEMATOCHEZIA" type="DIAG" sequence="72"/>
+          <csitem code="dcode47851" name="GI HEM" type="DIAG" sequence="73"/>
+          <csitem code="dcode51069" name="CONGEN ESOPH ATRESIA&amp;STENOSIS" type="DIAG" sequence="74"/>
+          <csitem code="dcode47892" name="JAUNDICE" type="DIAG" sequence="75"/>
+          <csitem code="dcode48104" name="ANOREXIA" type="DIAG" sequence="76"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="77"/>
+          <csitem code="dcode47944" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT" type="DIAG" sequence="78"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="79"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="80"/>
+          <csitem code="dcode47831" name="HEARTBURN" type="DIAG" sequence="81"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="82"/>
+          <csitem code="dcode57821" name="DYSPHAGIA, OROPHARYNGEAL" type="DIAG" sequence="83"/>
+          <csitem code="dcode47770" name="FLATULENCE" type="DIAG" sequence="84"/>
+          <csitem code="dcode47604" name="DIARRHEA" type="DIAG" sequence="85"/>
+          <csitem code="dcode47953" name="CHANGE IN B HAB" type="DIAG" sequence="86"/>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN" type="DIAG" sequence="87"/>
+          <csitem code="dcode47527" name="ABDOMINAL PAIN RUQ" type="DIAG" sequence="88"/>
+          <csitem code="dcode47528" name="ABDOMINAL PAIN, LUQ" type="DIAG" sequence="89"/>
+          <csitem code="dcode47529" name="ABDOMINAL PAIN RLQ" type="DIAG" sequence="90"/>
+          <csitem code="dcode47530" name="ABDOMINAL PAIN, LLQ" type="DIAG" sequence="91"/>
+          <csitem code="dcode47532" name="ABD PAIN EPIGASTRIC" type="DIAG" sequence="92"/>
+          <csitem code="dcode57822" name="ASCITES, MALIGNANT" type="DIAG" sequence="93"/>
+          <csitem code="dcode47994" name="ASCITES" type="DIAG" sequence="94"/>
+          <csitem code="dcode48067" name="ABD TENDERNESS" type="DIAG" sequence="95"/>
+          <csitem code="dcode47899" name="LFT'S ABNORMAL" type="DIAG" sequence="96"/>
+          <csitem code="dcode47852" name="HEME POSITIVE STOOL" type="DIAG" sequence="97"/>
+          <csitem code="dcode48032" name="FB ESOPHAGUS" type="DIAG" sequence="98"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="99"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - NON MDCR" type="PROC" sequence="0"/>
+          <csitem code="pcode34080" units="1" name="INITIAL INPT CPNSULT MOD 55 MIN" type="PROC" sequence="1"/>
+          <csitem code="pcode34081" units="1" name="INITIAL INPT CONSULT MOD-HI 80 MIN" type="PROC" sequence="2"/>
+          <csitem code="pcode34082" units="1" name="INITIAL INPT CONSULT MOD-HI 110 MIN" type="PROC" sequence="3"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - MEDICARE" type="PROC" sequence="4"/>
+          <csitem code="pcode34065" units="1" name="CONSULT (99251)" type="PROC" sequence="5"/>
+          <csitem code="pcode34066" units="1" name="CONSULT (99252)" type="PROC" sequence="6"/>
+          <csitem code="pcode34062" units="1" name="CONSULT LEVEL 3 (99253)" type="PROC" sequence="7"/>
+          <csitem code="pcode34063" units="1" name="CONSULT (99254)" type="PROC" sequence="8"/>
+          <csitem code="pcode34064" units="1" name="CONSULT (99255)" type="PROC" sequence="9"/>
+          <csitem code="" collapsed="0" name="OBSERVATION CARE" type="PROC" sequence="10"/>
+          <csitem code="pcode107663" units="1" name="SB OBSERVATION CARE-15 MIN" type="PROC" sequence="11"/>
+          <csitem code="pcode107664" units="1" name="SB OBSERVATION CARE -25 MIN" type="PROC" sequence="12"/>
+          <csitem code="pcode107665" units="1" name="SB OBSERVATION CARE- 35 MIN" type="PROC" sequence="13"/>
+          <csitem code="" collapsed="0" name="FOLLOW UP" type="PROC" sequence="14"/>
+          <csitem code="pcode34065" units="1" name="15 MIN SUBSQNT HOSPITAL" type="PROC" sequence="15"/>
+          <csitem code="pcode34066" units="1" name="25 MIN SUBSQNT HOSPITAL" type="PROC" sequence="16"/>
+          <csitem code="pcode34067" units="1" name="35 MIN SUBSQNT HOSPITAL" type="PROC" sequence="17"/>
+          <csitem code="" collapsed="0" name="ICU" type="PROC" sequence="18"/>
+          <csitem code="pcode33474" units="1" name="CRITICAL CARE E&amp;M; 1ST 30-74 MIN" type="PROC" sequence="19"/>
+          <csitem code="pcode33475" units="1" name="CRITICAL CARE E&amp;M; EA ADD 30 MIN" type="PROC" sequence="20"/>
+          <csitem code="" collapsed="0" name="SURGERY" type="PROC" sequence="21"/>
+          <csitem code="pcode33483" units="1" name="EGD W BRUSH" type="PROC" sequence="22"/>
+          <csitem code="pcode33487" units="1" name="EGD W BX" type="PROC" sequence="23"/>
+          <csitem code="pcode33492" units="1" name="EGD W BAND LIG" type="PROC" sequence="24"/>
+          <csitem code="pcode33493" units="1" name="EGD W PYL DIL" type="PROC" sequence="25"/>
+          <csitem code="pcode33494" units="1" name="EGD W PEG" type="PROC" sequence="26"/>
+          <csitem code="pcode33495" units="1" name="EGD W FB" type="PROC" sequence="27"/>
+          <csitem code="pcode33496" units="1" name="EGD W GW &amp; DIL" type="PROC" sequence="28"/>
+          <csitem code="pcode33497" units="1" name="EGD W BAL DIL" type="PROC" sequence="29"/>
+          <csitem code="pcode33498" units="1" name="EGD W HOT BX" type="PROC" sequence="30"/>
+          <csitem code="pcode33499" units="1" name="EGD POLYP W SNARE" type="PROC" sequence="31"/>
+          <csitem code="pcode33500" units="1" name="EGD FOR BLD" type="PROC" sequence="32"/>
+          <csitem code="pcode33504" units="1" name="ERCP W B/W/C" type="PROC" sequence="33"/>
+          <csitem code="pcode33506" units="1" name="ERCP W ES" type="PROC" sequence="34"/>
+          <csitem code="pcode33508" units="1" name="ERCP W STONES RE" type="PROC" sequence="35"/>
+          <csitem code="pcode33511" units="1" name="ERCP W STENT" type="PROC" sequence="36"/>
+          <csitem code="pcode33512" units="1" name="ERCP FOR RE/CHG OF STENT" type="PROC" sequence="37"/>
+          <csitem code="pcode33576" units="1" name="NGT PLACE BY MD" type="PROC" sequence="38"/>
+          <csitem code="pcode33577" units="1" name="G TUBE CHANGE" type="PROC" sequence="39"/>
+          <csitem code="pcode33660" units="1" name="SBE W B/WASH/C" type="PROC" sequence="40"/>
+          <csitem code="pcode33661" units="1" name="SBE W BX" type="PROC" sequence="41"/>
+          <csitem code="pcode33749" units="1" name="FS W B/W/C" type="PROC" sequence="42"/>
+          <csitem code="pcode33750" units="1" name="FS FOR BX" type="PROC" sequence="43"/>
+          <csitem code="pcode33752" units="1" name="FS W HOT BX" type="PROC" sequence="44"/>
+          <csitem code="pcode33754" units="1" name="FS W SUBMU INJ." type="PROC" sequence="45"/>
+          <csitem code="pcode33755" units="1" name="FS W DECOMP OF VOL" type="PROC" sequence="46"/>
+          <csitem code="pcode33756" units="1" name="FS W SNARE" type="PROC" sequence="47"/>
+          <csitem code="pcode33763" units="1" name="COLON" type="PROC" sequence="48"/>
+          <csitem code="pcode33765" units="1" name="COLON/BIOPSY" type="PROC" sequence="49"/>
+          <csitem code="pcode33766" units="1" name="COLON W SUBMU INJ" type="PROC" sequence="50"/>
+          <csitem code="pcode33767" units="1" name="COLNSCPY W CNTRL BLEED" type="PROC" sequence="51"/>
+          <csitem code="pcode33769" units="1" name="COLON W HOT BX" type="PROC" sequence="52"/>
+          <csitem code="pcode33770" units="1" name="COLON W SNARE" type="PROC" sequence="53"/>
+          <csitem code="pcode56554" units="1" name="DESTRUC HEMORRHOIDS" type="PROC" sequence="54"/>
+          <csitem code="pcode33864" units="1" name="LIVER BX" type="PROC" sequence="55"/>
+          <csitem code="pcode34088" units="1" name="ESOPHAGEAL MOTILITY" type="PROC" sequence="56"/>
+          <csitem code="pcode34089" units="1" name="PH MONITORING 24 HR" type="PROC" sequence="57"/>
+          <csitem code="pcode34119" units="1" name="NG GASTRIC INTUBAT." type="PROC" sequence="58"/>
+          <csitem code="pcode34059" units="1" name="OBSERVATION CARE D/C DAY MANAGEMENT" type="PROC" sequence="59"/>
+          <csitem code="pcode34060" units="1" name="INIT OBSRV CARE-DAY E&amp;M LOW SEVRITY" type="PROC" sequence="60"/>
+          <csitem code="pcode34061" units="1" name="INIT OBSRV CARE-DAY E&amp;M MOD SEVRITY" type="PROC" sequence="61"/>
+          <csitem code="pcode33473" units="1" name="INIT OBSRV CARE-DAY E&amp;M HI SEVERITY" type="PROC" sequence="62"/>
+          <csitem code="pcode34068" units="1" name="OBSRV/INPT HOSP CARE E&amp;M LOW SEVER" type="PROC" sequence="63"/>
+          <csitem code="pcode34069" units="1" name="OBSRV/INPT HOSP CARE E&amp;M MOD SEVER" type="PROC" sequence="64"/>
+          <csitem code="pcode34070" units="1" name="OBSRV/INPT HOSP CARE E&amp;M HIGH SEVER" type="PROC" sequence="65"/>
+          <csitem code="pcode34071" units="1" name="HOSPITAL D/C DAY MGMT; 30 MIN/LESS" type="PROC" sequence="66"/>
+          <csitem code="pcode34072" units="1" name="HOSPITAL D/C DAY MGMT; &gt; 30 MINUTES" type="PROC" sequence="67"/>
+          <csitem code="pcode34083" units="1" name="F/U INPT CNSLT EST STABLE 10 MIN" type="PROC" sequence="68"/>
+          <csitem code="pcode34084" units="1" name="F/U INPT CNSLT EST MINR CMPL 20 MIN" type="PROC" sequence="69"/>
+          <csitem code="pcode34085" units="1" name="F/U INPT CNSLT EST SIG CMPL 30 MIN" type="PROC" sequence="70"/>
+          <csitem code="pcode34665" units="1" name="EMERG DEPT VISIT E&amp;M MODERATE SEVER" type="PROC" sequence="71"/>
+          <csitem code="pcode34666" units="1" name="ER VISIT E&amp;M HIGH SEVER URGENT EVAL" type="PROC" sequence="72"/>
+          <csitem code="pcode34667" units="1" name="ER VISIT E&amp;M HIGH-SEVER SIG THREAT" type="PROC" sequence="73"/>
+        </csitemlist>
+      </cstemplate>
+      <cstemplate id="cst11" code="H-MDH" name="MEASE DUNEDIN HOSPIT">
+        <csitemlist>
+          <csitem code="dcode47154" name="COLITIS PSM" type="DIAG" sequence="0"/>
+          <csitem code="dcode47169" name="GASTRONTRIT " type="DIAG" sequence="1"/>
+          <csitem code="dcode47171" name="DIA PRESUMED INF" type="DIAG" sequence="2"/>
+          <csitem code="dcode47837" name="HELICOB PYLORI " type="DIAG" sequence="3"/>
+          <csitem code="dcode47954" name="CHR HEP C" type="DIAG" sequence="4"/>
+          <csitem code="dcode48031" name="CANDIDAL ESOPHAGITIS" type="DIAG" sequence="5"/>
+          <csitem code="dcode47987" name="ESOPHAGEAL CANCER" type="DIAG" sequence="6"/>
+          <csitem code="dcode48166" name="ESOPH CA" type="DIAG" sequence="7"/>
+          <csitem code="dcode47572" name="COLON CA" type="DIAG" sequence="8"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="9"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="10"/>
+          <csitem code="dcode47891" name="IRON DEF" type="DIAG" sequence="11"/>
+          <csitem code="dcode284432" name="ANEMIA DUE TO ACUTE BLOOD LOSS" type="DIAG" sequence="12"/>
+          <csitem code="dcode285839" name="ANEMIA OF OTHER CHRONIC DISEASE" type="DIAG" sequence="13"/>
+          <csitem code="dcode47983" name="ANEMIA UNSPECIFIED" type="DIAG" sequence="14"/>
+          <csitem code="dcode47839" name="INTRL HEMORRHOIDS W/O MENTION COMP" type="DIAG" sequence="15"/>
+          <csitem code="dcode47841" name="INTERNAL HEMORRHOIDS W/OTH COMP" type="DIAG" sequence="16"/>
+          <csitem code="dcode47842" name="EXT HEMORRHOIDS W/O MENTION COMP" type="DIAG" sequence="17"/>
+          <csitem code="dcode47623" name="ESOPHAGEAL VARICES WITH BLEEDING" type="DIAG" sequence="18"/>
+          <csitem code="dcode47956" name="ESOPH VARICES WITHOUT MENTION BLEED" type="DIAG" sequence="19"/>
+          <csitem code="dcode47957" name="ESOPH VARICES W/BLEED DZ CLASS ELSW" type="DIAG" sequence="20"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="21"/>
+          <csitem code="dcode47932" name="ESOPHAGUS" type="DIAG" sequence="22"/>
+          <csitem code="dcode47794" name="ESOPH M-W TEAR" type="DIAG" sequence="23"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="24"/>
+          <csitem code="dcode47625" name="ESOPHAGEAL HEMORRHAGE" type="DIAG" sequence="25"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="26"/>
+          <csitem code="dcode48025" name="ACUTE GASTRIC ULCER W/ HEMORRAGE" type="DIAG" sequence="27"/>
+          <csitem code="dcode47822" name="GU ACUTE" type="DIAG" sequence="28"/>
+          <csitem code="dcode47824" name="GU CHR W BLE" type="DIAG" sequence="29"/>
+          <csitem code="dcode47830" name="GU CHR NON BLE" type="DIAG" sequence="30"/>
+          <csitem code="dcode48052" name="ACUT DUOD ULCR W/HEM W/O OBST" type="DIAG" sequence="31"/>
+          <csitem code="dcode48085" name="DU" type="DIAG" sequence="32"/>
+          <csitem code="dcode48087" name="DU CHR W BLE" type="DIAG" sequence="33"/>
+          <csitem code="dcode47773" name="GASTRITIS CHR" type="DIAG" sequence="34"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="35"/>
+          <csitem code="dcode47807" name="GASTROPARESIS" type="DIAG" sequence="36"/>
+          <csitem code="dcode47809" name="G TUBE INF" type="DIAG" sequence="37"/>
+          <csitem code="dcode47810" name="G TUBE MEC" type="DIAG" sequence="38"/>
+          <csitem code="dcode47619" name="DYSPEPSIA" type="DIAG" sequence="39"/>
+          <csitem code="dcode48023" name="DU W HEM AVM" type="DIAG" sequence="40"/>
+          <csitem code="dcode47978" name="HIATAL HERNIA" type="DIAG" sequence="41"/>
+          <csitem code="dcode47612" name="CHR ILLEOCOLITIS" type="DIAG" sequence="42"/>
+          <csitem code="dcode47613" name="CROHNS DISEASE" type="DIAG" sequence="43"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="44"/>
+          <csitem code="dcode48036" name="ISCHEMIC COLITIS" type="DIAG" sequence="45"/>
+          <csitem code="dcode47970" name="COLITIS ISCHEMIC" type="DIAG" sequence="46"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="47"/>
+          <csitem code="dcode47817" name="DIA NONSPECIFIC" type="DIAG" sequence="48"/>
+          <csitem code="dcode48024" name="ILEUS; PARALYTIC" type="DIAG" sequence="49"/>
+          <csitem code="dcode48069" name="FECAL IMPACTION" type="DIAG" sequence="50"/>
+          <csitem code="dcode50457" name="ADHESION W OBS" type="DIAG" sequence="51"/>
+          <csitem code="dcode47991" name="UNSPECIFIED INTESTINAL OBSTRUCTION" type="DIAG" sequence="52"/>
+          <csitem code="dcode47583" name="DIVERTICULITIS OF COLON" type="DIAG" sequence="53"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="54"/>
+          <csitem code="dcode47858" name="IBS" type="DIAG" sequence="55"/>
+          <csitem code="dcode48027" name="ANAL FISSURE" type="DIAG" sequence="56"/>
+          <csitem code="dcode47909" name="RECTAL BLEEDING" type="DIAG" sequence="57"/>
+          <csitem code="dcode47615" name="COLON AVM" type="DIAG" sequence="58"/>
+          <csitem code="dcode47616" name="CO AVM W HEM" type="DIAG" sequence="59"/>
+          <csitem code="dcode47562" name="ALCOHOLIC HEP" type="DIAG" sequence="60"/>
+          <csitem code="dcode47654" name="ALCOHOLIC CIRRHOSIS OF LIVER" type="DIAG" sequence="61"/>
+          <csitem code="dcode47655" name="ALCO LIVER DAM" type="DIAG" sequence="62"/>
+          <csitem code="dcode47964" name="FATTY LIVER NASH" type="DIAG" sequence="63"/>
+          <csitem code="dcode48162" name="HEPATIC COMA" type="DIAG" sequence="64"/>
+          <csitem code="dcode47969" name="CHOLELITHIASIS/ GALLS" type="DIAG" sequence="65"/>
+          <csitem code="dcode48006" name="CHOLEDOCHOLITIS" type="DIAG" sequence="66"/>
+          <csitem code="dcode48035" name="CBD STRICTURE" type="DIAG" sequence="67"/>
+          <csitem code="dcode47992" name="PANCREATITIS, ACUTE" type="DIAG" sequence="68"/>
+          <csitem code="dcode47986" name="PANCREATITIS, CHRONIC" type="DIAG" sequence="69"/>
+          <csitem code="dcode47849" name="HEMATEMESIS" type="DIAG" sequence="70"/>
+          <csitem code="dcode47850" name="HEMATOCHEZIA" type="DIAG" sequence="71"/>
+          <csitem code="dcode47851" name="GI HEM" type="DIAG" sequence="72"/>
+          <csitem code="dcode51069" name="CONGEN ESOPH ATRESIA&amp;STENOSIS" type="DIAG" sequence="73"/>
+          <csitem code="dcode47892" name="JAUNDICE " type="DIAG" sequence="74"/>
+          <csitem code="dcode48104" name="ANOREXIA" type="DIAG" sequence="75"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="76"/>
+          <csitem code="dcode47944" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT" type="DIAG" sequence="77"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="78"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="79"/>
+          <csitem code="dcode47831" name="HEARTBURN" type="DIAG" sequence="80"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="81"/>
+          <csitem code="dcode57821" name="DYSPHAGIA, OROPHARYNGEAL" type="DIAG" sequence="82"/>
+          <csitem code="dcode47770" name="FLATULENCE " type="DIAG" sequence="83"/>
+          <csitem code="dcode47604" name="DIARRHEA" type="DIAG" sequence="84"/>
+          <csitem code="dcode47953" name="CHANGE IN B HAB" type="DIAG" sequence="85"/>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN" type="DIAG" sequence="86"/>
+          <csitem code="dcode47527" name="ABDOMINAL PAIN RUQ" type="DIAG" sequence="87"/>
+          <csitem code="dcode47528" name="ABDOMINAL PAIN, LUQ" type="DIAG" sequence="88"/>
+          <csitem code="dcode47529" name="ABDOMINAL PAIN RLQ" type="DIAG" sequence="89"/>
+          <csitem code="dcode47530" name="ABDOMINAL PAIN, LLQ" type="DIAG" sequence="90"/>
+          <csitem code="dcode47532" name="ABDOMINAL PAIN EPIGASTRIC " type="DIAG" sequence="91"/>
+          <csitem code="dcode57822" name="ASCITES, MALIGNANT" type="DIAG" sequence="92"/>
+          <csitem code="dcode47994" name="ASCITES" type="DIAG" sequence="93"/>
+          <csitem code="dcode48067" name="ABD TENDERNESS" type="DIAG" sequence="94"/>
+          <csitem code="dcode47899" name="LFT'S ABNORMAL" type="DIAG" sequence="95"/>
+          <csitem code="dcode47852" name="HEME POSITIVE STOOL" type="DIAG" sequence="96"/>
+          <csitem code="dcode48032" name="FB ESOPHAGUS" type="DIAG" sequence="97"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="98"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - NON MDCR" type="PROC" sequence="0"/>
+          <csitem code="pcode34080" units="1" name="INITIAL INPT CPNSULT MOD 55 MIN" type="PROC" sequence="1"/>
+          <csitem code="pcode34081" units="1" name="INITIAL INPT CONSULT MOD-HI 80 MIN" type="PROC" sequence="2"/>
+          <csitem code="pcode34082" units="1" name="INITIAL INPT CONSULT MOD-HI 110 MIN" type="PROC" sequence="3"/>
+          <csitem code="" collapsed="0" name="IP CONSULT - MEDICARE" type="PROC" sequence="4"/>
+          <csitem code="pcode34065" units="1" name="CONSULT (99251)" type="PROC" sequence="5"/>
+          <csitem code="pcode34066" units="1" name="CONSULT (99252)" type="PROC" sequence="6"/>
+          <csitem code="pcode34062" units="1" name="CONSULT LEVEL 3 (99253)" type="PROC" sequence="7"/>
+          <csitem code="pcode34063" units="1" name="CONSULT (99254)" type="PROC" sequence="8"/>
+          <csitem code="pcode34064" units="1" name="CONSULT (99255)" type="PROC" sequence="9"/>
+          <csitem code="" collapsed="0" name="OBSERVATION CARE" type="PROC" sequence="10"/>
+          <csitem code="pcode107663" units="1" name="SB OBSERVATION CARE-15 MIN" type="PROC" sequence="11"/>
+          <csitem code="pcode107664" units="1" name="SB OBSERVATION CARE -25 MIN" type="PROC" sequence="12"/>
+          <csitem code="pcode107665" units="1" name="SB OBSERVATION CARE- 35 MIN" type="PROC" sequence="13"/>
+          <csitem code="" collapsed="0" name="FOLLOW UP" type="PROC" sequence="14"/>
+          <csitem code="pcode34065" units="1" name="15 MIN SUBSQNT HOSPITAL" type="PROC" sequence="15"/>
+          <csitem code="pcode34066" units="1" name="25 MIN SUBSQNT HOSPITAL" type="PROC" sequence="16"/>
+          <csitem code="pcode34067" units="1" name="35 MIN SUBSQNT HOSPITAL" type="PROC" sequence="17"/>
+          <csitem code="" collapsed="0" name="ICU" type="PROC" sequence="18"/>
+          <csitem code="pcode33474" units="1" name="CRITICAL CARE E&amp;M; 1ST 30-74 MIN" type="PROC" sequence="19"/>
+          <csitem code="pcode33475" units="1" name="CRITICAL CARE E&amp;M; EA ADD 30 MIN" type="PROC" sequence="20"/>
+          <csitem code="" collapsed="0" name="SURGERY" type="PROC" sequence="21"/>
+          <csitem code="pcode33483" units="1" name="EGD W BRUSH" type="PROC" sequence="22"/>
+          <csitem code="pcode33487" units="1" name="EGD W BX" type="PROC" sequence="23"/>
+          <csitem code="pcode33492" units="1" name="EGD W BAND LIG" type="PROC" sequence="24"/>
+          <csitem code="pcode33493" units="1" name="EGD W PYL DIL" type="PROC" sequence="25"/>
+          <csitem code="pcode33494" units="1" name="EGD W PEG" type="PROC" sequence="26"/>
+          <csitem code="pcode33495" units="1" name="EGD W FB" type="PROC" sequence="27"/>
+          <csitem code="pcode33496" units="1" name="EGD W GW &amp; DIL" type="PROC" sequence="28"/>
+          <csitem code="pcode33497" units="1" name="EGD W BAL DIL" type="PROC" sequence="29"/>
+          <csitem code="pcode33498" units="1" name="EGD W HOT BX" type="PROC" sequence="30"/>
+          <csitem code="pcode33499" units="1" name="EGD POLYP W SNARE" type="PROC" sequence="31"/>
+          <csitem code="pcode33500" units="1" name="EGD FOR BLD" type="PROC" sequence="32"/>
+          <csitem code="pcode33504" units="1" name="ERCP W B/W/C" type="PROC" sequence="33"/>
+          <csitem code="pcode33506" units="1" name="ERCP W ES" type="PROC" sequence="34"/>
+          <csitem code="pcode33508" units="1" name="ERCP W STONES RE" type="PROC" sequence="35"/>
+          <csitem code="pcode33511" units="1" name="ERCP W STENT" type="PROC" sequence="36"/>
+          <csitem code="pcode33512" units="1" name="ERCP FOR RE/CHG OF STENT" type="PROC" sequence="37"/>
+          <csitem code="pcode33576" units="1" name="NGT PLACE BY MD" type="PROC" sequence="38"/>
+          <csitem code="pcode33577" units="1" name="G TUBE CHANGE" type="PROC" sequence="39"/>
+          <csitem code="pcode33660" units="1" name="SBE W B/WASH/C" type="PROC" sequence="40"/>
+          <csitem code="pcode33661" units="1" name="SBE W BX" type="PROC" sequence="41"/>
+          <csitem code="pcode33749" units="1" name="FS W B/W/C" type="PROC" sequence="42"/>
+          <csitem code="pcode33750" units="1" name="FS FOR BX" type="PROC" sequence="43"/>
+          <csitem code="pcode33752" units="1" name="FS W HOT BX" type="PROC" sequence="44"/>
+          <csitem code="pcode33754" units="1" name="FS W SUBMU INJ." type="PROC" sequence="45"/>
+          <csitem code="pcode33755" units="1" name="FS W DECOMP OF VOL" type="PROC" sequence="46"/>
+          <csitem code="pcode33756" units="1" name="FS W SNARE" type="PROC" sequence="47"/>
+          <csitem code="pcode33763" units="1" name="COLON" type="PROC" sequence="48"/>
+          <csitem code="pcode33765" units="1" name="COLON/BIOPSY" type="PROC" sequence="49"/>
+          <csitem code="pcode33766" units="1" name="COLON W SUBMU INJ" type="PROC" sequence="50"/>
+          <csitem code="pcode33767" units="1" name="COLNSCPY W CNTRL BLEED" type="PROC" sequence="51"/>
+          <csitem code="pcode33769" units="1" name="COLON W HOT BX" type="PROC" sequence="52"/>
+          <csitem code="pcode33770" units="1" name="COLON W SNARE" type="PROC" sequence="53"/>
+          <csitem code="pcode56554" units="1" name="DESTRUC HEMORRHOIDS" type="PROC" sequence="54"/>
+          <csitem code="pcode33864" units="1" name="LIVER BX" type="PROC" sequence="55"/>
+          <csitem code="pcode34088" units="1" name="ESOPHAGEAL MOTILITY" type="PROC" sequence="56"/>
+          <csitem code="pcode34089" units="1" name="PH MONITORING 24 HR" type="PROC" sequence="57"/>
+          <csitem code="pcode34119" units="1" name="NG GASTRIC INTUBAT." type="PROC" sequence="58"/>
+          <csitem code="pcode34059" units="1" name="OBSERVATION CARE D/C DAY MANAGEMENT" type="PROC" sequence="59"/>
+          <csitem code="pcode34060" units="1" name="INIT OBSRV CARE-DAY E&amp;M LOW SEVRITY" type="PROC" sequence="60"/>
+          <csitem code="pcode34061" units="1" name="INIT OBSRV CARE-DAY E&amp;M MOD SEVRITY" type="PROC" sequence="61"/>
+          <csitem code="pcode33473" units="1" name="INIT OBSRV CARE-DAY E&amp;M HI SEVERITY" type="PROC" sequence="62"/>
+          <csitem code="pcode34068" units="1" name="OBSRV/INPT HOSP CARE E&amp;M LOW SEVER" type="PROC" sequence="63"/>
+          <csitem code="pcode34069" units="1" name="OBSRV/INPT HOSP CARE E&amp;M MOD SEVER" type="PROC" sequence="64"/>
+          <csitem code="pcode34070" units="1" name="OBSRV/INPT HOSP CARE E&amp;M HIGH SEVER" type="PROC" sequence="65"/>
+          <csitem code="pcode34071" units="1" name="HOSPITAL D/C DAY MGMT; 30 MIN/LESS" type="PROC" sequence="66"/>
+          <csitem code="pcode34072" units="1" name="HOSPITAL D/C DAY MGMT; &gt; 30 MINUTES" type="PROC" sequence="67"/>
+          <csitem code="pcode34083" units="1" name="F/U INPT CNSLT EST STABLE 10 MIN" type="PROC" sequence="68"/>
+          <csitem code="pcode34084" units="1" name="F/U INPT CNSLT EST MINR CMPL 20 MIN" type="PROC" sequence="69"/>
+          <csitem code="pcode34085" units="1" name="F/U INPT CNSLT EST SIG CMPL 30 MIN" type="PROC" sequence="70"/>
+          <csitem code="pcode34665" units="1" name="EMERG DEPT VISIT E&amp;M MODERATE SEVER" type="PROC" sequence="71"/>
+          <csitem code="pcode34666" units="1" name="ER VISIT E&amp;M HIGH SEVER URGENT EVAL" type="PROC" sequence="72"/>
+          <csitem code="pcode34667" units="1" name="ER VISIT E&amp;M HIGH-SEVER SIG THREAT" type="PROC" sequence="73"/>
+        </csitemlist>
+      </cstemplate>
+      <cstemplate id="cst33" code="OV" name="OFFICE- DO NOT USE ">
+        <csitemlist>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN" type="DIAG" sequence="0"/>
+          <csitem code="dcode47527" name="ABDOMINAL PAIN RUQ" type="DIAG" sequence="1"/>
+          <csitem code="dcode47528" name="ABDOMINAL PAIN LUQ" type="DIAG" sequence="2"/>
+          <csitem code="dcode47529" name="ABDOMINAL PAIN RLQ" type="DIAG" sequence="3"/>
+          <csitem code="dcode47530" name="ABDOMINAL PAIN LLQ" type="DIAG" sequence="4"/>
+          <csitem code="dcode47532" name="ABDOMINAL PAIN EPIGASTRIC" type="DIAG" sequence="5"/>
+          <csitem code="dcode47562" name="ALCOHOLIC HEPATITIS" type="DIAG" sequence="6"/>
+          <csitem code="dcode47615" name="ANGIODYSPLASIA OF INTES" type="DIAG" sequence="7"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="8"/>
+          <csitem code="dcode47953" name="CHANGE IN BOWEL HABITS" type="DIAG" sequence="9"/>
+          <csitem code="dcode47954" name="CHR HEP C" type="DIAG" sequence="10"/>
+          <csitem code="dcode47955" name="CHRN DUOD ULCR " type="DIAG" sequence="11"/>
+          <csitem code="dcode47612" name="CROHNS ILEOCOLITIS" type="DIAG" sequence="12"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="13"/>
+          <csitem code="dcode47572" name="COLON CA" type="DIAG" sequence="14"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="15"/>
+          <csitem code="dcode47991" name="COLON STRICTURE" type="DIAG" sequence="16"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="17"/>
+          <csitem code="dcode47603" name="DIARRHEA FUNCTIONAL " type="DIAG" sequence="18"/>
+          <csitem code="dcode47817" name="DIARRHEA NONSPECIFIED " type="DIAG" sequence="19"/>
+          <csitem code="dcode47171" name="DIARRHEA PRESUMED INF" type="DIAG" sequence="20"/>
+          <csitem code="dcode47582" name="DIVERTICULOSIS OF COLON" type="DIAG" sequence="21"/>
+          <csitem code="dcode47619" name="DYSPEPSIA" type="DIAG" sequence="22"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="23"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="24"/>
+          <csitem code="dcode47956" name="ESOPHAGEAL VARICES" type="DIAG" sequence="25"/>
+          <csitem code="dcode47964" name="FATTY LIVER WO ALCOHOL" type="DIAG" sequence="26"/>
+          <csitem code="dcode47770" name="FLATULENCE " type="DIAG" sequence="27"/>
+          <csitem code="dcode47944" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT" type="DIAG" sequence="28"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="29"/>
+          <csitem code="dcode47773" name="GASTRITIS CHRONIC" type="DIAG" sequence="30"/>
+          <csitem code="dcode47169" name="GASTROENTERITIS" type="DIAG" sequence="31"/>
+          <csitem code="dcode47822" name="GU ACUTE" type="DIAG" sequence="32"/>
+          <csitem code="dcode47830" name="GU CHRONIC" type="DIAG" sequence="33"/>
+          <csitem code="dcode47831" name="HEARTBURN" type="DIAG" sequence="34"/>
+          <csitem code="dcode47837" name="HELICOBACTER PYLORI" type="DIAG" sequence="35"/>
+          <csitem code="dcode47849" name="HEMATEMESIS" type="DIAG" sequence="36"/>
+          <csitem code="dcode47852" name="HEME POSITIVE STOOL" type="DIAG" sequence="37"/>
+          <csitem code="dcode47842" name="HEMORRHOIDS EXT" type="DIAG" sequence="38"/>
+          <csitem code="dcode47839" name="INTRL HEMORRHOIDS" type="DIAG" sequence="39"/>
+          <csitem code="dcode47841" name="INT HEMORRHOIDS W BLEED" type="DIAG" sequence="40"/>
+          <csitem code="dcode47154" name="INTST INFS CLOSTRIDIUM" type="DIAG" sequence="41"/>
+          <csitem code="dcode47891" name="IRON DEFICIENCY ANEMIA" type="DIAG" sequence="42"/>
+          <csitem code="dcode47858" name="IRRITABLE BOWEL SYNDROME" type="DIAG" sequence="43"/>
+          <csitem code="dcode47892" name="JAUNDICE" type="DIAG" sequence="44"/>
+          <csitem code="dcode47899" name="LFTS ABNORMAL" type="DIAG" sequence="45"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="46"/>
+          <csitem code="dcode47850" name="MELENA" type="DIAG" sequence="47"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="48"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="49"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="50"/>
+          <csitem code="dcode47909" name="RECTAL BLEEDING" type="DIAG" sequence="51"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="52"/>
+          <csitem code="dcode47930" name="STRICTURE ESOPHAGUS" type="DIAG" sequence="53"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="54"/>
+          <csitem code="dcode47936" name="ULCERATIVE PROCTITIS" type="DIAG" sequence="55"/>
+          <csitem code="dcode47966" name="COLON CANCER HISTORY" type="DIAG" sequence="56"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="57"/>
+          <csitem code="dcode47967" name="HISTORY COLON POLYPS" type="DIAG" sequence="58"/>
+          <csitem code="dcode47968" name="SCREENING COLON" type="DIAG" sequence="59"/>
+          <csitem code="dcode48124" name="PRE-OPERATIVE EXAMINATION" type="DIAG" sequence="60"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="61"/>
+          <csitem code="" collapsed="0" name="COLONOSCOPY" type="DIAG" sequence="62"/>
+          <csitem code="" collapsed="0" name="EGD" type="DIAG" sequence="63"/>
+          <csitem code="" collapsed="0" name="EGD W/DILATION" type="DIAG" sequence="64"/>
+          <csitem code="" collapsed="0" name="EGD W/C-ARM" type="DIAG" sequence="65"/>
+          <csitem code="" collapsed="0" name="ERCP" type="DIAG" sequence="66"/>
+          <csitem code="" collapsed="0" name="FLEX SIG" type="DIAG" sequence="67"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="68"/>
+          <csitem code="" collapsed="0" name="MIRALEX" type="DIAG" sequence="69"/>
+          <csitem code="" collapsed="0" name="MAC" type="DIAG" sequence="70"/>
+          <csitem code="" collapsed="0" name="NULYTE" type="DIAG" sequence="71"/>
+          <csitem code="" collapsed="0" name="PHOSPHO" type="DIAG" sequence="72"/>
+          <csitem code="" collapsed="0" name="TRILYTE" type="DIAG" sequence="73"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="74"/>
+          <csitem code="" collapsed="0" name="AMB" type="DIAG" sequence="75"/>
+          <csitem code="" collapsed="0" name="CSC" type="DIAG" sequence="76"/>
+          <csitem code="" collapsed="0" name="NPSC" type="DIAG" sequence="77"/>
+          <csitem code="" collapsed="0" name="MDH" type="DIAG" sequence="78"/>
+          <csitem code="" collapsed="0" name="MCH" type="DIAG" sequence="79"/>
+          <csitem code="" collapsed="0" name="HE" type="DIAG" sequence="80"/>
+          <csitem code="" collapsed="0" name="" type="DIAG" sequence="81"/>
+          <csitem code="" collapsed="0" name="BPSEC" type="DIAG" sequence="82"/>
+          <csitem code="" collapsed="0" name="BPH - IP" type="DIAG" sequence="83"/>
+          <csitem code="" collapsed="0" name="BPH - OP" type="DIAG" sequence="84"/>
+          <csitem code="" collapsed="0" name="HERNANDO ENDOSCOPY CENTER" type="DIAG" sequence="85"/>
+          <csitem code="" collapsed="0" name="OTHERS" type="DIAG" sequence="86"/>
+          <csitem code="" collapsed="0" name="EVAL &amp; MGMT" type="PROC" sequence="0"/>
+          <csitem code="pcode34051" units="1" name="OFF LEV 3 (NEW)" type="PROC" sequence="1"/>
+          <csitem code="pcode34052" units="1" name="OFF LEV 4 (NEW)" type="PROC" sequence="2"/>
+          <csitem code="pcode34053" units="1" name="OFF LEV 5 (NEW)" type="PROC" sequence="3"/>
+          <csitem code="pcode34075" units="1" name="OFF CONS LEV 3" type="PROC" sequence="4"/>
+          <csitem code="pcode34076" units="1" name="OFF CONS LEV 4" type="PROC" sequence="5"/>
+          <csitem code="pcode34077" units="1" name="OFF CONS LEV 5" type="PROC" sequence="6"/>
+          <csitem code="pcode34055" units="1" name="OV LEV 2 (EST)" type="PROC" sequence="7"/>
+          <csitem code="pcode34056" units="1" name="OV LEV 3 (EST)" type="PROC" sequence="8"/>
+          <csitem code="pcode34057" units="1" name="OV LEV 4 (EST)" type="PROC" sequence="9"/>
+          <csitem code="pcode34058" units="1" name="OV LEV 5 (EST)" type="PROC" sequence="10"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="11"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="12"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="13"/>
+          <csitem code="" collapsed="0" name="SURGERY" type="PROC" sequence="14"/>
+          <csitem code="pcode33476" units="1" name="ESOPH, W/BALLN DILATION" type="PROC" sequence="15"/>
+          <csitem code="pcode33483" units="1" name="EGD WBRUSH OR WASH" type="PROC" sequence="16"/>
+          <csitem code="pcode33487" units="1" name="EGD W/BX" type="PROC" sequence="17"/>
+          <csitem code="pcode33492" units="1" name="EGD W/BAND LIGATION" type="PROC" sequence="18"/>
+          <csitem code="pcode33496" units="1" name="EGD W/GW &amp; DIL" type="PROC" sequence="19"/>
+          <csitem code="pcode33497" units="1" name="EGD W/BALLOON DIL &lt;30MM" type="PROC" sequence="20"/>
+          <csitem code="pcode33498" units="1" name="EGD W/HOT BX OR CAUT" type="PROC" sequence="21"/>
+          <csitem code="pcode33499" units="1" name="EGD FOR POLYPEC W/SNARE" type="PROC" sequence="22"/>
+          <csitem code="pcode33500" units="1" name="EGD FOR CNTL OF BLEED" type="PROC" sequence="23"/>
+          <csitem code="pcode33504" units="1" name="ERCP W/WO BRUSH/WASH" type="PROC" sequence="24"/>
+          <csitem code="pcode33506" units="1" name="ERCP W/SPIN/PAPI" type="PROC" sequence="25"/>
+          <csitem code="pcode33508" units="1" name="ERCP W/STONES REMOVAL" type="PROC" sequence="26"/>
+          <csitem code="pcode33577" units="1" name="G TUBE CHANGE" type="PROC" sequence="27"/>
+          <csitem code="pcode33749" units="1" name="FS W/WO BRUSH/WASH" type="PROC" sequence="28"/>
+          <csitem code="pcode33750" units="1" name="FLEX SIG W BX" type="PROC" sequence="29"/>
+          <csitem code="pcode33752" units="1" name="FS W/HOT BX OR CAUT" type="PROC" sequence="30"/>
+          <csitem code="pcode33754" units="1" name="FS W/SUBMUCOSAL INJ" type="PROC" sequence="31"/>
+          <csitem code="pcode33756" units="1" name="FS W/SNARE" type="PROC" sequence="32"/>
+          <csitem code="pcode33763" units="1" name="COLONOSCOPY W/BRUSH" type="PROC" sequence="33"/>
+          <csitem code="pcode33765" units="1" name="COLONOSCOPY/BIOPSY" type="PROC" sequence="34"/>
+          <csitem code="pcode33766" units="1" name="COLON W/SUBMUCOSAL INJ" type="PROC" sequence="35"/>
+          <csitem code="pcode33767" units="1" name="COLONOSCOPY W/HEM CTRL" type="PROC" sequence="36"/>
+          <csitem code="pcode33769" units="1" name="COLONOSOCPY W/HOT BX" type="PROC" sequence="37"/>
+          <csitem code="pcode33770" units="1" name="COLON W/SNARE" type="PROC" sequence="38"/>
+          <csitem code="pcode33804" units="1" name="HEMORRHOIDAL BANDING, BY SIMPLE LIGATURE" type="PROC" sequence="39"/>
+          <csitem code="pcode56554" units="1" name="DESTRUC HEMORRHOIDS" type="PROC" sequence="40"/>
+          <csitem code="pcode33864" units="1" name="BIOPSY OF LIVER" type="PROC" sequence="41"/>
+          <csitem code="pcode34086" units="1" name="FLOURO" type="PROC" sequence="42"/>
+          <csitem code="pcode42744" units="1" name="IV SEDATION" type="PROC" sequence="43"/>
+          <csitem code="pcode34088" units="1" name="ESOPHAGEAL MOTILITY " type="PROC" sequence="44"/>
+          <csitem code="pcode34692" units="1" name="BRAVO PH MONITORING SYSTEM" type="PROC" sequence="45"/>
+          <csitem code="pcode34118" units="1" name="BREATH HYDROGEN TEST" type="PROC" sequence="46"/>
+          <csitem code="pcode34691" units="1" name="CAPSULE ENDO - READING ONLY " type="PROC" sequence="47"/>
+          <csitem code="pcode34693" units="1" name="CAPSULE ENDO - COMPLETE STUDY DONE" type="PROC" sequence="48"/>
+          <csitem code="pcode34138" units="1" name="SCREENING COLON HIGH RISK" type="PROC" sequence="49"/>
+          <csitem code="pcode34674" units="1" name="SCREENING COLON AVG RISK" type="PROC" sequence="50"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="51"/>
+          <csitem code="" collapsed="0" name="OTHER SERVICES" type="PROC" sequence="52"/>
+          <csitem code="pcode34090" units="1" name="FECAL OCCULT BLOOD" type="PROC" sequence="53"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="54"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="55"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="56"/>
+          <csitem code="" collapsed="0" name="" type="PROC" sequence="57"/>
+        </csitemlist>
+      </cstemplate>
+      <cstemplate id="cst71" code="PATH" name="PATHOLOGY">
+        <csitemlist>
+          <csitem code="dcode47154" name="INTST INFS CLOSTRIDIUM DIFFICILE" type="DIAG" sequence="0"/>
+          <csitem code="dcode47171" name="DIARRHEA PRESUMED INFECTIOUS ORIGIN" type="DIAG" sequence="1"/>
+          <csitem code="dcode47837" name="HELICOBACTER PYLORI INFECTION" type="DIAG" sequence="2"/>
+          <csitem code="dcode48031" name="CANDIDAL ESOPHAGITIS" type="DIAG" sequence="3"/>
+          <csitem code="dcode47987" name="ESOPHAGEAL CANCER" type="DIAG" sequence="4"/>
+          <csitem code="dcode47993" name="MALIG NEOPLASM STOMACH UNSPEC SITE" type="DIAG" sequence="5"/>
+          <csitem code="dcode287228" name="MALIGNANT NEOPLASM OF SMALL INTESTINE, U" type="DIAG" sequence="6"/>
+          <csitem code="dcode287229" name="MALIGNANT NEOPLASM OF OTHER SPECIFIED SI" type="DIAG" sequence="7"/>
+          <csitem code="dcode47572" name="CANCER, COLON" type="DIAG" sequence="8"/>
+          <csitem code="dcode48181" name="ESOPH. POLYP" type="DIAG" sequence="9"/>
+          <csitem code="dcode47975" name="GASTRIC POLYP" type="DIAG" sequence="10"/>
+          <csitem code="dcode47976" name="BEN NEOPLASM DUODENUM JEJUNUM&amp;ILEUM" type="DIAG" sequence="11"/>
+          <csitem code="dcode47573" name="COLON POLYP" type="DIAG" sequence="12"/>
+          <csitem code="dcode47977" name="BENIGN NEOPLASM RECTUM&amp;ANAL CANAL" type="DIAG" sequence="13"/>
+          <csitem code="dcode47891" name="ANEMIA IRON DEFICIENCY UNSPECIFIED " type="DIAG" sequence="14"/>
+          <csitem code="dcode47956" name="ESOPHAGEAL VARICES" type="DIAG" sequence="15"/>
+          <csitem code="dcode47924" name="UNSPECIFIED ESOPHAGITIS" type="DIAG" sequence="16"/>
+          <csitem code="dcode47925" name="REFLUX ESOPHAGITIS" type="DIAG" sequence="17"/>
+          <csitem code="dcode47928" name="ULCER OF ESOPHAGUS WITHOUT BLEEDING" type="DIAG" sequence="18"/>
+          <csitem code="dcode47929" name="ULCER OF ESOPHAGUS WITH BLEEDING" type="DIAG" sequence="19"/>
+          <csitem code="dcode47930" name="STRICTURE ESOPHAGUS" type="DIAG" sequence="20"/>
+          <csitem code="dcode47624" name="ESOPHAGEAL REFLUX" type="DIAG" sequence="21"/>
+          <csitem code="dcode47617" name="BARRETTS ESOPHAGUS" type="DIAG" sequence="22"/>
+          <csitem code="dcode47822" name="GU ACUTE" type="DIAG" sequence="23"/>
+          <csitem code="dcode47830" name="GU CHRONIC" type="DIAG" sequence="24"/>
+          <csitem code="dcode47981" name="DU" type="DIAG" sequence="25"/>
+          <csitem code="dcode47955" name="CHRN DUOD ULCR" type="DIAG" sequence="26"/>
+          <csitem code="dcode48044" name="DU ULCER UNSPEC." type="DIAG" sequence="27"/>
+          <csitem code="dcode48080" name="PEPTIC ULCER ACUTE" type="DIAG" sequence="28"/>
+          <csitem code="dcode49133" name="CHRN PEPTC ULCR W/O HEMOR PERF/OBST" type="DIAG" sequence="29"/>
+          <csitem code="dcode48053" name="PEPTIC ULCER, UNSPEC" type="DIAG" sequence="30"/>
+          <csitem code="dcode47773" name="GASTRITIS CHRONIC" type="DIAG" sequence="31"/>
+          <csitem code="dcode47805" name="UNS GASTRIT&amp;GASTRODUODIT NO HEMORR" type="DIAG" sequence="32"/>
+          <csitem code="dcode48017" name="DUODENITIS/WO HEMMORAGE" type="DIAG" sequence="33"/>
+          <csitem code="dcode47905" name="PERSISTENT VOMITING" type="DIAG" sequence="34"/>
+          <csitem code="dcode47619" name="DYSPEPSIA" type="DIAG" sequence="35"/>
+          <csitem code="dcode48041" name="OTH SPEC DISORDER STOMACH&amp;DUODENUM" type="DIAG" sequence="36"/>
+          <csitem code="dcode47612" name="CROHNS ILEOCOLITIS" type="DIAG" sequence="37"/>
+          <csitem code="dcode47936" name="ULCERATIVE PROCTITIS" type="DIAG" sequence="38"/>
+          <csitem code="dcode47941" name="ULCERATIVE COLITIS" type="DIAG" sequence="39"/>
+          <csitem code="dcode47970" name="VASCULAR INSUFF INTESTINE" type="DIAG" sequence="40"/>
+          <csitem code="dcode47814" name="COLITIS RADIATION" type="DIAG" sequence="41"/>
+          <csitem code="dcode47817" name="MICROSCOPIC COLITIS" type="DIAG" sequence="42"/>
+          <csitem code="dcode47991" name="COLON STRICTURE" type="DIAG" sequence="43"/>
+          <csitem code="dcode47582" name="DIVERTICULOSIS OF COLON" type="DIAG" sequence="44"/>
+          <csitem code="dcode47583" name="DIVERTICULITIS OF COLON" type="DIAG" sequence="45"/>
+          <csitem code="dcode47606" name="CONSTIPATION" type="DIAG" sequence="46"/>
+          <csitem code="dcode47603" name="DIARRHEA FUNCTIONAL" type="DIAG" sequence="47"/>
+          <csitem code="dcode47909" name="BLEEDING, RECTAL" type="DIAG" sequence="48"/>
+          <csitem code="dcode47922" name="OTHER SPECIFIED DISORDER INTESTINES" type="DIAG" sequence="49"/>
+          <csitem code="dcode47850" name="BLEEDING, STOOL/MELEN" type="DIAG" sequence="50"/>
+          <csitem code="dcode47851" name="BLEEDING, GI " type="DIAG" sequence="51"/>
+          <csitem code="dcode47942" name="LOSS OF WEIGHT" type="DIAG" sequence="52"/>
+          <csitem code="dcode47974" name="NAUSEA WITH VOMITING" type="DIAG" sequence="53"/>
+          <csitem code="dcode47973" name="NAUSEA ALONE" type="DIAG" sequence="54"/>
+          <csitem code="dcode47831" name="HEARTBURN" type="DIAG" sequence="55"/>
+          <csitem code="dcode47621" name="DYSPHAGIA" type="DIAG" sequence="56"/>
+          <csitem code="dcode47604" name="DIARRHEA" type="DIAG" sequence="57"/>
+          <csitem code="dcode47953" name="CHANGE IN BOWEL HABITS" type="DIAG" sequence="58"/>
+          <csitem code="dcode47526" name="ABDOMINAL PAIN, UNSPECIFIED SITE" type="DIAG" sequence="59"/>
+          <csitem code="dcode47527" name="ABDOMINAL PAIN RUQ" type="DIAG" sequence="60"/>
+          <csitem code="dcode47528" name="ABDOMINAL PAIN LUQ" type="DIAG" sequence="61"/>
+          <csitem code="dcode47529" name="ABDOMINAL PAIN RLQ" type="DIAG" sequence="62"/>
+          <csitem code="dcode47530" name="ABDOMINAL PAIN LLQ" type="DIAG" sequence="63"/>
+          <csitem code="dcode47532" name="ABDOMINAL PAIN EPIGASTRIC " type="DIAG" sequence="64"/>
+          <csitem code="dcode47534" name="ABDOMINAL PAIN OTHER SPECIFIED SITE" type="DIAG" sequence="65"/>
+          <csitem code="dcode47852" name="BLEEDING, OCCULT" type="DIAG" sequence="66"/>
+          <csitem code="dcode47966" name="COLON CANCER HISTORY" type="DIAG" sequence="67"/>
+          <csitem code="dcode47982" name="RECTAL CANCER" type="DIAG" sequence="68"/>
+          <csitem code="dcode47967" name="HISTORY COLON POLYPS" type="DIAG" sequence="69"/>
+          <csitem code="dcode47968" name="SCREENING COLON" type="DIAG" sequence="70"/>
+          <csitem code="pcode105964" units="1" name="TISSUE EXAM BY PATHOLOGIST, L-IV" type="PROC" sequence="0"/>
+          <csitem code="pcode105968" units="1" name="SPECIAL STAINS GROUP 1" type="PROC" sequence="1"/>
+          <csitem code="pcode105969" units="1" name="SPECIAL STAINS GROUP 2" type="PROC" sequence="2"/>
+          <csitem code="pcode106082" units="1" name="READING IMMUNOHISTOCHEMISTRY (INCLUDING TISSUE I" type="PROC" sequence="3"/>
+        </csitemlist>
+      </cstemplate>
+    </cstemplatelist>
+    <proccodelist>
+      <proccode id="pcode34051" code="99203" name="OFC/OUTPT E&amp;M NEW MOD-SEVER 30 MIN"/>
+      <proccode id="pcode34052" code="99204" name="OFC/OUTPT E&amp;M NEW MOD-HI 45 MIN"/>
+      <proccode id="pcode34053" code="99205" name="OFC/OUTPT E&amp;M NEW MOD-HI 60 MIN"/>
+      <proccode id="pcode34073" code="99241" name="OFFICE CNSLT NEW/ESTAB MINOR 15 MIN"/>
+      <proccode id="pcode34074" code="99242" name="OFC CNSLT NEW/EST LOW SEVER 30 MIN"/>
+      <proccode id="pcode34075" code="99243" name="OFFICE CNSLT NEW/ESTAB MOD 40 MIN"/>
+      <proccode id="pcode34076" code="99244" name="OFC CNSLT NEW/ESTAB MOD-HI 60 MIN"/>
+      <proccode id="pcode34077" code="99245" name="OFC CNSLT NEW/ESTAB MOD-HI 80 MIN"/>
+      <proccode id="pcode34055" code="99212" name="OFC/OUTPT E&amp;M ESTAB MINOR 10 MIN"/>
+      <proccode id="pcode34056" code="99213" name="OFC/OUTPT E&amp;M ESTAB LOW-MOD 15 MIN"/>
+      <proccode id="pcode34057" code="99214" name="OFC/OUTPT E&amp;M ESTAB MOD-HI 25 MIN"/>
+      <proccode id="pcode34058" code="99215" name="OFC/OUTPT E&amp;M ESTAB MOD-HI 40 MIN"/>
+      <proccode id="pcode33476" code="43220" name="ESOPHAGOSCOPY; W/BALLOON DILAT"/>
+      <proccode id="pcode33483" code="43235" name="UGI ENDO; DX W/WO CLCT SPECMN-SP"/>
+      <proccode id="pcode33487" code="43239" name="UGI ENDO; W/BX 1/MX"/>
+      <proccode id="pcode33492" code="43244" name="UGI ENDO; W/BAND LIG VARICES"/>
+      <proccode id="pcode33496" code="43248" name="UGI ENDO; W/INSRT GUIDE WIRE"/>
+      <proccode id="pcode33497" code="43249" name="UGI ENDO; W/BALLOON DILAT ESOPHAGUS"/>
+      <proccode id="pcode33498" code="43250" name="UGI ENDO; W/REMV TUMOR/POLYP/LES"/>
+      <proccode id="pcode33499" code="43251" name="UGI ENDO; W/REMV TUMOR/LES-SNARE"/>
+      <proccode id="pcode33500" code="43255" name="UGI ENDO; W/CONTRL BLEED ANY METHD"/>
+      <proccode id="pcode33504" code="43260" name="ERCP; DX W/WO CLCT SPEC SEP PROC"/>
+      <proccode id="pcode33506" code="43262" name="ERCP; W/SPHINCTEROTOMY/PAPILLOTOMY"/>
+      <proccode id="pcode33508" code="43264" name="ERCP; REMV CALCU BILI&amp;/PANC DUCTS"/>
+      <proccode id="pcode33577" code="43760" name="CHANGE OF GASTROSTOMY TUBE"/>
+      <proccode id="pcode33749" code="45330" name="SIGMOIDOSCOPY FLEX; DX-SEP PROC"/>
+      <proccode id="pcode33750" code="45331" name="SIGMOIDOSCOPY FLXIBLE; W/BX 1/MX"/>
+      <proccode id="pcode33752" code="45333" name="SIGMOIDOSCPY FLEX; W/REMV LES-CAUT"/>
+      <proccode id="pcode33754" code="45335" name="SIGMOIDSCPY FLX; DIR SUBMUCOS INJ"/>
+      <proccode id="pcode33756" code="45338" name="SIGMOIDOSCOPY FLEX; REMV LES-SNARE"/>
+      <proccode id="pcode33763" code="45378" name="COLONOSCOPY FLEX; DX-SEP PROC"/>
+      <proccode id="pcode33765" code="45380" name="COLONOSCOPY FLEX; W/BX 1/MX"/>
+      <proccode id="pcode33766" code="45381" name="COLNSCP PROX SPLENC FLXR;SUBMUC INJ"/>
+      <proccode id="pcode33767" code="45382" name="COLNSCPY FLEX SPLENIC; CNTRL BLEED"/>
+      <proccode id="pcode33769" code="45384" name="COLONOSOCPY FLEX; REMV LES-FORCEPS"/>
+      <proccode id="pcode33770" code="45385" name="COLONOSCOPY FLEX; W/REMV LES-SNARE"/>
+      <proccode id="pcode56554" code="46930" name="DESTROY INTERNAL HEMORRHOIDS"/>
+      <proccode id="pcode33820" code="46600" name="ANSCPY; DX W/WO CLCT SPEC BRSH/WSH"/>
+      <proccode id="pcode33864" code="47000" name="BIOPSY LIVER NEEDLE; PERCUTANEOUS"/>
+      <proccode id="pcode34086" code="74360-26" name="INTRALUMINAL DILAT STRICT-RAD S &amp; I"/>
+      <proccode id="pcode42744" code="90774" name="IV SEDATION"/>
+      <proccode id="pcode34088" code="91010" name="ESOPHAGEAL MOTILITY STUDY;"/>
+      <proccode id="pcode34692" code="91035" name="BRAVO PH MONITORING SYSTEM"/>
+      <proccode id="pcode34118" code="91065" name="BREATH HYDROGEN TEST"/>
+      <proccode id="pcode34691" code="91110-26" name="GI IMAG INTRALUM ESOPH-ILEUM MD I&amp;R"/>
+      <proccode id="pcode34693" code="91110" name="GI IMAG INTRALUM ESOPH-ILEUM MD I&amp;R"/>
+      <proccode id="pcode34138" code="G0105" name="SCREENING COLON FAMILY HX OF/H RISK"/>
+      <proccode id="pcode34674" code="G0121" name="COLOREC CNCR SCR;COLNSCPY NO HI RSK"/>
+      <proccode id="pcode34090" code="82270" name="BLD OCCLT PEROX ACTV; QUAL FECES"/>
+      <proccode id="pcode106336" code="G8553" name="AT LEAST 1 RX TRANSMIT ERX SYS"/>
+      <proccode id="pcode105306" code="1P" name="NOT DONE-MEDICAL REASONS"/>
+      <proccode id="pcode105307" code="8P" name="NOT DONE-NO REASON NOTED"/>
+      <proccode id="pcode105300" code="G8420" name="BMI &lt;30 AND &gt; 22"/>
+      <proccode id="pcode105301" code="G8417" name="BMI &gt; 30 W/FU PLAN DOCUMENTED"/>
+      <proccode id="pcode105302" code="G8418" name="BMI &lt; 22 W/FU PLAN DOCUMENTED"/>
+      <proccode id="pcode105303" code="G8422" name="PT NOT ELIGLE FOR BMI CALCULATION"/>
+      <proccode id="pcode34080" code="99253" name="INITIAL INPT CPNSULT MOD 55 MIN"/>
+      <proccode id="pcode34081" code="99254" name="INITIAL INPT CONSULT MOD-HI 80 MIN"/>
+      <proccode id="pcode34082" code="99255" name="INITIAL INPT CONSULT MOD-HI 110 MIN"/>
+      <proccode id="pcode34065" code="99231" name="SUBSQT HOSP-DAY E&amp;M STABLE 15 MIN"/>
+      <proccode id="pcode34066" code="99232" name="SUBSQT HSP-DAY E&amp;M MINR CMPL 25 MIN"/>
+      <proccode id="pcode34062" code="99221" name="INIT HOSP-DAY E&amp;M LOW SEVER 30 MIN"/>
+      <proccode id="pcode34063" code="99222" name="INIT HOSP-DAY E&amp;M MOD SEVER 50 MIN"/>
+      <proccode id="pcode34064" code="99223" name="INIT HOSP-DAY E&amp;M HI SEVRITY 70 MIN"/>
+      <proccode id="pcode107663" code="99224" name="SB OBSERVATION CARE-15 MIN"/>
+      <proccode id="pcode107664" code="99225" name="SB OBSERVATION CARE -25 MIN"/>
+      <proccode id="pcode107665" code="99226" name="SB OBSERVATION CARE- 35 MON"/>
+      <proccode id="pcode34067" code="99233" name="SUBSQT HOSP-DAY E&amp;M SIG CMPL 35 MIN"/>
+      <proccode id="pcode33474" code="99291" name="CRITICAL CARE E&amp;M; 1ST 30-74 MIN"/>
+      <proccode id="pcode33475" code="99292" name="CRITICAL CARE E&amp;M; EA ADD 30 MIN"/>
+      <proccode id="pcode33493" code="43245" name="UP GI ENDO;W/DILAT GASTR OUTLT OBST"/>
+      <proccode id="pcode33494" code="43246" name="UGI ENDO; W/PLCMT GASTROSTOMY TUBE"/>
+      <proccode id="pcode33495" code="43247" name="UGI ENDO; W/REMOVAL FB"/>
+      <proccode id="pcode33511" code="43268" name="ERCP; INSRT TUBE/STNT BILE/PANC DCT"/>
+      <proccode id="pcode33512" code="43269" name="ERCP; REMOVAL FB &amp;OR CHG TUBE/STNT"/>
+      <proccode id="pcode33576" code="43752" name="NASO/ORO-GAS TUBE PLC MD SKLL&amp;FLORO"/>
+      <proccode id="pcode33660" code="44360" name="SM INTEST ENDO NOT ILEUM; DX-SP"/>
+      <proccode id="pcode33661" code="44361" name="SM INTEST ENDO NOT ILEUM; W/BX 1/MX"/>
+      <proccode id="pcode33755" code="45337" name="SIGMOIDOSCOPY FLEX; W/DECOMP VOLVUL"/>
+      <proccode id="pcode34089" code="91033" name="ESOPH ACID REFLUX; PROLONG RECORD"/>
+      <proccode id="pcode34119" code="91105" name="GASTRIC INTUBAT&amp;ASPIR/LAVAGE TX"/>
+      <proccode id="pcode34059" code="99217" name="OBSERVATION CARE D/C DAY MANAGEMENT"/>
+      <proccode id="pcode34060" code="99218" name="INIT OBSRV CARE-DAY E&amp;M LOW SEVRITY"/>
+      <proccode id="pcode34061" code="99219" name="INIT OBSRV CARE-DAY E&amp;M MOD SEVRITY"/>
+      <proccode id="pcode33473" code="99220" name="INIT OBSRV CARE-DAY E&amp;M HI SEVERITY"/>
+      <proccode id="pcode34068" code="99234" name="OBSRV/INPT HOSP CARE E&amp;M LOW SEVER"/>
+      <proccode id="pcode34069" code="99235" name="OBSRV/INPT HOSP CARE E&amp;M MOD SEVER"/>
+      <proccode id="pcode34070" code="99236" name="OBSRV/INPT HOSP CARE E&amp;M HIGH SEVER"/>
+      <proccode id="pcode34071" code="99238" name="HOSPITAL D/C DAY MGMT; 30 MIN/LESS"/>
+      <proccode id="pcode34072" code="99239" name="HOSPITAL D/C DAY MGMT; &gt; 30 MINUTES"/>
+      <proccode id="pcode34083" code="99261" name="F/U INPT CNSLT EST STABLE 10 MIN"/>
+      <proccode id="pcode34084" code="99262" name="F/U INPT CNSLT EST MINR CMPL 20 MIN"/>
+      <proccode id="pcode34085" code="99263" name="F/U INPT CNSLT EST SIG CMPL 30 MIN"/>
+      <proccode id="pcode34665" code="99283" name="EMERG DEPT VISIT E&amp;M MODERATE SEVER"/>
+      <proccode id="pcode34666" code="99284" name="ER VISIT E&amp;M HIGH SEVER URGENT EVAL"/>
+      <proccode id="pcode34667" code="99285" name="ER VISIT E&amp;M HIGH-SEVER SIG THREAT"/>
+      <proccode id="pcode33804" code="46221" name="HEMORRHOIDECTOMY BY SIMPLE LIGATURE"/>
+      <proccode id="pcode105964" code="88305" name="TISSUE EXAM BY PATHOLOGIST"/>
+      <proccode id="pcode105968" code="88312" name="SPECIAL STAINS GROUP 1"/>
+      <proccode id="pcode105969" code="88313" name="SPECIAL STAINS GROUP 2"/>
+      <proccode id="pcode106082" code="88342-26" name="IMMUNOHISTOCHEMISTRY (INCLUDING TISSUE I"/>
+    </proccodelist>
+    <diagcodelist>
+      <diagcode id="dcode47154" code="008.45" name="INTST INFS-CLOSTRIDIUM DIFFICILE"/>
+      <diagcode id="dcode47169" code="009.1" name="COLTIS ENTRIT&amp;GASTRONTRIT INF ORIGN"/>
+      <diagcode id="dcode47171" code="009.3" name="DIARRHEA PRESUMED INFECTIOUS ORIGIN"/>
+      <diagcode id="dcode47837" code="041.86" name="HELICOBACTER PYLORI INFECTION"/>
+      <diagcode id="dcode47954" code="070.54" name="CHRONIC HEP C W/O MENTION HEP COMA"/>
+      <diagcode id="dcode47987" code="150.9" name="ESOPHAGEAL CANCER"/>
+      <diagcode id="dcode47572" code="153.9" name="MALIG NEOPLASM COLON UNSPEC SITE"/>
+      <diagcode id="dcode47975" code="211.1" name="BENIGN NEOPLASM OF STOMACH"/>
+      <diagcode id="dcode47573" code="211.3" name="BENIGN NEOPLASM OF COLON"/>
+      <diagcode id="dcode51794" code="271.3" name="LACTOSE INTOLERANCE"/>
+      <diagcode id="dcode47891" code="280.9" name="UNSPECIFIED IRON DEFICIENCY ANEMIA"/>
+      <diagcode id="dcode284432" code="285.1" name="ANEMIA DUE TO ACUTE BLOOD LOSS"/>
+      <diagcode id="dcode285839" code="285.29" name="ANEMIA OF OTHER CHRONIC DISEASE"/>
+      <diagcode id="dcode47983" code="285.9" name="ANEMIA UNSPECIFIED"/>
+      <diagcode id="dcode47839" code="455.0" name="INTRL HEMORRHOIDS W/O MENTION COMP"/>
+      <diagcode id="dcode47841" code="455.2" name="INTERNAL HEMORRHOIDS W/OTH COMP"/>
+      <diagcode id="dcode47956" code="456.1" name="ESOPH VARICES WITHOUT MENTION BLEED"/>
+      <diagcode id="dcode47957" code="456.20" name="ESOPH VARICES W/BLEED DZ CLASS ELSW"/>
+      <diagcode id="dcode47958" code="456.21" name="ESOPH VARIC W/O BLEED DZ CLASS ELSW"/>
+      <diagcode id="dcode47925" code="530.11" name="REFLUX ESOPHAGITIS"/>
+      <diagcode id="dcode47930" code="530.3" name="STRICTURE AND STENOSIS OF ESOPHAGUS"/>
+      <diagcode id="dcode47624" code="530.81" name="ESOPHAGEAL REFLUX"/>
+      <diagcode id="dcode47617" code="530.85" name="BARRETTS ESOPHAGUS"/>
+      <diagcode id="dcode48025" code="531.00" name="ACUT GASTR ULCR W/HEM W/O OBST"/>
+      <diagcode id="dcode47822" code="531.30" name="ACUT GASTR ULCR W/O HEMOR PERF/OBST"/>
+      <diagcode id="dcode47830" code="531.70" name="CHRN GASTR ULCR W/O HEMOR-PERF-OBST"/>
+      <diagcode id="dcode48052" code="532.00" name="ACUT DUOD ULCR W/HEM W/O OBST"/>
+      <diagcode id="dcode47981" code="532.30" name="ACUT DUOD ULCR W/O HEMOR PERF/OBST"/>
+      <diagcode id="dcode47955" code="532.70" name="CHRN DUOD ULCR W/O HEMOR PERF/OBST"/>
+      <diagcode id="dcode47773" code="535.10" name="ATROPHIC GASTRITIS W/O HEMOR"/>
+      <diagcode id="dcode47905" code="536.2" name="PERSISTENT VOMITING"/>
+      <diagcode id="dcode47807" code="536.3" name="GASTROPARESIS"/>
+      <diagcode id="dcode47619" code="536.8" name="DYSPEPSIA&amp;OTH D/O FUNCT STOMACH"/>
+      <diagcode id="dcode48023" code="537.83" name="ANGIODYSPLAS STOMACH&amp;DUOD W/HEMORR"/>
+      <diagcode id="dcode47978" code="553.3" name="DIAPHRAGMAT HERN W/O OBST/GANGREN"/>
+      <diagcode id="dcode47612" code="555.2" name="RGN ENTERITIS SM INTEST W/LG INTEST"/>
+      <diagcode id="dcode47613" code="555.9" name="REGIONAL ENTERITIS UNSPECIFIED SITE"/>
+      <diagcode id="dcode47936" code="556.2" name="ULCERATIVE PROCTITIS"/>
+      <diagcode id="dcode47941" code="556.9" name="UNSPECIFIED ULCERATIVE COLITIS"/>
+      <diagcode id="dcode48036" code="557.0" name="ACUTE VASCULAR INSUFF INTESTINE"/>
+      <diagcode id="dcode47814" code="558.1" name="GASTROENTERITIS&amp;COLITIS DUE RAD"/>
+      <diagcode id="dcode47817" code="558.9" name="UNS NONINF GASTROENTERIT&amp;COLITIS"/>
+      <diagcode id="dcode48024" code="560.1" name="PARALYTIC ILEUS"/>
+      <diagcode id="dcode47991" code="560.9" name="UNSPECIFIED INTESTINAL OBSTRUCTION"/>
+      <diagcode id="dcode47582" code="562.10" name="DIVERTICULOSIS OF COLON"/>
+      <diagcode id="dcode47583" code="562.11" name="DIVERTICULITIS OF COLON"/>
+      <diagcode id="dcode47606" code="564.00" name="UNSPECIFIED CONSTIPATION"/>
+      <diagcode id="dcode47858" code="564.1" name="IRRITABLE BOWEL SYNDROME"/>
+      <diagcode id="dcode47603" code="564.5" name="FUNCTIONAL DIARRHEA"/>
+      <diagcode id="dcode47909" code="569.3" name="HEMORRHAGE OF RECTUM AND ANUS"/>
+      <diagcode id="dcode47615" code="569.84" name="ANGIODYSPLASIA OF INTESTINE"/>
+      <diagcode id="dcode47562" code="571.1" name="ACUTE ALCOHOLIC HEPATITIS"/>
+      <diagcode id="dcode47654" code="571.2" name="ALCOHOLIC CIRRHOSIS OF LIVER"/>
+      <diagcode id="dcode47655" code="571.3" name="UNSPECIFIED ALCOHOLIC LIVER DAMAGE"/>
+      <diagcode id="dcode47656" code="571.5" name="CIRRHOSIS LIVER W/O MENTION ALCOHOL"/>
+      <diagcode id="dcode47964" code="571.8" name="OTH CHRON NONALCOHLIC LIVR DISEASE"/>
+      <diagcode id="dcode48162" code="572.2" name="HEPATIC COMA"/>
+      <diagcode id="dcode47969" code="574.20" name="CALCU GB W/O MENTION CHOLCYST/OBST"/>
+      <diagcode id="dcode48006" code="574.50" name="CALCU BD W/O MENTION CHOLECYST/OBST"/>
+      <diagcode id="dcode48035" code="576.2" name="OBSTRUCTION OF BILE DUCT"/>
+      <diagcode id="dcode47992" code="577.0" name="ACUTE PANCREATITIS"/>
+      <diagcode id="dcode47986" code="577.1" name="CHRONIC PANCREATITIS"/>
+      <diagcode id="dcode47849" code="578.0" name="HEMATEMESIS"/>
+      <diagcode id="dcode47850" code="578.1" name="BLOOD IN STOOL"/>
+      <diagcode id="dcode47851" code="578.9" name="UNSPEC HEMORRHAGE GI TRACT"/>
+      <diagcode id="dcode285104" code="698.0" name="PRURITUS ANI"/>
+      <diagcode id="dcode47892" code="782.4" name="JAUNDICE UNSPECIFIED NOT OF NEWBORN"/>
+      <diagcode id="dcode48104" code="783.0" name="ANOREXIA"/>
+      <diagcode id="dcode47942" code="783.21" name="LOSS OF WEIGHT"/>
+      <diagcode id="dcode47944" code="783.3" name="FEEDING DIFFICULTIES&amp;MISMANAGEMENT"/>
+      <diagcode id="dcode47974" code="787.01" name="NAUSEA WITH VOMITING"/>
+      <diagcode id="dcode47973" code="787.02" name="NAUSEA ALONE"/>
+      <diagcode id="dcode47831" code="787.1" name="HEARTBURN"/>
+      <diagcode id="dcode47621" code="787.20" name="DYSPHAGIA UNSPECIFIED"/>
+      <diagcode id="dcode57821" code="787.22" name="DYSPHAGIA OROPHARYNGEAL PHASE"/>
+      <diagcode id="dcode47770" code="787.3" name="FLATULENCE ERUCTATION AND GAS PAIN"/>
+      <diagcode id="dcode47604" code="787.91" name="DIARRHEA"/>
+      <diagcode id="dcode47953" code="787.99" name="OTHER SYMPTOMS INVOLVING DIGESTIVE"/>
+      <diagcode id="dcode47526" code="789.00" name="ABDOMINAL PAIN, UNSPECIFIED SITE"/>
+      <diagcode id="dcode47527" code="789.01" name="ABDOMINAL PAIN RIGHT UPPER QUADRANT"/>
+      <diagcode id="dcode47528" code="789.02" name="ABDOMINAL PAIN, LEFT UPPER QUADRANT"/>
+      <diagcode id="dcode47529" code="789.03" name="ABDOMINAL PAIN RIGHT LOWER QUADRANT"/>
+      <diagcode id="dcode47530" code="789.04" name="ABDOMINAL PAIN, LEFT LOWER QUADRANT"/>
+      <diagcode id="dcode47532" code="789.06" name="ABDOMINAL PAIN, EPIGASTRIC"/>
+      <diagcode id="dcode47534" code="789.09" name="ABDOMINAL PAIN OTHER SPECIFIED SITE"/>
+      <diagcode id="dcode47994" code="789.59" name="ASCITES"/>
+      <diagcode id="dcode47899" code="790.4" name="NONSPEC ELEV LEVEL TRANSAMINASE/LDH"/>
+      <diagcode id="dcode47852" code="792.1" name="NONSPEC ABNORM FIND STOOL CONTENTS"/>
+      <diagcode id="dcode47966" code="V10.05" name="PERS HX MALIG NEOPLASM LG INTESTINE"/>
+      <diagcode id="dcode47982" code="V10.06" name="PERS HX MAL NEO-RECT RCTSGMOID&amp;ANUS"/>
+      <diagcode id="dcode47967" code="V12.72" name="PERSONAL HISTORY OF COLONIC POLYPS"/>
+      <diagcode id="dcode47984" code="V16.0" name="FM HX MALIG NEOPLASM GI TRACT"/>
+      <diagcode id="dcode284725" code="V44.1" name="STATUS POST"/>
+      <diagcode id="dcode48124" code="V72.84" name="PRE-OPERATIVE EXAMINATION"/>
+      <diagcode id="dcode47968" code="V76.51" name="SPECIAL SCR MALIG NEOPLSM COLON"/>
+      <diagcode id="dcode47842" code="455.3" name="EXT HEMORRHOIDS W/O MENTION COMP"/>
+      <diagcode id="dcode51069" code="750.3" name="CONGEN ESOPH ATRESIA&amp;STENOSIS"/>
+      <diagcode id="dcode284600" code="997.3" name="RESPIRATORY COMPLICATION"/>
+      <diagcode id="dcode48031" code="112.84" name="CANDIDAL ESOPHAGITIS"/>
+      <diagcode id="dcode48166" code="151.0" name="GASTROESOPHAGEAL JUNCTION CARCINOMA"/>
+      <diagcode id="dcode47623" code="456.0" name="ESOPHAGEAL VARICES WITH BLEEDING"/>
+      <diagcode id="dcode47932" code="530.5" name="DYSKINESIA OF ESOPHAGUS"/>
+      <diagcode id="dcode47794" code="530.7" name="GASTROESOPH LACERATION-HEMORR SYND"/>
+      <diagcode id="dcode47625" code="530.82" name="ESOPHAGEAL HEMORRHAGE"/>
+      <diagcode id="dcode47824" code="531.40" name="CHRN/UNS GASTR ULCR W/HEM W/O OBST"/>
+      <diagcode id="dcode48087" code="532.40" name="CHRN/UNS DUOD ULCR W/HEM W/O OBST"/>
+      <diagcode id="dcode47809" code="536.41" name="INFECTION OF GASTROSTOMY"/>
+      <diagcode id="dcode47810" code="536.42" name="MECHANICAL COMPLICATION GASTROSTOMY"/>
+      <diagcode id="dcode47970" code="557.9" name="UNSPEC VASCULAR INSUFF INTESTINE"/>
+      <diagcode id="dcode48069" code="560.39" name="OTHER IMPACTION OF INTESTINE"/>
+      <diagcode id="dcode50457" code="560.81" name="INTEST/PERITON ADHES W/OBSTRUCTION"/>
+      <diagcode id="dcode48027" code="565.0" name="ANAL FISSURE"/>
+      <diagcode id="dcode47616" code="569.85" name="ANGIODYSPLASIA INTESTINE W/HEMORR"/>
+      <diagcode id="dcode57822" code="789.51" name="ASCITES, MALIGNANT"/>
+      <diagcode id="dcode48067" code="789.9" name="OTH SYMPTOMS INVLV ABDOMEN &amp; PELVIS"/>
+      <diagcode id="dcode48032" code="935.1" name="FOREIGN BODY IN ESOPHAGUS"/>
+      <diagcode id="dcode48085" code="532.20" name="AC DUOD ULCR W/HEMOR&amp;PERF W/O OBST"/>
+      <diagcode id="dcode47993" code="151.9" name="MALIG NEOPLASM STOMACH UNSPEC SITE"/>
+      <diagcode id="dcode287228" code="152.9" name="MALIGNANT NEOPLASM OF SMALL INTESTINE, U"/>
+      <diagcode id="dcode287229" code="153.8" name="MALIGNANT NEOPLASM OF OTHER SPECIFIED SI"/>
+      <diagcode id="dcode48181" code="211.0" name="ESOPH. POLYP"/>
+      <diagcode id="dcode47976" code="211.2" name="BEN NEOPLASM DUODENUM JEJUNUM&amp;ILEUM"/>
+      <diagcode id="dcode47977" code="211.4" name="BENIGN NEOPLASM RECTUM&amp;ANAL CANAL"/>
+      <diagcode id="dcode47924" code="530.10" name="UNSPECIFIED ESOPHAGITIS"/>
+      <diagcode id="dcode47928" code="530.20" name="ULCER OF ESOPHAGUS WITHOUT BLEEDING"/>
+      <diagcode id="dcode47929" code="530.21" name="ULCER OF ESOPHAGUS WITH BLEEDING"/>
+      <diagcode id="dcode48044" code="532.90" name="DUOD ULCR UNS W/O HEMORR PERF/OBST"/>
+      <diagcode id="dcode48080" code="533.30" name="ACUT PEPTC ULCR W/O HEMOR PERF/OBST"/>
+      <diagcode id="dcode49133" code="533.70" name="CHRN PEPTC ULCR W/O HEMOR PERF/OBST"/>
+      <diagcode id="dcode48053" code="533.90" name="PEPTC ULCR UNS NO HEMOR-PERF/OBST"/>
+      <diagcode id="dcode47805" code="535.50" name="UNS GASTRIT&amp;GASTRODUODIT NO HEMORR"/>
+      <diagcode id="dcode48017" code="535.60" name="DUODENITIS WITHOUT MENTION HEMORR"/>
+      <diagcode id="dcode48041" code="537.89" name="OTH SPEC DISORDER STOMACH&amp;DUODENUM"/>
+      <diagcode id="dcode47922" code="569.89" name="OTHER SPECIFIED DISORDER INTESTINES"/>
+    </diagcodelist>
+  </Results>
+  <Error/>
+</PPMDResults>

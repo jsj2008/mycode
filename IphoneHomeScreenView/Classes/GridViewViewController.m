@@ -2,7 +2,7 @@
 //  GridViewViewController.m
 //  GridView
 //
-//  Created by Ayush on 11/05/11.
+//  Created by Cybage 
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

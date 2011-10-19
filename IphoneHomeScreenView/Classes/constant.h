@@ -9,7 +9,7 @@
 
 
 
-#define itemcount 9
+#define itemcount 11
 #define width 60
 #define height 60
 #define column  3

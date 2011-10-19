@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8E9BF214148E150023E086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E9BF114148E150023E086 /* UIKit.framework */; };
+		9C8E9BF414148E150023E086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E9BF314148E150023E086 /* Foundation.framework */; };
+		9C8E9BF614148E150023E086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E9BF514148E150023E086 /* CoreGraphics.framework */; };
+		9C8E9BFC14148E150023E086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E9BFA14148E150023E086 /* InfoPlist.strings */; };
+		9C8E9BFF14148E150023E086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E9BFE14148E150023E086 /* main.m */; };
+		9C8E9C0214148E150023E086 /* xmlToDictionaryParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E9C0114148E150023E086 /* xmlToDictionaryParserAppDelegate.m */; };
+		9C8E9C0514148E150023E086 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E9C0314148E150023E086 /* MainWindow.xib */; };
+		9C8E9C0814148E150023E086 /* xmlToDictionaryParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E9C0714148E150023E086 /* xmlToDictionaryParserViewController.m */; };
+		9C8E9C0B14148E150023E086 /* xmlToDictionaryParserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E9C0914148E150023E086 /* xmlToDictionaryParserViewController.xib */; };
+		9C8E9C2A1414A89E0023E086 /* note.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E9C291414A89E0023E086 /* note.xml */; };
+		9C93706B1415F848006EEDD9 /* resp_selectcstemplate.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9C93706A1415F848006EEDD9 /* resp_selectcstemplate.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C8E9BED14148E150023E086 /* xmlToDictionaryParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xmlToDictionaryParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8E9BF114148E150023E086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C8E9BF314148E150023E086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C8E9BF514148E150023E086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C8E9BF914148E150023E086 /* xmlToDictionaryParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xmlToDictionaryParser-Info.plist"; sourceTree = "<group>"; };
+		9C8E9BFB14148E150023E086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C8E9BFD14148E150023E086 /* xmlToDictionaryParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xmlToDictionaryParser-Prefix.pch"; sourceTree = "<group>"; };
+		9C8E9BFE14148E150023E086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C8E9C0014148E150023E086 /* xmlToDictionaryParserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xmlToDictionaryParserAppDelegate.h; sourceTree = "<group>"; };
+		9C8E9C0114148E150023E086 /* xmlToDictionaryParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmlToDictionaryParserAppDelegate.m; sourceTree = "<group>"; };
+		9C8E9C0414148E150023E086 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9C8E9C0614148E150023E086 /* xmlToDictionaryParserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xmlToDictionaryParserViewController.h; sourceTree = "<group>"; };
+		9C8E9C0714148E150023E086 /* xmlToDictionaryParserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmlToDictionaryParserViewController.m; sourceTree = "<group>"; };
+		9C8E9C0A14148E150023E086 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/xmlToDictionaryParserViewController.xib; sourceTree = "<group>"; };
+		9C8E9C291414A89E0023E086 /* note.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = note.xml; sourceTree = "<group>"; };
+		9C93706A1415F848006EEDD9 /* resp_selectcstemplate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = resp_selectcstemplate.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8E9BEA14148E150023E086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8E9BF214148E150023E086 /* UIKit.framework in Frameworks */,
+				9C8E9BF414148E150023E086 /* Foundation.framework in Frameworks */,
+				9C8E9BF614148E150023E086 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8E9BE214148E150023E086 = {
+			isa = PBXGroup;
+			children = (
+				9C8E9BF714148E150023E086 /* xmlToDictionaryParser */,
+				9C8E9BF014148E150023E086 /* Frameworks */,
+				9C8E9BEE14148E150023E086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8E9BEE14148E150023E086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8E9BED14148E150023E086 /* xmlToDictionaryParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8E9BF014148E150023E086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8E9BF114148E150023E086 /* UIKit.framework */,
+				9C8E9BF314148E150023E086 /* Foundation.framework */,
+				9C8E9BF514148E150023E086 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C8E9BF714148E150023E086 /* xmlToDictionaryParser */ = {
+			isa = PBXGroup;
+			children = (
+				9C93706A1415F848006EEDD9 /* resp_selectcstemplate.xml */,
+				9C8E9C291414A89E0023E086 /* note.xml */,
+				9C8E9C0014148E150023E086 /* xmlToDictionaryParserAppDelegate.h */,
+				9C8E9C0114148E150023E086 /* xmlToDictionaryParserAppDelegate.m */,
+				9C8E9C0314148E150023E086 /* MainWindow.xib */,
+				9C8E9C0614148E150023E086 /* xmlToDictionaryParserViewController.h */,
+				9C8E9C0714148E150023E086 /* xmlToDictionaryParserViewController.m */,
+				9C8E9C0914148E150023E086 /* xmlToDictionaryParserViewController.xib */,
+				9C8E9BF814148E150023E086 /* Supporting Files */,
+			);
+			path = xmlToDictionaryParser;
+			sourceTree = "<group>";
+		};
+		9C8E9BF814148E150023E086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8E9BF914148E150023E086 /* xmlToDictionaryParser-Info.plist */,
+				9C8E9BFA14148E150023E086 /* InfoPlist.strings */,
+				9C8E9BFD14148E150023E086 /* xmlToDictionaryParser-Prefix.pch */,
+				9C8E9BFE14148E150023E086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C8E9BEC14148E150023E086 /* xmlToDictionaryParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8E9C0E14148E150023E086 /* Build configuration list for PBXNativeTarget "xmlToDictionaryParser" */;
+			buildPhases = (
+				9C8E9BE914148E150023E086 /* Sources */,
+				9C8E9BEA14148E150023E086 /* Frameworks */,
+				9C8E9BEB14148E150023E086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xmlToDictionaryParser;
+			productName = xmlToDictionaryParser;
+			productReference = 9C8E9BED14148E150023E086 /* xmlToDictionaryParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8E9BE414148E150023E086 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9C8E9BE714148E150023E086 /* Build configuration list for PBXProject "xmlToDictionaryParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C8E9BE214148E150023E086;
+			productRefGroup = 9C8E9BEE14148E150023E086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8E9BEC14148E150023E086 /* xmlToDictionaryParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8E9BEB14148E150023E086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8E9BFC14148E150023E086 /* InfoPlist.strings in Resources */,
+				9C8E9C0514148E150023E086 /* MainWindow.xib in Resources */,
+				9C8E9C0B14148E150023E086 /* xmlToDictionaryParserViewController.xib in Resources */,
+				9C8E9C2A1414A89E0023E086 /* note.xml in Resources */,
+				9C93706B1415F848006EEDD9 /* resp_selectcstemplate.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8E9BE914148E150023E086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8E9BFF14148E150023E086 /* main.m in Sources */,
+				9C8E9C0214148E150023E086 /* xmlToDictionaryParserAppDelegate.m in Sources */,
+				9C8E9C0814148E150023E086 /* xmlToDictionaryParserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C8E9BFA14148E150023E086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8E9BFB14148E150023E086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C8E9C0314148E150023E086 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8E9C0414148E150023E086 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9C8E9C0914148E150023E086 /* xmlToDictionaryParserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8E9C0A14148E150023E086 /* en */,
+			);
+			name = xmlToDictionaryParserViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8E9C0C14148E150023E086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9C8E9C0D14148E150023E086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		9C8E9C0F14148E150023E086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xmlToDictionaryParser/xmlToDictionaryParser-Prefix.pch";
+				INFOPLIST_FILE = "xmlToDictionaryParser/xmlToDictionaryParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C8E9C1014148E150023E086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xmlToDictionaryParser/xmlToDictionaryParser-Prefix.pch";
+				INFOPLIST_FILE = "xmlToDictionaryParser/xmlToDictionaryParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8E9BE714148E150023E086 /* Build configuration list for PBXProject "xmlToDictionaryParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8E9C0C14148E150023E086 /* Debug */,
+				9C8E9C0D14148E150023E086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8E9C0E14148E150023E086 /* Build configuration list for PBXNativeTarget "xmlToDictionaryParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8E9C0F14148E150023E086 /* Debug */,
+				9C8E9C1014148E150023E086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8E9BE414148E150023E086 /* Project object */;
+}
