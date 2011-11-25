@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFE23C0147F626E0081ED74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23BF147F626E0081ED74 /* UIKit.framework */; };
+		2AFE23C2147F626E0081ED74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23C1147F626E0081ED74 /* Foundation.framework */; };
+		2AFE23C4147F626E0081ED74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23C3147F626E0081ED74 /* CoreGraphics.framework */; };
+		2AFE23CA147F626E0081ED74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE23C8147F626E0081ED74 /* InfoPlist.strings */; };
+		2AFE23CC147F626E0081ED74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE23CB147F626E0081ED74 /* main.m */; };
+		2AFE23D0147F626E0081ED74 /* pdfViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE23CF147F626E0081ED74 /* pdfViewAppDelegate.m */; };
+		2AFE23D3147F626E0081ED74 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE23D1147F626E0081ED74 /* MainWindow.xib */; };
+		2AFE23D6147F626E0081ED74 /* pdfViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE23D5147F626E0081ED74 /* pdfViewViewController.m */; };
+		2AFE23D9147F626E0081ED74 /* pdfViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE23D7147F626E0081ED74 /* pdfViewViewController.xib */; };
+		2AFE23E0147F63520081ED74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23DF147F63520081ED74 /* QuartzCore.framework */; };
+		2AFE23E6147F65330081ED74 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23E5147F65330081ED74 /* CoreText.framework */; };
+		2AFE23F8147F73A30081ED74 /* dialer-count-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE23F7147F73A20081ED74 /* dialer-count-active.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AFE23BB147F626E0081ED74 /* pdfView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFE23BF147F626E0081ED74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AFE23C1147F626E0081ED74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AFE23C3147F626E0081ED74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AFE23C7147F626E0081ED74 /* pdfView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pdfView-Info.plist"; sourceTree = "<group>"; };
+		2AFE23C9147F626E0081ED74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AFE23CB147F626E0081ED74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AFE23CD147F626E0081ED74 /* pdfView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pdfView-Prefix.pch"; sourceTree = "<group>"; };
+		2AFE23CE147F626E0081ED74 /* pdfViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pdfViewAppDelegate.h; sourceTree = "<group>"; };
+		2AFE23CF147F626E0081ED74 /* pdfViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdfViewAppDelegate.m; sourceTree = "<group>"; };
+		2AFE23D2147F626E0081ED74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2AFE23D4147F626E0081ED74 /* pdfViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pdfViewViewController.h; sourceTree = "<group>"; };
+		2AFE23D5147F626E0081ED74 /* pdfViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdfViewViewController.m; sourceTree = "<group>"; };
+		2AFE23D8147F626E0081ED74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pdfViewViewController.xib; sourceTree = "<group>"; };
+		2AFE23DF147F63520081ED74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2AFE23E5147F65330081ED74 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2AFE23F7147F73A20081ED74 /* dialer-count-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialer-count-active.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFE23B8147F626E0081ED74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFE23E6147F65330081ED74 /* CoreText.framework in Frameworks */,
+				2AFE23E0147F63520081ED74 /* QuartzCore.framework in Frameworks */,
+				2AFE23C0147F626E0081ED74 /* UIKit.framework in Frameworks */,
+				2AFE23C2147F626E0081ED74 /* Foundation.framework in Frameworks */,
+				2AFE23C4147F626E0081ED74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFE23B0147F626D0081ED74 = {
+			isa = PBXGroup;
+			children = (
+				2AFE23C5147F626E0081ED74 /* pdfView */,
+				2AFE23BE147F626E0081ED74 /* Frameworks */,
+				2AFE23BC147F626E0081ED74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFE23BC147F626E0081ED74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFE23BB147F626E0081ED74 /* pdfView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFE23BE147F626E0081ED74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AFE23E5147F65330081ED74 /* CoreText.framework */,
+				2AFE23DF147F63520081ED74 /* QuartzCore.framework */,
+				2AFE23BF147F626E0081ED74 /* UIKit.framework */,
+				2AFE23C1147F626E0081ED74 /* Foundation.framework */,
+				2AFE23C3147F626E0081ED74 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AFE23C5147F626E0081ED74 /* pdfView */ = {
+			isa = PBXGroup;
+			children = (
+				2AFE23CE147F626E0081ED74 /* pdfViewAppDelegate.h */,
+				2AFE23CF147F626E0081ED74 /* pdfViewAppDelegate.m */,
+				2AFE23D1147F626E0081ED74 /* MainWindow.xib */,
+				2AFE23D4147F626E0081ED74 /* pdfViewViewController.h */,
+				2AFE23D5147F626E0081ED74 /* pdfViewViewController.m */,
+				2AFE23D7147F626E0081ED74 /* pdfViewViewController.xib */,
+				2AFE23F7147F73A20081ED74 /* dialer-count-active.png */,
+				2AFE23C6147F626E0081ED74 /* Supporting Files */,
+			);
+			path = pdfView;
+			sourceTree = "<group>";
+		};
+		2AFE23C6147F626E0081ED74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AFE23C7147F626E0081ED74 /* pdfView-Info.plist */,
+				2AFE23C8147F626E0081ED74 /* InfoPlist.strings */,
+				2AFE23CB147F626E0081ED74 /* main.m */,
+				2AFE23CD147F626E0081ED74 /* pdfView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFE23BA147F626E0081ED74 /* pdfView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFE23DC147F626E0081ED74 /* Build configuration list for PBXNativeTarget "pdfView" */;
+			buildPhases = (
+				2AFE23B7147F626E0081ED74 /* Sources */,
+				2AFE23B8147F626E0081ED74 /* Frameworks */,
+				2AFE23B9147F626E0081ED74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdfView;
+			productName = pdfView;
+			productReference = 2AFE23BB147F626E0081ED74 /* pdfView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFE23B2147F626D0081ED74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "goelay@gmail.com";
+			};
+			buildConfigurationList = 2AFE23B5147F626D0081ED74 /* Build configuration list for PBXProject "pdfView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AFE23B0147F626D0081ED74;
+			productRefGroup = 2AFE23BC147F626E0081ED74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFE23BA147F626E0081ED74 /* pdfView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFE23B9147F626E0081ED74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFE23CA147F626E0081ED74 /* InfoPlist.strings in Resources */,
+				2AFE23D3147F626E0081ED74 /* MainWindow.xib in Resources */,
+				2AFE23D9147F626E0081ED74 /* pdfViewViewController.xib in Resources */,
+				2AFE23F8147F73A30081ED74 /* dialer-count-active.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFE23B7147F626E0081ED74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFE23CC147F626E0081ED74 /* main.m in Sources */,
+				2AFE23D0147F626E0081ED74 /* pdfViewAppDelegate.m in Sources */,
+				2AFE23D6147F626E0081ED74 /* pdfViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AFE23C8147F626E0081ED74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFE23C9147F626E0081ED74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AFE23D1147F626E0081ED74 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFE23D2147F626E0081ED74 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2AFE23D7147F626E0081ED74 /* pdfViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFE23D8147F626E0081ED74 /* en */,
+			);
+			name = pdfViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AFE23DA147F626E0081ED74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AFE23DB147F626E0081ED74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFE23DD147F626E0081ED74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pdfView/pdfView-Prefix.pch";
+				INFOPLIST_FILE = "pdfView/pdfView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AFE23DE147F626E0081ED74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pdfView/pdfView-Prefix.pch";
+				INFOPLIST_FILE = "pdfView/pdfView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFE23B5147F626D0081ED74 /* Build configuration list for PBXProject "pdfView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFE23DA147F626E0081ED74 /* Debug */,
+				2AFE23DB147F626E0081ED74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFE23DC147F626E0081ED74 /* Build configuration list for PBXNativeTarget "pdfView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFE23DD147F626E0081ED74 /* Debug */,
+				2AFE23DE147F626E0081ED74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AFE23B2147F626D0081ED74 /* Project object */;
+}

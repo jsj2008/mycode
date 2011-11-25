@@ -14,12 +14,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+     
     [super viewDidLoad];
    
 }
 
 -(void) viewWillAppear:(BOOL)animated
 {
+    NSLog(@"HEREEE");
     NSUserDefaults * chk = [NSUserDefaults standardUserDefaults];
     [chk synchronize];
     if([chk stringForKey:@"Current"])

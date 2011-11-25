@@ -68,6 +68,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2AD0D1F9146B96DB00C0F1FE /* New Group */,
 				5A5B5DB2134DB95D00CD34ED /* AddViewController.h */,
 				5A5B5DB3134DB95D00CD34ED /* AddViewController.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
@@ -133,6 +134,13 @@
 				28860BE40F44EE6400985440 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AD0D1F9146B96DB00C0F1FE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

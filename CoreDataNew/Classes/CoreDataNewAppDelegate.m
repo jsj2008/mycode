@@ -14,7 +14,7 @@
 #pragma mark Application lifecycle
 
 - (void)awakeFromNib {    
-    
+    NSLog(@"awakeFromNib");
     RootViewController *rootViewController = (RootViewController *)[navigationController topViewController];
     rootViewController.managedObjectContext = self.managedObjectContext;
 }
@@ -68,8 +68,10 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     
     NSError *error = nil;
-    if (managedObjectContext_ != nil) {
-        if ([managedObjectContext_ hasChanges] && ![managedObjectContext_ save:&error]) {
+    if (managedObjectContext_ != nil) 
+    {
+        if ([managedObjectContext_ hasChanges] && ![managedObjectContext_ save:&error]) 
+        {
             /*
              Replace this implementation with code to handle the error appropriately.
              
