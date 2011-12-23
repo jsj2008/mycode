@@ -1079,13 +1079,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: santosh botre (26X99D2SKK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Lim (ZUDBF3J8YQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Lim (ZUDBF3J8YQ)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "862F7E08-5A83-4B33-9BCA-12C1EF903E35";
+				PROVISIONING_PROFILE = "0DFDCEB6-D8FC-4AF7-81EF-87DFC5F0AC1A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0DFDCEB6-D8FC-4AF7-81EF-87DFC5F0AC1A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1094,14 +1096,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: santosh botre (26X99D2SKK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Lim (ZUDBF3J8YQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Lim (ZUDBF3J8YQ)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "862F7E08-5A83-4B33-9BCA-12C1EF903E35";
+				PROVISIONING_PROFILE = "0DFDCEB6-D8FC-4AF7-81EF-87DFC5F0AC1A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0DFDCEB6-D8FC-4AF7-81EF-87DFC5F0AC1A";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
