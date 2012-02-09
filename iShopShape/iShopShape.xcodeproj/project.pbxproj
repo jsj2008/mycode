@@ -1057,6 +1057,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iShopShape_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iShopShape-Info.plist";
 				PRODUCT_NAME = iShopShape;
 			};
@@ -1069,6 +1070,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iShopShape_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iShopShape-Info.plist";
 				PRODUCT_NAME = iShopShape;
 				VALIDATE_PRODUCT = YES;

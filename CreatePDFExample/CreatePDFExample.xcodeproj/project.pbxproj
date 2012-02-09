@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E1F4B114A17023002FC8C5 /* testing.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E1F4B014A17023002FC8C5 /* testing.png */; };
+		CB1C4B7713A82F29007BF228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B6913A82F29007BF228 /* InfoPlist.strings */; };
+		CB1C4B7813A82F29007BF228 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B6B13A82F29007BF228 /* MainWindow.xib */; };
+		CB1C4B7913A82F29007BF228 /* PrintingExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B6D13A82F29007BF228 /* PrintingExampleViewController.xib */; };
+		CB1C4B7A13A82F29007BF228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C4B6F13A82F29007BF228 /* main.m */; };
+		CB1C4B7B13A82F29007BF228 /* CreatePDFExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B7013A82F29007BF228 /* CreatePDFExample-Info.plist */; };
+		CB1C4B7C13A82F29007BF228 /* PrintingExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C4B7313A82F29007BF228 /* PrintingExampleAppDelegate.m */; };
+		CB1C4B7D13A82F29007BF228 /* PrintingExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C4B7513A82F29007BF228 /* PrintingExampleViewController.m */; };
+		CB1C4B7E13A82F29007BF228 /* sampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1C4B7613A82F29007BF228 /* sampleData.plist */; };
+		CB22A80713A17614005A5508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22A80613A17614005A5508 /* UIKit.framework */; };
+		CB22A80913A17614005A5508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22A80813A17614005A5508 /* Foundation.framework */; };
+		CB22A80B13A17614005A5508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22A80A13A17614005A5508 /* CoreGraphics.framework */; };
+		CB22A82913A1ADAF005A5508 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22A82813A1ADAF005A5508 /* MessageUI.framework */; };
+		CB22A82B13A1BAAD005A5508 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22A82A13A1BAAD005A5508 /* QuickLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23E1F4B014A17023002FC8C5 /* testing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testing.png; sourceTree = "<group>"; };
+		CB1C4B6A13A82F29007BF228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1C4B6C13A82F29007BF228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB1C4B6E13A82F29007BF228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrintingExampleViewController.xib; sourceTree = "<group>"; };
+		CB1C4B6F13A82F29007BF228 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1C4B7013A82F29007BF228 /* CreatePDFExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CreatePDFExample-Info.plist"; sourceTree = "<group>"; };
+		CB1C4B7113A82F29007BF228 /* CreatePDFExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CreatePDFExample-Prefix.pch"; sourceTree = "<group>"; };
+		CB1C4B7213A82F29007BF228 /* PrintingExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintingExampleAppDelegate.h; sourceTree = "<group>"; };
+		CB1C4B7313A82F29007BF228 /* PrintingExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintingExampleAppDelegate.m; sourceTree = "<group>"; };
+		CB1C4B7413A82F29007BF228 /* PrintingExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintingExampleViewController.h; sourceTree = "<group>"; };
+		CB1C4B7513A82F29007BF228 /* PrintingExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintingExampleViewController.m; sourceTree = "<group>"; };
+		CB1C4B7613A82F29007BF228 /* sampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleData.plist; sourceTree = "<group>"; };
+		CB22A80213A17614005A5508 /* CreatePDFExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatePDFExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB22A80613A17614005A5508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB22A80813A17614005A5508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB22A80A13A17614005A5508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB22A82813A1ADAF005A5508 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CB22A82A13A1BAAD005A5508 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB22A7FF13A17614005A5508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB22A82B13A1BAAD005A5508 /* QuickLook.framework in Frameworks */,
+				CB22A82913A1ADAF005A5508 /* MessageUI.framework in Frameworks */,
+				CB22A80713A17614005A5508 /* UIKit.framework in Frameworks */,
+				CB22A80913A17614005A5508 /* Foundation.framework in Frameworks */,
+				CB22A80B13A17614005A5508 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1C4B6813A82F29007BF228 /* CreatePDFExample */ = {
+			isa = PBXGroup;
+			children = (
+				23E1F4B014A17023002FC8C5 /* testing.png */,
+				CB1C4B8013A82F3F007BF228 /* Resources */,
+				CB1C4B7F13A82F35007BF228 /* Classes */,
+				CB1C4B6F13A82F29007BF228 /* main.m */,
+				CB1C4B7013A82F29007BF228 /* CreatePDFExample-Info.plist */,
+				CB1C4B7113A82F29007BF228 /* CreatePDFExample-Prefix.pch */,
+				CB1C4B7613A82F29007BF228 /* sampleData.plist */,
+			);
+			path = CreatePDFExample;
+			sourceTree = "<group>";
+		};
+		CB1C4B7F13A82F35007BF228 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C4B7213A82F29007BF228 /* PrintingExampleAppDelegate.h */,
+				CB1C4B7313A82F29007BF228 /* PrintingExampleAppDelegate.m */,
+				CB1C4B7413A82F29007BF228 /* PrintingExampleViewController.h */,
+				CB1C4B7513A82F29007BF228 /* PrintingExampleViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CB1C4B8013A82F3F007BF228 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB1C4B6913A82F29007BF228 /* InfoPlist.strings */,
+				CB1C4B6B13A82F29007BF228 /* MainWindow.xib */,
+				CB1C4B6D13A82F29007BF228 /* PrintingExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB22A7F713A17614005A5508 = {
+			isa = PBXGroup;
+			children = (
+				CB1C4B6813A82F29007BF228 /* CreatePDFExample */,
+				CB22A80513A17614005A5508 /* Frameworks */,
+				CB22A80313A17614005A5508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB22A80313A17614005A5508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB22A80213A17614005A5508 /* CreatePDFExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB22A80513A17614005A5508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB22A82A13A1BAAD005A5508 /* QuickLook.framework */,
+				CB22A82813A1ADAF005A5508 /* MessageUI.framework */,
+				CB22A80613A17614005A5508 /* UIKit.framework */,
+				CB22A80813A17614005A5508 /* Foundation.framework */,
+				CB22A80A13A17614005A5508 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB22A80113A17614005A5508 /* CreatePDFExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB22A82313A17614005A5508 /* Build configuration list for PBXNativeTarget "CreatePDFExample" */;
+			buildPhases = (
+				CB22A7FE13A17614005A5508 /* Sources */,
+				CB22A7FF13A17614005A5508 /* Frameworks */,
+				CB22A80013A17614005A5508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreatePDFExample;
+			productName = PrintingExample;
+			productReference = CB22A80213A17614005A5508 /* CreatePDFExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB22A7F913A17614005A5508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Raizlabs Corporation";
+			};
+			buildConfigurationList = CB22A7FC13A17614005A5508 /* Build configuration list for PBXProject "CreatePDFExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB22A7F713A17614005A5508;
+			productRefGroup = CB22A80313A17614005A5508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB22A80113A17614005A5508 /* CreatePDFExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB22A80013A17614005A5508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1C4B7713A82F29007BF228 /* InfoPlist.strings in Resources */,
+				CB1C4B7813A82F29007BF228 /* MainWindow.xib in Resources */,
+				CB1C4B7913A82F29007BF228 /* PrintingExampleViewController.xib in Resources */,
+				CB1C4B7B13A82F29007BF228 /* CreatePDFExample-Info.plist in Resources */,
+				CB1C4B7E13A82F29007BF228 /* sampleData.plist in Resources */,
+				23E1F4B114A17023002FC8C5 /* testing.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB22A7FE13A17614005A5508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1C4B7A13A82F29007BF228 /* main.m in Sources */,
+				CB1C4B7C13A82F29007BF228 /* PrintingExampleAppDelegate.m in Sources */,
+				CB1C4B7D13A82F29007BF228 /* PrintingExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB1C4B6913A82F29007BF228 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1C4B6A13A82F29007BF228 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB1C4B6B13A82F29007BF228 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1C4B6C13A82F29007BF228 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB1C4B6D13A82F29007BF228 /* PrintingExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1C4B6E13A82F29007BF228 /* en */,
+			);
+			name = PrintingExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB22A82113A17614005A5508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB22A82213A17614005A5508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CB22A82413A17614005A5508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreatePDFExample/CreatePDFExample-Prefix.pch";
+				INFOPLIST_FILE = "CreatePDFExample/CreatePDFExample-Info.plist";
+				PRODUCT_NAME = CreatePDFExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB22A82513A17614005A5508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreatePDFExample/CreatePDFExample-Prefix.pch";
+				INFOPLIST_FILE = "CreatePDFExample/CreatePDFExample-Info.plist";
+				PRODUCT_NAME = CreatePDFExample;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB22A7FC13A17614005A5508 /* Build configuration list for PBXProject "CreatePDFExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22A82113A17614005A5508 /* Debug */,
+				CB22A82213A17614005A5508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB22A82313A17614005A5508 /* Build configuration list for PBXNativeTarget "CreatePDFExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB22A82413A17614005A5508 /* Debug */,
+				CB22A82513A17614005A5508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB22A7F913A17614005A5508 /* Project object */;
+}

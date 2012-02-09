@@ -45,7 +45,6 @@
 {
 	createaccount *c = [[createaccount alloc] init];
 	[self.navigationController pushViewController:c animated:YES];
-    [c release];
 }
 
 
@@ -91,7 +90,6 @@
 		pass.text=@"";
 		invalid.text=@" ";
 		[self.navigationController pushViewController:i animated:YES];
-		[i release];
 		
 	}
 	else
@@ -109,10 +107,6 @@
 
 
 
-- (void)dealloc {
-    [super dealloc];
-	
-}
 
 
 @end

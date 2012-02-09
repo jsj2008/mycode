@@ -41,7 +41,7 @@
 	introduction *a = [[introduction alloc] init];
 	a.index=0;
 	[self.navigationController pushViewController:a animated:YES];
-	[a release];
+    
 }
 
 - (void ) contactus
@@ -50,14 +50,12 @@
 	introduction *a = [[introduction alloc] init];
 	a.index=1;
 	[self.navigationController pushViewController:a animated:YES];
-	[a release];
 }
 
 -(void) mob
 {
 mobcoe *m = [[mobcoe alloc] init];
 [self.navigationController pushViewController:m animated:YES];
-[m release];
 }
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -73,10 +71,6 @@ mobcoe *m = [[mobcoe alloc] init];
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-	
-}
 
 
 @end

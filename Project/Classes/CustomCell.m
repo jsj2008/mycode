@@ -52,11 +52,6 @@
 	
 }
 
-- (void)dealloc {
-    [super dealloc];
-	[nameLbl dealloc];
-	[checkImageView dealloc];
-}
 
 
 @end

@@ -31,7 +31,6 @@
 	loginview* login = [[loginview alloc]initWithNibName:@"loginview" bundle:nil];
 	navigationController=[[UINavigationController alloc] initWithRootViewController:login];
     [window addSubview:navigationController.view];
-	[login release];
 	
 	
     [window makeKeyAndVisible];
@@ -88,11 +87,6 @@
 }
 
 
-- (void)dealloc {
-	[navigationController dealloc];
-	[window dealloc];
-	[super dealloc];
-}
 
 
 @end

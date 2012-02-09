@@ -15,7 +15,7 @@
 
 }
 
-@property(nonatomic,assign)UILabel *nameLbl;
-@property(nonatomic,assign)UILabel *desgn;
+@property(nonatomic,strong)UILabel *nameLbl;
+@property(nonatomic,strong)UILabel *desgn;
 
 @end

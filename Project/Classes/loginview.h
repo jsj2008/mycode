@@ -23,10 +23,10 @@
 //- (IBAction) writePlistFile : (id)sender;
 -(IBAction) next;
 
-@property (nonatomic, retain) IBOutlet UIButton *submit;
-@property (nonatomic, retain) IBOutlet UITextField *name;
-@property (nonatomic, retain) IBOutlet UITextField *pass;
-@property (nonatomic, retain) IBOutlet UILabel *invalid;
+@property (nonatomic, strong) IBOutlet UIButton *submit;
+@property (nonatomic, strong) IBOutlet UITextField *name;
+@property (nonatomic, strong) IBOutlet UITextField *pass;
+@property (nonatomic, strong) IBOutlet UILabel *invalid;
 
 @end
 

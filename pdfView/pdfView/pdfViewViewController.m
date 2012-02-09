@@ -49,7 +49,8 @@
                 [pageString drawInRect:CGRectMake(400,400,100,100) withFont:[UIFont systemFontOfSize:12]];
                 
                  CGContextRef    currentContext = UIGraphicsGetCurrentContext();
-                UIImage * myPNG = [UIImage imageNamed:@"dialer-count-active.png"];
+                //UIImage * myPNG = [UIImage imageNamed:@"dialer-count-active.png"];
+                UIImage * myPNG =imageView.image;
                 CGContextDrawImage (currentContext, CGRectMake(200, 200, 100, 100), [myPNG CGImage]);
                 // Render the current page and update the current range to
                 // point to the beginning of the next page.

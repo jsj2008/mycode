@@ -36,7 +36,6 @@ NSString *databasePath;
 		NSString *documentsDir = [documentPaths objectAtIndex:0];
 		
 		databasePath = [documentsDir stringByAppendingPathComponent:databaseName];
-		[databasePath retain];
 		
 		if(![sharedInstance checkDatabase])
 		{
@@ -1149,7 +1148,7 @@ NSString *databasePath;
 		
 		NSMutableArray *newProductArray = (NSMutableArray*)[[ProductArray sortedArrayUsingDescriptors:sortDescriptors] copy];	
 		
-		[ProductArray autorelease];
+	//	[ProductArray autorelease];
 		return [newProductArray autorelease];
 	}
 	
@@ -1628,8 +1627,7 @@ NSString *databasePath;
 #pragma mark -
 - (void) dealloc
 {
-	[databaseName release];
-	[databasePath release];
+
 	[super dealloc];
 }
 @end

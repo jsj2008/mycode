@@ -54,11 +54,6 @@
 	
 }
 
-- (void)dealloc {
-    [super dealloc];
-	[nameLbl dealloc];
-	[desgn dealloc];
-}
 
 
 @end

@@ -7,7 +7,7 @@
 	UIImageView *checkImageView;
 	UILabel *nameLbl;
 }
-@property(nonatomic,assign)UILabel *nameLbl;
-@property(nonatomic,assign)UIImageView *checkImageView;
+@property(nonatomic,strong)UILabel *nameLbl;
+@property(nonatomic,strong)UIImageView *checkImageView;
 
 @end

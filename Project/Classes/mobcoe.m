@@ -66,11 +66,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-	[nameArray dealloc];
-	[imageArray dealloc];
-}
 
 #pragma mark - UITableView delegate methods
 
@@ -98,7 +93,6 @@
 			resource *i = [[resource  alloc] init];
 			del.idno=0;
 			[self.navigationController pushViewController:i animated:YES];
-			[i release];
 			break;
 		}
 		case 1:
@@ -106,7 +100,6 @@
 			resource  *i = [[resource  alloc] init];
 			del.idno=1;
 			[self.navigationController pushViewController:i animated:YES];
-			[i release];
 			break;
 		}
 		case 2:
@@ -114,7 +107,6 @@
 			resource  *i = [[resource  alloc] init];
 			del.idno=2;
 			[self.navigationController pushViewController:i animated:YES];
-			[i release];
 			break;
 			
 		}
@@ -123,7 +115,6 @@
 			resource  *i = [[resource  alloc] init];
 			del.idno=3;
 			[self.navigationController pushViewController:i animated:YES];
-			[i release];
 			break;
 			
 		}
@@ -140,7 +131,7 @@
 	
 	if (cell == nil) 
 	{
-		cell = [[[CustomCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCustomCellID] autorelease];
+		cell = [[CustomCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCustomCellID];
 	}
 	
 	cell.nameLbl.text = [[nameArray objectAtIndex:indexPath.row]capitalizedString];

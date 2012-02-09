@@ -19,6 +19,7 @@
 		2AFE23E0147F63520081ED74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23DF147F63520081ED74 /* QuartzCore.framework */; };
 		2AFE23E6147F65330081ED74 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFE23E5147F65330081ED74 /* CoreText.framework */; };
 		2AFE23F8147F73A30081ED74 /* dialer-count-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE23F7147F73A20081ED74 /* dialer-count-active.png */; };
+		2AFE240A147F82C00081ED74 /* check-bullet2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AFE2409147F82C00081ED74 /* check-bullet2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		2AFE23DF147F63520081ED74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2AFE23E5147F65330081ED74 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		2AFE23F7147F73A20081ED74 /* dialer-count-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialer-count-active.png"; sourceTree = "<group>"; };
+		2AFE2409147F82C00081ED74 /* check-bullet2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-bullet2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		2AFE23C5147F626E0081ED74 /* pdfView */ = {
 			isa = PBXGroup;
 			children = (
+				2AFE2409147F82C00081ED74 /* check-bullet2@2x.png */,
 				2AFE23CE147F626E0081ED74 /* pdfViewAppDelegate.h */,
 				2AFE23CF147F626E0081ED74 /* pdfViewAppDelegate.m */,
 				2AFE23D1147F626E0081ED74 /* MainWindow.xib */,
@@ -166,6 +169,7 @@
 				2AFE23D3147F626E0081ED74 /* MainWindow.xib in Resources */,
 				2AFE23D9147F626E0081ED74 /* pdfViewViewController.xib in Resources */,
 				2AFE23F8147F73A30081ED74 /* dialer-count-active.png in Resources */,
+				2AFE240A147F82C00081ED74 /* check-bullet2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				2AFE23DE147F626E0081ED74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

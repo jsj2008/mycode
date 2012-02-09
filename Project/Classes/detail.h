@@ -25,15 +25,15 @@
 
 }
 
-@property (nonatomic, retain) IBOutlet UITextField *fname;
-@property (nonatomic, retain) IBOutlet UITextField *lname;
-@property (nonatomic, retain) IBOutlet UITextField *desg;
-@property (nonatomic, retain) IBOutlet UITextField *seat;
-@property (nonatomic, retain) IBOutlet UITextField *dept;
-@property (nonatomic, retain) IBOutlet UISlider *ex;
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UISwitch *gender;
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, strong) IBOutlet UITextField *fname;
+@property (nonatomic, strong) IBOutlet UITextField *lname;
+@property (nonatomic, strong) IBOutlet UITextField *desg;
+@property (nonatomic, strong) IBOutlet UITextField *seat;
+@property (nonatomic, strong) IBOutlet UITextField *dept;
+@property (nonatomic, strong) IBOutlet UISlider *ex;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet UISwitch *gender;
+@property (nonatomic, strong) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, assign) int indexNumber;
 -(IBAction) checkAndCreateDatabase;
 -(IBAction) readFromDatabase;

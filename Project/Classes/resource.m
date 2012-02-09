@@ -62,13 +62,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-	[nameArray dealloc];
-	[idArray dealloc];
-	[desgArray dealloc];
-	
-}
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	return 60.0f;
@@ -161,7 +154,6 @@
 	detail *d = [[detail alloc] init];
 	d.indexNumber=i;
 	[self.navigationController pushViewController:d animated:YES];
-	[d release];
 
 }
 
@@ -175,7 +167,7 @@
 	
 	if (cell == nil) 
 	{
-		cell = [[[customcell1 alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCustomCellID] autorelease];
+		cell = [[customcell1 alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCustomCellID];
 	}
 	
 	cell.nameLbl.text = [[nameArray objectAtIndex:indexPath.row]capitalizedString];

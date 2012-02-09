@@ -87,7 +87,7 @@ static Reachability *_sharedReachability;
         _sharedReachability.hostName = nil;
 		_sharedReachability.address = nil;
 		_sharedReachability.networkStatusNotificationsEnabled = NO;
-		_sharedReachability.reachabilityQueries = [[NSMutableDictionary alloc] init];
+		//_sharedReachability.reachabilityQueries = [[NSMutableDictionary alloc] init];
 	}
 	return _sharedReachability;
 }

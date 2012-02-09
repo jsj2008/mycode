@@ -493,7 +493,7 @@ static NSString *logPath = nil;
 {
 	if(configReader)
 	{
-		[configReader release];
+		//[configReader release];
 		configReader = nil;
 	}
 	return 1;

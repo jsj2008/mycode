@@ -92,13 +92,6 @@
 }
 
 
-- (void)dealloc {
-	
-	[navigationController release];
-	[window release];
-	[super dealloc];
-
-}
 
 #pragma mark - UITableView delegate methods
 

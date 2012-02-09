@@ -15,10 +15,10 @@
 	NSNumber* LoggerLevel;
 	NSNumber* LoggerType;
 }
-@property (readonly, assign) NSNumber* LoggerEnabled;
-@property (readonly, assign) NSNumber* LoggerTarget;
-@property (readonly, assign) NSNumber* LoggerLevel;
-@property (readonly, assign) NSNumber* LoggerType;
+@property (readonly, retain) NSNumber* LoggerEnabled;
+@property (readonly, retain) NSNumber* LoggerTarget;
+@property (readonly, retain) NSNumber* LoggerLevel;
+@property (readonly, retain) NSNumber* LoggerType;
 
 /**
  *	@functionName	: ReadLogConfigFile

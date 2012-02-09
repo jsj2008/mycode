@@ -84,12 +84,9 @@
 			[array1 addObject:dict];
 		[s setValue:array1 forKey:@"ROOT"];
             [s synchronize];
-		[dict release]; 
-		[array1 release];
 	    lbl.text=@"";
 	    loginview *l = [[loginview alloc] init];
         [self.navigationController pushViewController:l animated:YES];
-	    [l release];
 		}
 	
 	}
@@ -102,10 +99,6 @@
 }
 
 
-- (void)dealloc {
-	
-    [super dealloc];
-}
 
 
 @end

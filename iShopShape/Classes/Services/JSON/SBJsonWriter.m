@@ -221,7 +221,7 @@ static NSMutableCharacterSet *kEscapeChars;
                     if (uc < 0x20) {
                         [json appendFormat:@"\\u%04x", uc];
                     } else {
-                        CFStringAppendCharacters((CFMutableStringRef)json, &uc, 1);
+                        CFStringAppendCharacters((__bridge CFMutableStringRef)json, &uc, 1);
                     }
                     break;
                     
