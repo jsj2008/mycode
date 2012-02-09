@@ -1,0 +1,17 @@
+# OS X Noise
+.DS_Store
+profile
+
+# Xcode Noise
+*.mode1v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.pyc
+*~.nib/
+build/*
+build-from-lib/*
+*.xcuserstate
+*.xcworkspacedata
+xcschememanagement.plist
+xcuserdata
