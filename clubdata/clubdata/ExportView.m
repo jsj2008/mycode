@@ -7,6 +7,7 @@
 //
 
 #import "ExportView.h"
+#import "User.h"
 
 
 @implementation ExportView
@@ -90,11 +91,38 @@
     [fetchRequest setSortDescriptors: sortDescriptors];
     [fetchRequest setEntity:entity];
 
-    fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];   
-
+    fetchedObjects = [context executeFetchRequest:fetchRequest error:&error]; 
+    NSString *temp=[[NSString alloc]init];
+    for(int i=0;i<[fetchedObjects count];i++)
+    {
+        User *info=[fetchedObjects objectAtIndex:i];
+        NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+        [outputFormatter setDateFormat:@"dd-MM-yyyy"];
+        NSString *birthday=[outputFormatter stringFromDate:info.birthday];
+        NSString *sex;
+        NSString *color;
+        if(info.gender==0)
+            sex=@"male";
+        else
+            sex=@"female";
+        if([info.color intValue]==0)
+            color=@"GEN";
+        else if([info.color intValue]==1)
+            color=@"TB";
+        else
+            color=@"TF";
+        if(i==0)
+        {
+          temp=[NSString stringWithFormat:@"FirstName,LastName,Email,Mobile,BBM,BirthDate,SEX,COLOR"];  
+        }
+        else
+        {
+        temp=[NSString stringWithFormat:@"%@\n%@,%@,%@,%@,%@,%@,%@,%@",temp,info.fname,info.lname,info.email,info.mobile,info.bbm,birthday,sex,color];
+        }
+            }
     
-    NSString *temp=@"jack,jil\n,jimmy,mike";
     [temp writeToFile:root atomically:YES encoding:NSUTF8StringEncoding error:NULL];
+
     //[[fetchedObjects componentsJoinedByString:@","] writeToFile:root atomically:YES encoding:NSUTF8StringEncoding error:NULL];
     
     
@@ -108,7 +136,7 @@
         
         NSString *subjectString=[NSString stringWithFormat:@"User Data– "]; 
         [mailComposer setSubject:subjectString];
-        NSString *emailBody = @"All the data is exported";
+        NSString *emailBody = @"User Details";
         
         
         [mailComposer setMessageBody:emailBody isHTML:NO];
