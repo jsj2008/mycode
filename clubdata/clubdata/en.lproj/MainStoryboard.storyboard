@@ -430,8 +430,8 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.94999999999999996"/>
                                                     <segments>
-                                                        <segment title="First"/>
-                                                        <segment title="Second"/>
+                                                        <segment title="Male"/>
+                                                        <segment title="Female"/>
                                                     </segments>
                                                 </segmentedControl>
                                             </subviews>
@@ -479,6 +479,16 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="bbm" destination="wza-xh-A5b" id="7PV-VM-mpX"/>
+                        <outlet property="birthday" destination="9wg-qn-q9r" id="Mhe-yc-Wde"/>
+                        <outlet property="color" destination="lKv-xN-3rg" id="hrg-qP-cDS"/>
+                        <outlet property="email" destination="OfM-BL-giK" id="AfG-Pp-iYG"/>
+                        <outlet property="fName" destination="pPx-a8-cg7" id="Cnd-SB-ehX"/>
+                        <outlet property="gender" destination="nvy-xn-cBI" id="kxJ-RH-mgi"/>
+                        <outlet property="lName" destination="9QH-Sw-uSr" id="8uB-GJ-xN0"/>
+                        <outlet property="mob" destination="c1k-ph-F6q" id="Itl-qA-HpP"/>
+                    </connections>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="924" y="64"/>

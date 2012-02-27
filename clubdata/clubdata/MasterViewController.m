@@ -21,7 +21,12 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"heree");
+    NSDictionary *Data=[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:indexPath.row] forKey:@"myid"];
+  
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    [notificationCenter postNotificationName:@"loadMyData"
+                                      object:nil
+                                    userInfo:Data];
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -75,7 +80,8 @@
     for(int i=0;i<[fetchedObjects count];i++)
     {
         User *info=[fetchedObjects objectAtIndex:i];
-       if(![info.fname isEqualToString:@""])
+        NSLog(@"info==%@",info);
+    //   if(![info.fname isEqualToString:@""])
            [list addObject:info.fname];
     }
 

@@ -11,6 +11,14 @@
 
 @interface AddViewController : UITableViewController
 {
+    NSManagedObjectContext *context;
+    NSFetchRequest *fetchRequest;
+    NSEntityDescription *entity;
+    NSPredicate *predicate ;   
+    NSArray *fetchedObjects;
+    NSSortDescriptor * sortDescriptor;
+    NSArray * sortDescriptors;
+    NSMutableArray *list;
   
     UIImageView *datePickerImage;
     UIDatePicker *datePicker;

@@ -44,7 +44,14 @@
     userDetails.lname=lName.text;
     userDetails.mobile=mob.text;
     userDetails.bbm=bbm.text;
-    userDetails.birthday=[NSDate date];
+    if([birthday.text isEqualToString:@""])
+           userDetails.birthday=[NSDate date];
+    else
+    {
+     NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+     [outputFormatter setDateFormat:@"dd-MM-yyyy"];
+        userDetails.birthday=[outputFormatter dateFromString:birthday.text];
+    }
     userDetails.gender=[NSNumber numberWithInt:gender.selectedSegmentIndex];
     userDetails.color=[NSNumber numberWithInt:color.selectedSegmentIndex];
     
@@ -98,13 +105,48 @@
     tgr.numberOfTouchesRequired = 1;
     [bday addGestureRecognizer:tgr];
 
-
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(loadData:)
+                                                 name:@"loadMyData"
+                                               object:nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+- (void)loadData:(NSNotification *)notification
+{
+    NSDictionary *dict = [notification userInfo];
+    int checkid=[[dict objectForKey:@"myid"]intValue ];
+    NSError *error;
+    context  =[[AppDelegate getAppDelegate] managedObjectContext];
+    fetchRequest = [[NSFetchRequest alloc] init];
+    entity = [NSEntityDescription entityForName:@"User" 
+                         inManagedObjectContext:context];
+    sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"fname"
+                                                 ascending:YES];
+    
+    sortDescriptors = [NSArray arrayWithObject: sortDescriptor];
+    [fetchRequest setSortDescriptors: sortDescriptors];
+    [fetchRequest setEntity:entity];
+    fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];   
+     User *info=[fetchedObjects objectAtIndex:checkid];
+    NSLog(@"INFO==%@",info);
+    fName.text=info.fname;
+    lName.text=info.lname;
+    bbm.text=info.bbm;
+    email.text=info.email;
+    mob.text=info.mobile;
+    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+    [outputFormatter setDateFormat:@"dd-MM-yyyy"];
+   birthday.text=[outputFormatter stringFromDate:info.birthday];
+    gender.selectedSegmentIndex=[info.gender intValue];
+    color.selectedSegmentIndex=[info.color intValue];
+
+
+}
+
 -(void)handleGesture:(UIGestureRecognizer *)gestureRecognizer
 {
     NSIndexPath *path=[NSIndexPath indexPathForRow:0 inSection:4];
