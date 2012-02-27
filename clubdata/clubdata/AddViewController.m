@@ -20,6 +20,7 @@
     __weak IBOutlet UITextField *birthday;
      __weak IBOutlet UISegmentedControl *gender;
     __weak IBOutlet UISegmentedControl *color;
+    __weak IBOutlet UITableViewCell *bday;
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -90,12 +91,87 @@
 {
     [super viewDidLoad];
 
+
+    UITapGestureRecognizer *tgr = [[UITapGestureRecognizer alloc] 
+                                   initWithTarget:self action:@selector(handleGesture:)];
+    tgr.numberOfTapsRequired = 1;
+    tgr.numberOfTouchesRequired = 1;
+    [bday addGestureRecognizer:tgr];
+
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+-(void)handleGesture:(UIGestureRecognizer *)gestureRecognizer
+{
+    NSIndexPath *path=[NSIndexPath indexPathForRow:0 inSection:4];
+    [self.tableView selectRowAtIndexPath:path animated:NO scrollPosition:UITableViewScrollPositionBottom];
+
+    [fName resignFirstResponder];
+    [lName resignFirstResponder];
+    [email resignFirstResponder];
+    [mob resignFirstResponder];
+    [bbm resignFirstResponder];
+    datePickerImage=[[UIImageView alloc]initWithFrame:CGRectMake(0,355,320,40)];
+    [datePickerImage setImage:[UIImage imageNamed:@"timer-header.png"]];
+    
+    
+    [self.view addSubview:datePickerImage];
+    [datePickerImage setUserInteractionEnabled:YES];
+  
+    
+    datePicker=[[UIDatePicker alloc]initWithFrame:CGRectMake(0,395,320,280)];
+    datePicker.datePickerMode= UIDatePickerModeDate;
+    datePicker.date=[NSDate date];
+    [self.view addSubview:datePicker];
+
+    
+    [self setButtons];    
+}
+
+
+-(void) setButtons
+{
+    UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	cancelButton.frame = CGRectMake(5,5,60,30);
+    UIImage *watchNowImage = [UIImage imageNamed:@"cancel-button-header.png"];
+    [cancelButton setBackgroundImage:watchNowImage forState:UIControlStateNormal];
+    [cancelButton addTarget:self action:@selector(onCancel) forControlEvents:UIControlEventTouchUpInside];
+    [cancelButton setUserInteractionEnabled:YES];
+	[datePickerImage addSubview:cancelButton];
+    
+    
+    UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	doneButton.frame = CGRectMake(253,5,60,30);
+    watchNowImage = [UIImage imageNamed:@"done-button-blue.png"];
+    [doneButton setBackgroundImage:watchNowImage forState:UIControlStateNormal];
+    [doneButton addTarget:self action:@selector(onDone) forControlEvents:UIControlEventTouchUpInside];
+    [doneButton setUserInteractionEnabled:YES];
+	[datePickerImage addSubview:doneButton];
+}
+
+-(void) onCancel
+{
+    [datePickerImage removeFromSuperview];
+    [datePicker removeFromSuperview];
+}
+
+
+-(void) onDone
+{
+    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+    [outputFormatter setDateFormat:@"dd-MM-yyyy"];
+    birthday.text = [outputFormatter stringFromDate:datePicker.date];
+    
+    [self onCancel];
+    
+    
+}
+
+
 
 - (void)viewDidUnload
 {

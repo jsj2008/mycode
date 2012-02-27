@@ -24,6 +24,12 @@
 		528C3A1D14FB4ADF00EEA9D3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528C3A1B14FB4ADF00EEA9D3 /* Model.xcdatamodeld */; };
 		52A0972714FB47C400863225 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0972614FB47C400863225 /* User.m */; };
 		52B35AC314FA911300AA1C7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B35AC214FA911300AA1C7F /* CoreData.framework */; };
+		52EA871F14FB5A3B00E2F9AA /* cancel-button-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871914FB5A3B00E2F9AA /* cancel-button-header.png */; };
+		52EA872014FB5A3B00E2F9AA /* cancel-button-header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871A14FB5A3B00E2F9AA /* cancel-button-header@2x.png */; };
+		52EA872114FB5A3B00E2F9AA /* done-button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871B14FB5A3B00E2F9AA /* done-button-blue.png */; };
+		52EA872214FB5A3B00E2F9AA /* done-button-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871C14FB5A3B00E2F9AA /* done-button-blue@2x.png */; };
+		52EA872314FB5A3B00E2F9AA /* timer-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871D14FB5A3B00E2F9AA /* timer-header.png */; };
+		52EA872414FB5A3B00E2F9AA /* timer-header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871E14FB5A3B00E2F9AA /* timer-header@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,12 @@
 		52A0972514FB47C400863225 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/clubdata/User.h; sourceTree = "<group>"; };
 		52A0972614FB47C400863225 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/clubdata/User.m; sourceTree = "<group>"; };
 		52B35AC214FA911300AA1C7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52EA871914FB5A3B00E2F9AA /* cancel-button-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cancel-button-header.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/cancel-button-header.png"; sourceTree = "<group>"; };
+		52EA871A14FB5A3B00E2F9AA /* cancel-button-header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cancel-button-header@2x.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/cancel-button-header@2x.png"; sourceTree = "<group>"; };
+		52EA871B14FB5A3B00E2F9AA /* done-button-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "done-button-blue.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/done-button-blue.png"; sourceTree = "<group>"; };
+		52EA871C14FB5A3B00E2F9AA /* done-button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "done-button-blue@2x.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/done-button-blue@2x.png"; sourceTree = "<group>"; };
+		52EA871D14FB5A3B00E2F9AA /* timer-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timer-header.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/timer-header.png"; sourceTree = "<group>"; };
+		52EA871E14FB5A3B00E2F9AA /* timer-header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timer-header@2x.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/timer-header@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +152,12 @@
 		095A920514F2F21D003F264E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52EA871914FB5A3B00E2F9AA /* cancel-button-header.png */,
+				52EA871A14FB5A3B00E2F9AA /* cancel-button-header@2x.png */,
+				52EA871B14FB5A3B00E2F9AA /* done-button-blue.png */,
+				52EA871C14FB5A3B00E2F9AA /* done-button-blue@2x.png */,
+				52EA871D14FB5A3B00E2F9AA /* timer-header.png */,
+				52EA871E14FB5A3B00E2F9AA /* timer-header@2x.png */,
 				528C3A1B14FB4ADF00EEA9D3 /* Model.xcdatamodeld */,
 				095A920614F2F21D003F264E /* clubdata-Info.plist */,
 				095A920714F2F21D003F264E /* InfoPlist.strings */,
@@ -241,6 +259,12 @@
 			files = (
 				095A920914F2F21D003F264E /* InfoPlist.strings in Resources */,
 				095A921214F2F21D003F264E /* MainStoryboard.storyboard in Resources */,
+				52EA871F14FB5A3B00E2F9AA /* cancel-button-header.png in Resources */,
+				52EA872014FB5A3B00E2F9AA /* cancel-button-header@2x.png in Resources */,
+				52EA872114FB5A3B00E2F9AA /* done-button-blue.png in Resources */,
+				52EA872214FB5A3B00E2F9AA /* done-button-blue@2x.png in Resources */,
+				52EA872314FB5A3B00E2F9AA /* timer-header.png in Resources */,
+				52EA872414FB5A3B00E2F9AA /* timer-header@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

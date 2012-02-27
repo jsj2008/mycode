@@ -12,8 +12,9 @@
 @interface AddViewController : UITableViewController
 {
   
-    
+    UIImageView *datePickerImage;
+    UIDatePicker *datePicker;
     
 }
-
+-(void) setButtons;
 @end

@@ -19,7 +19,10 @@
     return [list count];
     
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"heree");
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *reuseid = @"clubbercell";
@@ -52,6 +55,8 @@
     [super viewDidLoad];
     NSError *error;
 
+    
+    
      context  =[[AppDelegate getAppDelegate] managedObjectContext];
     fetchRequest = [[NSFetchRequest alloc] init];
     entity = [NSEntityDescription entityForName:@"User" 
@@ -70,10 +75,8 @@
     for(int i=0;i<[fetchedObjects count];i++)
     {
         User *info=[fetchedObjects objectAtIndex:i];
-        NSLog(@"here");
        if(![info.fname isEqualToString:@""])
            [list addObject:info.fname];
-        NSLog(@"ebkjce");
     }
 
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory , NSUserDomainMask, YES); 

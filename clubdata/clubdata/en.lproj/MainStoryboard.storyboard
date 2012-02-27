@@ -195,14 +195,13 @@
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tap Here" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="dPH-9M-nNO">
+                                                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tap Here" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="dPH-9M-nNO">
                                                     <rect key="frame" x="20" y="6" width="260" height="31"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
                                                     <connections>
                                                         <action selector="doReturnButton:" destination="mYP-fU-vUk" eventType="editingDidEndOnExit" id="RkP-qE-4vg"/>
-                                                        <action selector="doTouchUpWhileKeyboard:" destination="mYP-fU-vUk" eventType="touchUpOutside" id="Zlh-fX-0ff"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -276,6 +275,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="bbm" destination="Btf-I8-cyZ" id="NtZ-dg-swz"/>
+                        <outlet property="bday" destination="Xic-xy-9MT" id="2et-Z7-6UF"/>
                         <outlet property="birthday" destination="dPH-9M-nNO" id="bB6-Vj-Dhp"/>
                         <outlet property="color" destination="s3v-Qg-w8N" id="hRZ-yL-qZd"/>
                         <outlet property="email" destination="2oV-Kk-xNO" id="m15-kc-6bH"/>
@@ -286,7 +286,7 @@
                     </connections>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="924" y="-542"/>
+            <point key="canvasLocation" x="665" y="-538"/>
         </scene>
         <scene sceneID="WJW-sE-XYf">
             <objects>
