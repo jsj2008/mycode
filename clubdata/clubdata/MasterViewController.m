@@ -85,11 +85,7 @@
            [list addObject:info.fname];
     }
 
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory , NSUserDomainMask, YES); 
-    NSString *documentsDir = [paths objectAtIndex:0];
-    NSString *root = [documentsDir stringByAppendingPathComponent:@"products.csv"];
-    NSString *temp=@"jack,jil,jimmy,mike";
-    [temp writeToFile:root atomically:YES encoding:NSUTF8StringEncoding error:NULL];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

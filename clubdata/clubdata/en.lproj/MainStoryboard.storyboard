@@ -496,7 +496,7 @@
         <scene sceneID="4vO-d9-IF2">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rw-M2-S7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="CP3-CA-P0P" sceneMemberID="viewController">
+                <tableViewController id="CP3-CA-P0P" customClass="ExportView" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="6cS-ng-rSQ">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -580,6 +580,9 @@
                                                     <state key="highlighted">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="ExportButton" destination="CP3-CA-P0P" eventType="touchUpInside" id="MmJ-ci-C8W"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -597,12 +600,15 @@
                     <navigationItem key="navigationItem" title="Options" id="c8o-tj-Die"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="924" y="732"/>
+            <point key="canvasLocation" x="723" y="745"/>
         </scene>
     </scenes>
     <classes>
         <class className="AddViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AddViewController.h"/>
+        </class>
+        <class className="ExportView" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ExportView.h"/>
         </class>
         <class className="MasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>

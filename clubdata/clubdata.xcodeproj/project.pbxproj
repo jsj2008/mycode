@@ -30,6 +30,8 @@
 		52EA872214FB5A3B00E2F9AA /* done-button-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871C14FB5A3B00E2F9AA /* done-button-blue@2x.png */; };
 		52EA872314FB5A3B00E2F9AA /* timer-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871D14FB5A3B00E2F9AA /* timer-header.png */; };
 		52EA872414FB5A3B00E2F9AA /* timer-header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA871E14FB5A3B00E2F9AA /* timer-header@2x.png */; };
+		52EA872C14FB676700E2F9AA /* ExportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA872B14FB676700E2F9AA /* ExportView.m */; };
+		52EA872E14FB682600E2F9AA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EA872D14FB682600E2F9AA /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,9 @@
 		52EA871C14FB5A3B00E2F9AA /* done-button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "done-button-blue@2x.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/done-button-blue@2x.png"; sourceTree = "<group>"; };
 		52EA871D14FB5A3B00E2F9AA /* timer-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timer-header.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/timer-header.png"; sourceTree = "<group>"; };
 		52EA871E14FB5A3B00E2F9AA /* timer-header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timer-header@2x.png"; path = "../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/timer-header@2x.png"; sourceTree = "<group>"; };
+		52EA872A14FB676700E2F9AA /* ExportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportView.h; path = ../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/clubdata/ExportView.h; sourceTree = "<group>"; };
+		52EA872B14FB676700E2F9AA /* ExportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExportView.m; path = ../../../../../../Users/MacBookPro/Desktop/mycode/clubdata/clubdata/ExportView.m; sourceTree = "<group>"; };
+		52EA872D14FB682600E2F9AA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EA872E14FB682600E2F9AA /* MessageUI.framework in Frameworks */,
 				52B35AC314FA911300AA1C7F /* CoreData.framework in Frameworks */,
 				095A91FF14F2F21D003F264E /* UIKit.framework in Frameworks */,
 				095A920114F2F21D003F264E /* Foundation.framework in Frameworks */,
@@ -104,6 +110,7 @@
 		095A91EF14F2F21D003F264E = {
 			isa = PBXGroup;
 			children = (
+				52EA872D14FB682600E2F9AA /* MessageUI.framework */,
 				52B35AC214FA911300AA1C7F /* CoreData.framework */,
 				095A920414F2F21D003F264E /* clubdata */,
 				095A922514F2F21D003F264E /* clubdataTests */,
@@ -144,6 +151,8 @@
 				095A921414F2F21D003F264E /* MasterViewController.m */,
 				095A923614F30E22003F264E /* AddViewController.h */,
 				095A923714F30E22003F264E /* AddViewController.m */,
+				52EA872A14FB676700E2F9AA /* ExportView.h */,
+				52EA872B14FB676700E2F9AA /* ExportView.m */,
 				095A920514F2F21D003F264E /* Supporting Files */,
 			);
 			path = clubdata;
@@ -305,6 +314,7 @@
 				095A923814F30E22003F264E /* AddViewController.m in Sources */,
 				52A0972714FB47C400863225 /* User.m in Sources */,
 				528C3A1D14FB4ADF00EEA9D3 /* Model.xcdatamodeld in Sources */,
+				52EA872C14FB676700E2F9AA /* ExportView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

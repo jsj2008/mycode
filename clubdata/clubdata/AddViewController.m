@@ -132,7 +132,6 @@
     [fetchRequest setEntity:entity];
     fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];   
      User *info=[fetchedObjects objectAtIndex:checkid];
-    NSLog(@"INFO==%@",info);
     fName.text=info.fname;
     lName.text=info.lname;
     bbm.text=info.bbm;
