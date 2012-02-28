@@ -59,21 +59,15 @@
 {
     [super viewDidLoad];
     NSError *error;
-
-    
-    
      context  =[[AppDelegate getAppDelegate] managedObjectContext];
     fetchRequest = [[NSFetchRequest alloc] init];
     entity = [NSEntityDescription entityForName:@"User" 
                          inManagedObjectContext:context];
     sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"fname"
                                                  ascending:YES];
-    
     sortDescriptors = [NSArray arrayWithObject: sortDescriptor];
-  //  predicate = [NSPredicate predicateWithFormat:@"selected =%d",1];
     [fetchRequest setSortDescriptors: sortDescriptors];
     [fetchRequest setEntity:entity];
-    //[fetchRequest setPredicate:predicate];
     fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];   
     list=[[NSMutableArray alloc]init];
     [list removeAllObjects];
@@ -98,6 +92,27 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    NSError *error;
+    context  =[[AppDelegate getAppDelegate] managedObjectContext];
+    fetchRequest = [[NSFetchRequest alloc] init];
+    entity = [NSEntityDescription entityForName:@"User" 
+                         inManagedObjectContext:context];
+    sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"fname"
+                                                 ascending:YES];
+    sortDescriptors = [NSArray arrayWithObject: sortDescriptor];
+    [fetchRequest setSortDescriptors: sortDescriptors];
+    [fetchRequest setEntity:entity];
+    fetchedObjects = [context executeFetchRequest:fetchRequest error:&error];   
+    [list removeAllObjects];
+    for(int i=0;i<[fetchedObjects count];i++)
+    {
+        User *info=[fetchedObjects objectAtIndex:i];
+        NSString *clickName=[NSString stringWithFormat:@"%@ %@",info.fname,info.lname];
+        [list addObject:clickName];
+    }
+
+    [self.tableView reloadData];
+  
 }
 
 - (void)viewDidAppear:(BOOL)animated

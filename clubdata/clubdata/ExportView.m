@@ -93,6 +93,7 @@
 
     fetchedObjects = [context executeFetchRequest:fetchRequest error:&error]; 
     NSString *temp=[[NSString alloc]init];
+     temp=[NSString stringWithFormat:@"FirstName,LastName,Email,Mobile,BBM,BirthDate,SEX,COLOR"]; 
     for(int i=0;i<[fetchedObjects count];i++)
     {
         User *info=[fetchedObjects objectAtIndex:i];
@@ -111,15 +112,9 @@
             color=@"TB";
         else
             color=@"TF";
-        if(i==0)
-        {
-          temp=[NSString stringWithFormat:@"FirstName,LastName,Email,Mobile,BBM,BirthDate,SEX,COLOR"];  
-        }
-        else
-        {
         temp=[NSString stringWithFormat:@"%@\n%@,%@,%@,%@,%@,%@,%@,%@",temp,info.fname,info.lname,info.email,info.mobile,info.bbm,birthday,sex,color];
-        }
-            }
+        
+    }
     
     [temp writeToFile:root atomically:YES encoding:NSUTF8StringEncoding error:NULL];
 
