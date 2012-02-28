@@ -80,9 +80,8 @@
     for(int i=0;i<[fetchedObjects count];i++)
     {
         User *info=[fetchedObjects objectAtIndex:i];
-        NSLog(@"info==%@",info);
-    //   if(![info.fname isEqualToString:@""])
-           [list addObject:info.fname];
+        NSString *clickName=[NSString stringWithFormat:@"%@ %@",info.fname,info.lname];
+           [list addObject:clickName];
     }
 
 

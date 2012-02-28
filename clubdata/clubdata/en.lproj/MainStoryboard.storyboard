@@ -18,7 +18,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-1" y="64"/>
+            <point key="canvasLocation" x="32" y="70"/>
         </scene>
         <scene sceneID="18">
             <objects>
@@ -609,6 +609,9 @@
         </class>
         <class className="ExportView" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ExportView.h"/>
+            <relationships>
+                <relationship kind="action" name="ExportButton"/>
+            </relationships>
         </class>
         <class className="MasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
