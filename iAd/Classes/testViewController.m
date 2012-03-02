@@ -2,7 +2,7 @@
 //  testViewController.m
 //  test
 //
-//  Created by Ayush on 28/04/11.
+//  Created by Ayush on 01/03/12.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,85 +10,72 @@
 
 @implementation testViewController
 
-
-@synthesize nameLabel = _nameLabel;
-@synthesize typeLabel = _typeLabel;
-@synthesize descrView = _descrView;
-@synthesize ratingLabel = _ratingLabel;
-@synthesize popover = _popover;
-@synthesize ratingPopover = _ratingPopover;
 @synthesize contentView = _contentView;
 @synthesize adBannerView = _adBannerView;
 @synthesize adBannerViewIsVisible = _adBannerViewIsVisible;
 
-- (int)getBannerHeight:(UIDeviceOrientation)orientation {
-    if (UIInterfaceOrientationIsLandscape(orientation)) {
-        return 32;
-    } else {
-        return 50;
-    }
-}
-
-- (int)getBannerHeight {
-    return [self getBannerHeight:[UIDevice currentDevice].orientation];
-}
 
 - (void)createAdBannerView {
     Class classAdBannerView = NSClassFromString(@"ADBannerView");
-    if (classAdBannerView != nil) {
-        self.adBannerView = [[[classAdBannerView alloc] initWithFrame:CGRectZero] autorelease];
-        [_adBannerView setRequiredContentSizeIdentifiers:[NSSet setWithObjects: ADBannerContentSizeIdentifierPortrait, ADBannerContentSizeIdentifierLandscape, nil]];
-        if (UIInterfaceOrientationIsLandscape([UIDevice currentDevice].orientation)) {
-            [_adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
-        } else {
-            [_adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];            
-        }
-        [_adBannerView setFrame:CGRectOffset([_adBannerView frame], 0, -[self getBannerHeight])];
+    if (classAdBannerView != nil) 
+    {
+        self.adBannerView = [[classAdBannerView alloc] initWithFrame:CGRectMake(0,0,320,40)];
+        [_adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];            
         [_adBannerView setDelegate:self];
-        
-        [self.view addSubview:_adBannerView];        
     }
 }
 
-- (void)fixupAdView:(UIInterfaceOrientation)toInterfaceOrientation {
-    if (_adBannerView != nil) {        
-        if (UIInterfaceOrientationIsLandscape(toInterfaceOrientation)) {
-            [_adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierLandscape];
-        } else {
-            [_adBannerView setCurrentContentSizeIdentifier:ADBannerContentSizeIdentifierPortrait];
-        }          
-        [UIView beginAnimations:@"fixupViews" context:nil];
-        if (_adBannerViewIsVisible) {
+- (void)fixupAdView {
+  
+    if (_adBannerView != nil) 
+    {  
+      [UIView beginAnimations:@"fixupViews" context:nil];
+        if (_adBannerViewIsVisible) 
+         {
+             if(!added)
+             {
+                 added=YES;
+              [self.view addSubview:_adBannerView];
+             }
+            customWebView.frame =CGRectMake(0,0,320,420);
             CGRect adBannerViewFrame = [_adBannerView frame];
             adBannerViewFrame.origin.x = 0;
-            adBannerViewFrame.origin.y = 0;
+            adBannerViewFrame.origin.y = 410;
             [_adBannerView setFrame:adBannerViewFrame];
             CGRect contentViewFrame = _contentView.frame;
-            contentViewFrame.origin.y = [self getBannerHeight:toInterfaceOrientation];
-            contentViewFrame.size.height = self.view.frame.size.height - [self getBannerHeight:toInterfaceOrientation];
+            contentViewFrame.origin.y = 40;
+            contentViewFrame.size.height = self.view.frame.size.height - 40;
             _contentView.frame = contentViewFrame;
-        } else {
+         } 
+         else 
+         {
             CGRect adBannerViewFrame = [_adBannerView frame];
             adBannerViewFrame.origin.x = 0;
-            adBannerViewFrame.origin.y = -[self getBannerHeight:toInterfaceOrientation];
+            adBannerViewFrame.origin.y = -40;
             [_adBannerView setFrame:adBannerViewFrame];
             CGRect contentViewFrame = _contentView.frame;
-            contentViewFrame.origin.y = 0;
+            contentViewFrame.origin.y = 420;
             contentViewFrame.size.height = self.view.frame.size.height;
             _contentView.frame = contentViewFrame;            
-        }
+         }
         [UIView commitAnimations];
     }   
 }
 
 
-- (void)viewDidLoad {
+- (void)viewDidLoad 
+{
+    added=NO;
     [self createAdBannerView];
+    customWebView.delegate = self;
+//    customWebView.frame =CGRectMake(0,-80,320,480);
+    [customWebView setBackgroundColor:[UIColor blackColor]];
+    [customWebView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"]isDirectory:NO]]];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
  
-    [self fixupAdView:[UIDevice currentDevice].orientation];
+    [self fixupAdView];
 }
 
 
@@ -99,54 +86,25 @@
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    self.nameLabel = nil;
-    self.typeLabel = nil;
-    self.descrView = nil;
-    self.ratingLabel = nil;
-    self.popover = nil;
-    self.ratingPopover = nil;
+
 }
 
 - (void)dealloc {
-    self.nameLabel = nil;
-    self.typeLabel = nil;
-    self.descrView = nil;
-    self.ratingLabel = nil;
-    self.popover = nil;
-    self.ratingPopover = nil;
-    self.contentView = nil;
+
+      self.contentView = nil;
     self.adBannerView = nil;
+    [self.adBannerView release];
     [super dealloc];
 }
 
 #pragma mark Orientation support
 
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-    [self fixupAdView:toInterfaceOrientation];
+      [self fixupAdView];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-    return YES;
-}
-
-#pragma mark Split View Delegate
-
-- (void)splitViewController: (UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController: (UIPopoverController*)pc {
-    barButtonItem.title = @"Sidebar";    
-    
-    UINavigationItem *navItem = [self navigationItem];
-    [navItem setLeftBarButtonItem:barButtonItem animated:YES];
-    
-    self.popover = pc;
-}
-
-- (void)splitViewController: (UISplitViewController*)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {    
-    
-    UINavigationItem *navItem = [self navigationItem];
-    [navItem setLeftBarButtonItem:nil animated:YES];
-    
-    self.popover = nil;
-    
+   return (toInterfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark ADBannerViewDelegate
@@ -154,7 +112,7 @@
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner {
     if (!_adBannerViewIsVisible) {                
         _adBannerViewIsVisible = YES;
-        [self fixupAdView:[UIDevice currentDevice].orientation];
+         [self fixupAdView];
     }
 }
 
@@ -163,7 +121,7 @@
     if (_adBannerViewIsVisible)
     {        
         _adBannerViewIsVisible = NO;
-        [self fixupAdView:[UIDevice currentDevice].orientation];
+         [self fixupAdView];
     }
 }
 

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>iOS Web Project</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="index.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="HeaderBar" class="header-bar">
+      <h1>Header bar</h1>
+    </div>
+
+    <div id="Content" style="margin-top:3.5em;margin-bottom:2.5em;">
+      <button onclick="ShowTopAd();">Show top iAd</button> When this button is pressed, an iAd banner must be displayed at the top of the page. The banner should push the UIWebView down, so that the iAd banner and the contents of the UIWebView remain visible. The function should return true when the ad is displayed, or false when no ad is available.<br /><br />
+      <button onclick="RefreshTopAd();">Refresh top iAd</button> When this button is pressed, the top iAd banner must be refreshed. The function should return true when the ad is refreshed, or false when no new ad is available.<br /><br />
+      <button onclick="HideTopAd();">Hide top iAd</button> This button simply hides the top iAd banner.<br /><br />
+      <button onclick="ShowBottomAd();">Show bottom iAd</button> When this button is pressed, an iAd banner must be displayed at the bottom of the page. The banner should push the UIWebView up, so that the iAd banner and the contents of the UIWebView remain visible. The function should return true when the ad is displayed, or false when no ad is available.<br /><br />
+      <button onclick="RefreshBottomAd();">Refresh bottom iAd</button> When this button is pressed, the bottom iAd banner must be refreshed. The function should return true when the ad is refreshed, or false when no new ad is available.<br /><br />
+      <button onclick="HideBottomAd();">Hide bottom iAd</button> This button simply hides the bottom iAd banner.<br /><br />
+      <button onclick="ShowFullPageAd();">Show full page iAd</button> When this button is pressed, a full page ad must be displayed. This hides the entire UIWebView. The function should return true when the ad is displayed, or false when no ad is available.<br /><br />
+      <button onclick="HideFullPageAd();">Hide full page iAd</button> This button simply hides the full page iAd banner.
+    </div>
+
+    <div id="FooterBar" class="footer-bar">
+      <h1>Footer bar</h1>
+    </div>
+  </body>
+</html>

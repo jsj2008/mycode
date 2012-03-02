@@ -1,0 +1,56 @@
+﻿html, body
+{
+  padding:0em;
+  margin:0em;
+  font-family:Verdana;
+  background-color:#AEC7F0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.header-bar
+{
+  position:fixed;
+  top:0em;
+  left:0em;
+  right:0em;
+  background:-webkit-gradient(linear, left top, left bottom, from(#7195CE), to(#6889BE));
+  padding:0.5em;
+  .hflex;
+}
+
+.header-bar h1
+{
+  display:block;
+  color:#FFFFFF;
+  font-size:2.5em;
+  line-height:1em;
+  text-align:center;
+  margin:0;
+}
+
+.footer-bar
+{
+  position:fixed;
+  bottom:0em;
+  left:0em;
+  right:0em;
+  background:-webkit-gradient(linear, left top, left bottom, from(#7195CE), to(#6889BE));
+  padding:0.5em;
+  .hflex;
+}
+
+.footer-bar h1
+{
+  display:block;
+  color:#FFFFFF;
+  font-size:2.5em;
+  line-height:1em;
+  text-align:center;
+  margin:0;
+}
