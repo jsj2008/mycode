@@ -15,6 +15,7 @@
     UIImage *myImage;
     CGAffineTransform tran;
     CGFloat angle;
+    UIButton *mirrorbtn;
 }
 @property(nonatomic,retain) CustomImageView *myView;
 -(void) createButton;

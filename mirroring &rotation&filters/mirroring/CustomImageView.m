@@ -20,14 +20,17 @@
 }
 - (void) touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event 
 {
-   
+    NSLog(@"start");
     if (delegate) {
 		[delegate choice:self.tag];
 	}
 
 }
 
-
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+     NSLog(@"end");
+}
 
 
 

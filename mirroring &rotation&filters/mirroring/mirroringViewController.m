@@ -45,10 +45,27 @@
 
 -(void) onMirror
 {
+
+    NSTimer *zoominoutTimer = [NSTimer scheduledTimerWithTimeInterval: 0.0f
+                                                      target: self
+                                                             selector: @selector(plusTap:)
+                                                    userInfo: nil
+ 
+                                                             repeats: YES];
     myView.transform = CGAffineTransformIdentity;
     myView.transform = CGAffineTransformMakeScale(-1.0, 1.0);
 }
-
+-(void) plusTap:(NSTimer *) userTimer
+{
+    if(mirrorbtn.highlighted==YES)
+        NSLog(@"hreer");
+    else
+    {
+        NSLog(@"invaildadaf");
+        [userTimer invalidate];
+    }
+   
+}
 -(void) onDefault
 {
     myView.transform = CGAffineTransformIdentity;
@@ -139,14 +156,14 @@
 -(void) createButton
 {
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btn.frame = CGRectMake(20,350,100,20);
-    [btn setTitle:@"MIRROR" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(onMirror) 
+    mirrorbtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    mirrorbtn.frame = CGRectMake(20,350,100,20);
+    [mirrorbtn setTitle:@"MIRROR" forState:UIControlStateNormal];
+    [mirrorbtn addTarget:self action:@selector(onMirror) 
      forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    [self.view addSubview:mirrorbtn];
     
-    btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    UIButton  *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     btn.frame = CGRectMake(200,350,100,20);
     [btn setTitle:@"default" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(onDefault) 

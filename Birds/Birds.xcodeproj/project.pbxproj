@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528BC9B71513305F00F24DB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528BC9B61513305F00F24DB9 /* UIKit.framework */; };
+		528BC9B91513305F00F24DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528BC9B81513305F00F24DB9 /* Foundation.framework */; };
+		528BC9BB1513305F00F24DB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528BC9BA1513305F00F24DB9 /* CoreGraphics.framework */; };
+		528BC9C11513305F00F24DB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528BC9BF1513305F00F24DB9 /* InfoPlist.strings */; };
+		528BC9C31513305F00F24DB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BC9C21513305F00F24DB9 /* main.m */; };
+		528BC9C71513305F00F24DB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BC9C61513305F00F24DB9 /* AppDelegate.m */; };
+		528BC9CA1513305F00F24DB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BC9C91513305F00F24DB9 /* ViewController.m */; };
+		528BC9DD151331B900F24DB9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528BC9DB151331A700F24DB9 /* CoreData.framework */; };
+		528BC9E0151331F800F24DB9 /* FirstRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BC9DF151331F800F24DB9 /* FirstRun.m */; };
+		528BC9E71513323200F24DB9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528BC9E51513323200F24DB9 /* Model.xcdatamodeld */; };
+		528BCA051513367C00F24DB9 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BCA041513367C00F24DB9 /* Bird.m */; };
+		528BCA101513371400F24DB9 /* BlackbirdF_i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA071513371400F24DB9 /* BlackbirdF_i.jpg */; };
+		528BCA111513371400F24DB9 /* BlackbirdM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA081513371400F24DB9 /* BlackbirdM.jpg */; };
+		528BCA121513371400F24DB9 /* BlackbirdM_i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA091513371400F24DB9 /* BlackbirdM_i.jpg */; };
+		528BCA131513371400F24DB9 /* Bluetit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA0A1513371400F24DB9 /* Bluetit.jpg */; };
+		528BCA141513371400F24DB9 /* ChaffinchF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA0B1513371400F24DB9 /* ChaffinchF.jpg */; };
+		528BCA151513371400F24DB9 /* RobinM_i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA0C1513371400F24DB9 /* RobinM_i.jpg */; };
+		528BCA161513371400F24DB9 /* Rook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA0D1513371400F24DB9 /* Rook.jpg */; };
+		528BCA171513371400F24DB9 /* starlingM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA0E1513371400F24DB9 /* starlingM.jpg */; };
+		528BCA181513371400F24DB9 /* StarlingMA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA0F1513371400F24DB9 /* StarlingMA.jpg */; };
+		528BCA1A1513399E00F24DB9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528BCA191513399E00F24DB9 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		528BC9B21513305F00F24DB9 /* Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528BC9B61513305F00F24DB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		528BC9B81513305F00F24DB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		528BC9BA1513305F00F24DB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		528BC9BE1513305F00F24DB9 /* Birds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Birds-Info.plist"; sourceTree = "<group>"; };
+		528BC9C01513305F00F24DB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		528BC9C21513305F00F24DB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		528BC9C41513305F00F24DB9 /* Birds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birds-Prefix.pch"; sourceTree = "<group>"; };
+		528BC9C51513305F00F24DB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		528BC9C61513305F00F24DB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		528BC9C81513305F00F24DB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		528BC9C91513305F00F24DB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		528BC9DB151331A700F24DB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		528BC9DE151331F700F24DB9 /* FirstRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstRun.h; sourceTree = "<group>"; };
+		528BC9DF151331F800F24DB9 /* FirstRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstRun.m; sourceTree = "<group>"; };
+		528BC9E61513323200F24DB9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		528BCA031513367C00F24DB9 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bird.h; path = /Users/MacBookPro/Desktop/mycode/Birds/Bird.h; sourceTree = "<absolute>"; };
+		528BCA041513367C00F24DB9 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bird.m; path = /Users/MacBookPro/Desktop/mycode/Birds/Bird.m; sourceTree = "<absolute>"; };
+		528BCA071513371400F24DB9 /* BlackbirdF_i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlackbirdF_i.jpg; sourceTree = "<group>"; };
+		528BCA081513371400F24DB9 /* BlackbirdM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlackbirdM.jpg; sourceTree = "<group>"; };
+		528BCA091513371400F24DB9 /* BlackbirdM_i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BlackbirdM_i.jpg; sourceTree = "<group>"; };
+		528BCA0A1513371400F24DB9 /* Bluetit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bluetit.jpg; sourceTree = "<group>"; };
+		528BCA0B1513371400F24DB9 /* ChaffinchF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChaffinchF.jpg; sourceTree = "<group>"; };
+		528BCA0C1513371400F24DB9 /* RobinM_i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RobinM_i.jpg; sourceTree = "<group>"; };
+		528BCA0D1513371400F24DB9 /* Rook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rook.jpg; sourceTree = "<group>"; };
+		528BCA0E1513371400F24DB9 /* starlingM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starlingM.jpg; sourceTree = "<group>"; };
+		528BCA0F1513371400F24DB9 /* StarlingMA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarlingMA.jpg; sourceTree = "<group>"; };
+		528BCA191513399E00F24DB9 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = /Users/MacBookPro/Desktop/mycode/Birds/ViewController.xib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528BC9AF1513305F00F24DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BC9DD151331B900F24DB9 /* CoreData.framework in Frameworks */,
+				528BC9B71513305F00F24DB9 /* UIKit.framework in Frameworks */,
+				528BC9B91513305F00F24DB9 /* Foundation.framework in Frameworks */,
+				528BC9BB1513305F00F24DB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528BC9A71513305F00F24DB9 = {
+			isa = PBXGroup;
+			children = (
+				528BC9E51513323200F24DB9 /* Model.xcdatamodeld */,
+				528BC9BC1513305F00F24DB9 /* Birds */,
+				528BC9B51513305F00F24DB9 /* Frameworks */,
+				528BC9B31513305F00F24DB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528BC9B31513305F00F24DB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528BC9B21513305F00F24DB9 /* Birds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528BC9B51513305F00F24DB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				528BC9DB151331A700F24DB9 /* CoreData.framework */,
+				528BC9B61513305F00F24DB9 /* UIKit.framework */,
+				528BC9B81513305F00F24DB9 /* Foundation.framework */,
+				528BC9BA1513305F00F24DB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528BC9BC1513305F00F24DB9 /* Birds */ = {
+			isa = PBXGroup;
+			children = (
+				528BC9EF1513337700F24DB9 /* Data */,
+				528BC9C51513305F00F24DB9 /* AppDelegate.h */,
+				528BC9C61513305F00F24DB9 /* AppDelegate.m */,
+				528BC9C81513305F00F24DB9 /* ViewController.h */,
+				528BC9C91513305F00F24DB9 /* ViewController.m */,
+				528BCA191513399E00F24DB9 /* ViewController.xib */,
+				528BCA061513371400F24DB9 /* Images */,
+				528BC9BD1513305F00F24DB9 /* Supporting Files */,
+			);
+			path = Birds;
+			sourceTree = "<group>";
+		};
+		528BC9BD1513305F00F24DB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528BC9BE1513305F00F24DB9 /* Birds-Info.plist */,
+				528BC9BF1513305F00F24DB9 /* InfoPlist.strings */,
+				528BC9C21513305F00F24DB9 /* main.m */,
+				528BC9C41513305F00F24DB9 /* Birds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		528BC9EF1513337700F24DB9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				528BCA031513367C00F24DB9 /* Bird.h */,
+				528BCA041513367C00F24DB9 /* Bird.m */,
+				528BC9DE151331F700F24DB9 /* FirstRun.h */,
+				528BC9DF151331F800F24DB9 /* FirstRun.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		528BCA061513371400F24DB9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				528BCA071513371400F24DB9 /* BlackbirdF_i.jpg */,
+				528BCA081513371400F24DB9 /* BlackbirdM.jpg */,
+				528BCA091513371400F24DB9 /* BlackbirdM_i.jpg */,
+				528BCA0A1513371400F24DB9 /* Bluetit.jpg */,
+				528BCA0B1513371400F24DB9 /* ChaffinchF.jpg */,
+				528BCA0C1513371400F24DB9 /* RobinM_i.jpg */,
+				528BCA0D1513371400F24DB9 /* Rook.jpg */,
+				528BCA0E1513371400F24DB9 /* starlingM.jpg */,
+				528BCA0F1513371400F24DB9 /* StarlingMA.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528BC9B11513305F00F24DB9 /* Birds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528BC9D01513305F00F24DB9 /* Build configuration list for PBXNativeTarget "Birds" */;
+			buildPhases = (
+				528BC9AE1513305F00F24DB9 /* Sources */,
+				528BC9AF1513305F00F24DB9 /* Frameworks */,
+				528BC9B01513305F00F24DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Birds;
+			productName = Birds;
+			productReference = 528BC9B21513305F00F24DB9 /* Birds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528BC9A91513305F00F24DB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 528BC9AC1513305F00F24DB9 /* Build configuration list for PBXProject "Birds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 528BC9A71513305F00F24DB9;
+			productRefGroup = 528BC9B31513305F00F24DB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528BC9B11513305F00F24DB9 /* Birds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528BC9B01513305F00F24DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BC9C11513305F00F24DB9 /* InfoPlist.strings in Resources */,
+				528BCA101513371400F24DB9 /* BlackbirdF_i.jpg in Resources */,
+				528BCA111513371400F24DB9 /* BlackbirdM.jpg in Resources */,
+				528BCA121513371400F24DB9 /* BlackbirdM_i.jpg in Resources */,
+				528BCA131513371400F24DB9 /* Bluetit.jpg in Resources */,
+				528BCA141513371400F24DB9 /* ChaffinchF.jpg in Resources */,
+				528BCA151513371400F24DB9 /* RobinM_i.jpg in Resources */,
+				528BCA161513371400F24DB9 /* Rook.jpg in Resources */,
+				528BCA171513371400F24DB9 /* starlingM.jpg in Resources */,
+				528BCA181513371400F24DB9 /* StarlingMA.jpg in Resources */,
+				528BCA1A1513399E00F24DB9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528BC9AE1513305F00F24DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BC9C31513305F00F24DB9 /* main.m in Sources */,
+				528BC9C71513305F00F24DB9 /* AppDelegate.m in Sources */,
+				528BC9CA1513305F00F24DB9 /* ViewController.m in Sources */,
+				528BC9E0151331F800F24DB9 /* FirstRun.m in Sources */,
+				528BC9E71513323200F24DB9 /* Model.xcdatamodeld in Sources */,
+				528BCA051513367C00F24DB9 /* Bird.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		528BC9BF1513305F00F24DB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528BC9C01513305F00F24DB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528BC9CE1513305F00F24DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		528BC9CF1513305F00F24DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528BC9D11513305F00F24DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birds/Birds-Prefix.pch";
+				INFOPLIST_FILE = "Birds/Birds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		528BC9D21513305F00F24DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birds/Birds-Prefix.pch";
+				INFOPLIST_FILE = "Birds/Birds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528BC9AC1513305F00F24DB9 /* Build configuration list for PBXProject "Birds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BC9CE1513305F00F24DB9 /* Debug */,
+				528BC9CF1513305F00F24DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528BC9D01513305F00F24DB9 /* Build configuration list for PBXNativeTarget "Birds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528BC9D11513305F00F24DB9 /* Debug */,
+				528BC9D21513305F00F24DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		528BC9E51513323200F24DB9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				528BC9E61513323200F24DB9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 528BC9E61513323200F24DB9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 528BC9A91513305F00F24DB9 /* Project object */;
+}
